@@ -1,1 +1,1 @@
-# SemanticTafsir
+# SemanticTafsirKG
