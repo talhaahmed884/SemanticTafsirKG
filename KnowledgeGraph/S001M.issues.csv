@@ -1,0 +1,427 @@
+severity,code,file,line,message
+info,section-number-mismatch,S001M/sure_1_section_0.11-0.16.xml,4,section 0.11 is inside chapter 1
+info,segment-without-theme,S001M/sure_1_section_0.11-0.16.xml,19,segment without theme: 'السَّبْعُ الْمَثَانِي'
+info,hadith-without-matn,S001M/sure_1_section_0.11-0.16.xml,10,hadith/119 has no <said>; its matn is not separated from the isnad
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,104,narrator 'يَعْقُوبُ بْنُ إِبْرَاهِيمَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,105,narrator 'ابْنُ عُلَيَّةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,106,narrator 'أَبِي رَجَاءٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,108,narrator 'الْحَسَنَ' has no ID; kept as a separate narrator
+info,section-number-mismatch,S001M/sure_1_section_0.11-0.16.xml,149,section 0.12 is inside chapter 1
+warning,narrator-before-chain,S001M/sure_1_section_0.11-0.16.xml,171,"hadith/121: ['عُمَرُ بْنُ الْخَطَّابِ'] named before the first shaykh; kept as person mentions, not as chain links"
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,177,narrator 'يُونُسُ بْنُ عَبْدِ الأَعْلَى' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,178,narrator 'ابْنُ وَهْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,179,narrator 'هِشَامُ بْنُ سَعْدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,180,narrator 'زَيْدِ بْنِ أَسْلَمَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,181,narrator 'أَبِيهِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,227,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,228,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,229,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,231,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,232,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,empty-paragraph,S001M/sure_1_section_0.11-0.16.xml,250,commentary/0.12/5 has no text
+info,section-number-mismatch,S001M/sure_1_section_0.11-0.16.xml,255,section 0.13 is inside chapter 1
+info,section-number-mismatch,S001M/sure_1_section_0.11-0.16.xml,259,section 0.14 is inside chapter 1
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,296,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,297,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,298,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,300,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,301,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,segment-without-theme,S001M/sure_1_section_0.11-0.16.xml,313,segment without theme: 'الرَّحِيمِ'
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,410,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,411,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,412,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,414,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,415,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,segment-without-theme,S001M/sure_1_section_0.11-0.16.xml,459,segment without theme: 'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ، هُوَ اللَّهُ'
+info,section-number-mismatch,S001M/sure_1_section_0.11-0.16.xml,594,section 0.15 is inside chapter 1
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,596,quran quotation without @n kept as an unlinked fragment: 'اللَّهِ'
+info,segment-without-theme,S001M/sure_1_section_0.11-0.16.xml,599,segment without theme: 'اللَّهِ . فَإنَّهُ عَلَى معنى ما رُوِيَ لنا عَنْ عَبْد الله بْن عَبَّاس : هُوَ الَّذِي يألهه كُلّ شيء ، ويعبده كُلّ خلق'
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,600,quran quotation without @n kept as an unlinked fragment: 'اللَّهِ'
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,605,narrator 'أَبَا كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,606,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,607,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,608,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,609,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,639,narrator 'سُفْيَانُ بْنُ وَكِيعٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,640,narrator 'أَبِي' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,640,narrator 'نَافِعِ بْنِ عُمَرَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,641,narrator 'عَمْرِو بْنِ دِينَارٍ' has no ID; kept as a separate narrator
+info,malformed-ana,S001M/sure_1_section_0.11-0.16.xml,637,"@ana='qiraat  lugha yes ' read as ['qiraat', 'lugha']"
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,644,qiraat quotation without @n kept as an unlinked fragment: 'وَيَذَرَكَ وَإِلاهَتَكَ'
+info,empty-paragraph,S001M/sure_1_section_0.11-0.16.xml,648,commentary/0.15/5 has no text
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,653,narrator 'سُفْيَانُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,654,narrator 'ابْنُ عُيَيْنَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,655,narrator 'عَمْرِو بْنِ دِينَارٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,656,narrator 'مُحَمَّدِ بْنِ عَمْرِو بْنِ الْحَسَنِ' has no ID; kept as a separate narrator
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,658,qiraat quotation without @n kept as an unlinked fragment: 'وَيَذَرَكَ وَإِلاهَتَكَ'
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,666,narrator 'الْقَاسِمُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,667,narrator 'الْحُسَيْنُ بْنُ دَاوُدَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,668,narrator 'حَجَّاجٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,669,narrator 'ابْنِ جُرَيْجٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,670,narrator 'مُجَاهِدٍ' has no ID; kept as a separate narrator
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,671,"qiraat quotation without @n kept as an unlinked fragment: 'وَيَذَرَكَ وَإِلاهَتَكَ "" ، قَالَ : وَعِبَادَتَكَ'"
+info,section-number-mismatch,S001M/sure_1_section_0.11-0.16.xml,741,section 0.16 is inside chapter 1
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,745,quran quotation without @n kept as an unlinked fragment: 'الرَّحْمَنِ'
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,748,quran quotation without @n kept as an unlinked fragment: 'الرَّحِيمِ'
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,891,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,892,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,893,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,895,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,896,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,898,quran quotation without @n kept as an unlinked fragment: 'الرَّحْمَنِ'
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,911,quran quotation without @n kept as an unlinked fragment: 'الرَّحْمَنِ'
+info,quote-without-reference,S001M/sure_1_section_0.11-0.16.xml,914,quran quotation without @n kept as an unlinked fragment: 'الرَّحِيمِ'
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,1108,narrator 'مُحَمَّدُ بْنُ بَشَّارٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,1109,narrator 'حَمَّادُ بْنُ مَسْعَدَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,1110,narrator 'عَوْفٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_0.11-0.16.xml,1111,narrator 'الْحَسَنِ' has no ID; kept as a separate narrator
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,22,<div n='1.1'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,39,narrator 'مُحَمَّدُ بْنُ الْعَلاءِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,40,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,41,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,42,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,43,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,72,narrator 'يُونُسُ بْنُ عَبْدِ الأَعْلَى الصَّدَفِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,73,narrator 'ابْنُ وَهْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,74,narrator 'عُمَرُ بْنُ مُحَمَّدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,75,narrator 'سُهَيْلِ بْنِ أَبِي صَالِحٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,76,narrator 'أَبِيهِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,77,narrator 'السَّلُولِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,77,narrator 'كَعْبٍ' has no ID; kept as a separate narrator
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,80,commentary/1.1/6 has no text
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,81,hadith/137 has no <said>; its matn is not separated from the isnad
+warning,quote-text-not-in-verse,S001M/sure_1_section_1.1-1.14.xml,127,quoted text 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ دُونَ نَصْبِهَا الَّذِي يُؤَدِّي إِلَى الدَّلالَةِ عَلَى أَنَّ مَعْنَى تَالِيهِ كَذَلِكَ : أَحْمَدُ اللَّهَ حَمْدًا ، وَلَوْ قَرَأَ قَارِئٌ ذَلِكَ بِالنَّصْبِ ، لَكَانَ عِنْدِي مُحِيلا مَعْنَاهُ ، وَمُسْتَحِقًّا الْعُقُوبَةَ عَلَى قِرَاءَتِهِ إِيَّاهُ كَذَلِكَ ، إِذَا تَعَمَّدَ قِرَاءَتَهُ كَذَلِكَ ، وَهُوَ عَالِمٌ بِخَطَئِهِ وَفَسَادِ تَأْوِيلِهِ .' not found in the canonical text of 1:2
+warning,quote-text-not-in-verse,S001M/sure_1_section_1.1-1.14.xml,196,quoted text 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ مِنْ مَعْنَى أَمْرِهِ عِبَادَهُ ، أَغْنَتْ دَلالَةُ مَا ظَهْرَ عَلَيْهِ مِنَ الْقَوْلِ عَنْ إِبْدَاءِ مَا حُذِفَ . وَقَدْ رُوِّينَا الْخَبَرَ الَّذِي قَدَّمْنَا ذِكْرَهُ مُبْتَدَأً فِي تَأْوِيلِ قَوْلِ اللَّهِ :' not found in the canonical text of 1:2
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,213,<div n='1.2'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,266,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,267,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,268,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,269,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,270,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,265,hadith/138 has no <said>; its matn is not separated from the isnad
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,281,commentary/1.2/7 has no text
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,283,<div n='1.3'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,285,quran quotation without @n kept as an unlinked fragment: 'الْعَالَمِينَ'
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,305,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,306,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,307,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,308,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,309,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,315,narrator 'مُحَمَّدُ بْنُ سِنَانٍ الْقَزَّازُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,316,narrator 'أَبُو عَاصِمٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,317,narrator 'شَبِيبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,318,narrator 'عِكْرِمَةَ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,314,hadith/140 has no <said>; its matn is not separated from the isnad
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,322,narrator 'عَلِيُّ بْنُ الْحَسَنِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,323,narrator 'مُسْلِمُ بْنُ عَبْدِ الرَّحْمَنِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,324,narrator 'مُحَمَّد بْن مُصْعَبٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,325,narrator 'قَيْسِ بْنِ الرَّبِيعِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,326,narrator 'عَطَاءِ بْنِ السَّائِبِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,327,narrator 'سَعِيدِ بْنِ جُبَيْرٍ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,321,hadith/141 has no <said>; its matn is not separated from the isnad
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,331,commentary/1.3/7 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,337,narrator 'أَحْمَدُ بْنُ إِسْحَاقَ بْنِ عِيسَى الأَهْوَازِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,338,narrator 'أَبُو أَحْمَدَ الزُّبَيْرِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,340,narrator 'قَيْسٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,340,narrator 'عَطَاءِ بْنِ السَّائِبِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,341,narrator 'سَعِيدِ بْنِ جُبَيْرٍ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,336,hadith/142 has no <said>; its matn is not separated from the isnad
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,346,narrator 'أَحْمَدُ بْنُ عَبْدِ الرَّحِيمِ الْبَرْقِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,347,narrator 'ابْنُ أَبِي مَرْيَمَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,348,narrator 'ابْنِ لَهِيعَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,349,narrator 'عَطَاءِ بْنِ دِينَارٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,350,narrator 'سَعِيدِ بْنِ جُبَيْرٍ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,345,hadith/143 has no <said>; its matn is not separated from the isnad
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,356,narrator 'مُحَمَّدُ بْنُ حُمَيْدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,357,narrator 'مِهْرَانُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,358,narrator 'سُفْيَانَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,358,narrator 'مُجَاهِدٍ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,355,hadith/144 has no <said>; its matn is not separated from the isnad
+info,hadith-without-id,S001M/sure_1_section_1.1-1.14.xml,361,hadith paragraph without xml:id treated as a continuation of hadith/144
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,361,narrator 'أَحْمَدُ بْنُ إِسْحَاقَ الأَهْوَازِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,362,narrator 'أَبُو أَحْمَدَ الزُّبَيْرِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,364,narrator 'سُفْيَانَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,364,narrator 'رَجُلٍ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,361,hadith/144/continuation/1 has no <said>; its matn is not separated from the isnad
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,367,narrator 'بِشْرُ بْنُ مُعَاذٍ الْعَقَدِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,368,narrator 'يَزِيدُ بْنُ زُرَيْعٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,369,narrator 'سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,370,narrator 'قَتَادَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,373,narrator 'أَحْمَدُ بْنُ حَازِمٍ الْغِفَارِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,374,narrator 'عُبَيْدُ اللَّهِ بْنُ مُوسَى' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,375,narrator 'أَبِي جَعْفَرٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,376,narrator 'الرَّبِيعِ بْنِ أَنَسٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,377,narrator 'أَبِي الْعَالِيَةِ' has no ID; kept as a separate narrator
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,386,commentary/1.3/14 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,391,narrator 'الْقَاسِمُ بْنُ الْحَسَنِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,392,narrator 'الْحُسَيْنُ بْنُ دَاوُدَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,393,narrator 'حَجَّاجٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,394,narrator 'ابْنِ جُرَيْجٍ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,390,hadith/147 has no <said>; its matn is not separated from the isnad
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,397,commentary/1.3/16 has no text
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,402,<div n='1.4'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,436,qiraat quotation without @n kept as an unlinked fragment: 'ملك يَوْم الدّين'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,438,qiraat quotation without @n kept as an unlinked fragment: 'ملك يَوْم الدّين'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,441,qiraat quotation without @n kept as an unlinked fragment: 'مَلِك'
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,475,<div n='1.5'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,malformed-ana,S001M/sure_1_section_1.1-1.14.xml,482,"@ana='Qmanipulation qiraat' read as ['qmanipulation', 'qiraat']"
+info,malformed-ana,S001M/sure_1_section_1.1-1.14.xml,484,"@ana='Qarimajhul yes qari' read as ['qarimajhul', 'qari']"
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,485,qiraat quotation without @n kept as an unlinked fragment: 'ملك يَوْم الدّين'
+info,malformed-ana,S001M/sure_1_section_1.1-1.14.xml,485,"@ana='Qrasmchange qiraat' read as ['qrasmchange', 'qiraat']"
+info,malformed-ana,S001M/sure_1_section_1.1-1.14.xml,487,"@ana='Qarimajhul yes qari' read as ['qarimajhul', 'qari']"
+info,malformed-ana,S001M/sure_1_section_1.1-1.14.xml,488,"@ana='Qrasmchange qiraat' read as ['qrasmchange', 'qiraat']"
+info,malformed-ana,S001M/sure_1_section_1.1-1.14.xml,490,"@ana='Qarimajhul yes qari' read as ['qarimajhul', 'qari']"
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,491,qiraat quotation without @n kept as an unlinked fragment: 'مالك يَوْم الدّين'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,504,qiraat quotation without @n kept as an unlinked fragment: 'ملك يَوْم الدّين'
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,522,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,523,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,524,narrator 'بِشْرِ بْنِ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,525,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,526,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+warning,unknown-narrator-role,S001M/sure_1_section_1.1-1.14.xml,526,role 'qari' of 'ابْنِ عَبَّاسٍ' is not a NarratorType; kept on the chain link only
+warning,quote-text-not-in-verse,S001M/sure_1_section_1.1-1.14.xml,549,quoted text 'مَالِكِ يَوْمِ الدِّينِ أَنَّهُ مَالِكُ جَمِيعَ الْعَالَمِينَ ، وَسَيِّدُهُمْ ، وَمُصْلِحُهُمْ ، وَالنَّاظِرُ لَهُمْ ، وَالرَّحِيمُ بِهِمْ فِي الدُّنْيَا وَالآخِرَةِ ، بِقَوْلِهِ :' not found in the canonical text of 1:4
+warning,orphan-verse-line,S001M/sure_1_section_1.1-1.14.xml,563,<l n='2'> outside a Qur'an quotation; its text is kept but not linked to a verse
+warning,orphan-verse-line,S001M/sure_1_section_1.1-1.14.xml,564,<l n='3'> outside a Qur'an quotation; its text is kept but not linked to a verse
+warning,quote-text-not-in-verse,S001M/sure_1_section_1.1-1.14.xml,593,quoted text 'مَالِكِ يَوْمِ الدِّينِ ، بِمَعْنَى : أَنَّهُ يَمْلِكُ الْحُكْمَ بَيْنَهُمْ ،' not found in the canonical text of 1:4
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,671,qiraat quotation without @n kept as an unlinked fragment: 'مَالِكَ يَوْمِ الدِّينِ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,697,qiraat quotation without @n kept as an unlinked fragment: 'مَالِكَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,708,qiraat quotation without @n kept as an unlinked fragment: 'مَالِكِ يَوْمِ الدِّينِ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,770,qiraat quotation without @n kept as an unlinked fragment: 'مَالِكِ يَوْمِ الدِّينِ'
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,778,<div n='1.6'> follows the chapter <div> instead of being inside it; attached to chapter 1
+warning,quote-text-not-in-verse,S001M/sure_1_section_1.1-1.14.xml,801,quoted text 'فَلَوْلا إِنْ كُنْتُمْ غَيْرَ مَدِينِينَ . يعني : مجزيين بأعمالكم وَلا محاسبين .' not found in the canonical text of 56:86
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,813,narrator 'أَبُو كُرَيْبٍ مُحَمَّدُ بْنُ الْعَلاءِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,814,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,815,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,816,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,817,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,812,hadith/149 has no <said>; its matn is not separated from the isnad
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,829,narrator 'مُوسَى بْنُ هَارُونَ الْهَمْدَانِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,830,narrator 'عَمْرُو بْنُ حَمَّادٍ الْقَنَّادُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,832,narrator 'أَسْبَاطُ بْنُ نَصْرٍ الْهَمْدَانِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,833,narrator 'إِسْمَاعِيلَ بْنِ عَبْدِ الرَّحْمَنِ السُّدِّيِّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,834,narrator 'أَبِي مَالِكٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,835,narrator 'أَبِي صَالِحٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,835,narrator 'ابْنِ عَبَّاسٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,836,narrator 'مُرَّةَ الْهَمْدَانِيِّ' has no ID; kept as a separate narrator
+warning,possible-branching-chain,S001M/sure_1_section_1.1-1.14.xml,829,hadith/150/chain/1 names 3 companions; the isnad may branch
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,828,hadith/150 has no <said>; its matn is not separated from the isnad
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,845,narrator 'الْحَسَنُ بْنُ يَحْيَى' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,846,narrator 'عَبْدُ الرَّزَّاقِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,847,narrator 'مَعْمَرٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,848,narrator 'قَتَادَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,855,narrator 'الْقَاسِمُ بْنُ الْحَسَنِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,856,narrator 'الْحُسَيْنُ بْنُ دَاوُدَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,857,narrator 'حَجَّاجٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,858,narrator 'ابْنِ جُرَيْجٍ' has no ID; kept as a separate narrator
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,863,commentary/1.6/9 has no text
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,865,<div n='1.7'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,871,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,872,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,873,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,874,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,875,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,909,<div n='1.8'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,918,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,919,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,920,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,921,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,922,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,917,hadith/154 has no <said>; its matn is not separated from the isnad
+info,segment-without-theme,S001M/sure_1_section_1.1-1.14.xml,928,segment without theme: 'جَائِزٌ'
+warning,quote-text-not-in-verse,S001M/sure_1_section_1.1-1.14.xml,953,quoted text 'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ . بِمَعْنَى مَسْأَلَتِهِمْ إِيَّاهُ الْمَعُونَةَ عَلَى الْعِبَادَةِ ، أَدَلُّ الدَّلِيلِ عَلَى فَسَادِ قَوْلِ الْقَائِلِينَ بِالتَّفْوِيضِ مِنْ أَهْلِ الْقَدَرِ الَّذِينَ أَحَالُوا أَنْ يَأْمُرَ اللَّهُ أَحَدًا مِنْ عِبَادِهِ بِأَمْرٍ ، أَوْ يُكَلِّفَهُ فَرْضَ عَمَلٍ إِلا بَعْدَ إِعْطَائِهِ الْمَعُونَةَ وَالْقُدْرَةَ عَلَى فِعْلِهِ ، وَعَلَى تَرْكِهِ . وَلَوْ كَانَ الَّذِي قَالُوا مِنْ ذَلِكَ كَمَا قَالُوا ، لَبَطَلَتِ الرَّغْبَةُ إِلَى اللَّهِ فِي الْمَعُونَةِ عَلَى طَاعَتِهِ ، إِذْ كَانَ عَلَى قَوْلِهِمْ مَعَ وُجُودِ الأَمْرِ ، وَالنَّهْيِ ، وَالتَّكْلِيفِ ، حَقًّا وَاجِبًا عَلَى اللَّهِ لِلْعَبْدِ إِعْطَاؤُهُ الْمَعُونَةَ عَلَيْهِ ، سَأَلَهُ ذَلِكَ عَبْدُهُ أَوْ تَرَكَ مَسْأَلَتَهُ ذَلِكَ ، بَلْ تَرْكُ إِعْطَائِهِ ذَلِكَ عِنْدَهُمْ مِنْهُ جَوْرٌ ، وَلَوْ كَانَ الأَمْرُ فِي ذَلِكَ عَلَى مَا قَالُوا ، لَكَانَ الْقَائِلُ : إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ، إِنَّمَا يَسْأَلُ رَبَّهُ أَلا يَجُورَ . وَفِي إِجْمَاعِ أَهْلِ الإِسْلامِ جَمِيعًا عَلَى تَصْوِيبِ قَوْلِ الْقَائِلِ : اللَّهُمَّ إِنَّا نَسْتَعِينُكَ ، وَتَخْطِئَتِهِمْ قَوْلَ الْقَائِلِ : اللَّهُمَّ لا تَجُرْ عَلَيْنَا ، دَلِيلٌ وَاضِحٌ عَلَى خَطَأِ مَا قَالَ الَّذِينَ وَصَفْتُ قَوْلَهُمْ ، إِذ كَانَ تَأْوِيلُ قَوْلِ الْقَائِلِ عِنْدَهُمُ : اللَّهُمَّ إِنَّا نَسْتَعِينُكَ : اللَّهُمَّ لا تَتْرُكْ مَعُونَتَنَا الَّتِي تَرْكُكَهَا جَوْرٌ مِنْكَ .' not found in the canonical text of 1:5
+info,poetry-without-quote,S001M/sure_1_section_1.1-1.14.xml,1055,<lg> outside <quote type='poetry'> mapped as a poem
+info,poetry-without-quote,S001M/sure_1_section_1.1-1.14.xml,1060,<lg> outside <quote type='poetry'> mapped as a poem
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,1088,<div n='1.9'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1097,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1098,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1099,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1100,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1101,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,1096,hadith/155 has no <said>; its matn is not separated from the isnad
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,1261,<div n='1.10'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,segment-without-theme,S001M/sure_1_section_1.1-1.14.xml,1288,segment without theme: 'أولى بتأويل هَذِهِ الآية عندي ، أعني : اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ أن يَكُون معنيا بِهِ : وفقنا للثبات عَلَى ما ارتضيته ووفقت لَهُ من أنعمت عَلَيْه من عبادك ، من قول وعمل ، وذلك هُوَ الصراط المستقيم'
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1330,commentary/1.10/6 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1333,narrator 'أَحْمَدُ بْنُ إِسْحَاقَ الأَهْوَازِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1334,narrator 'أَبُو أَحْمَدَ الزُّبَيْرِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1336,narrator 'حَمْزَةُ الزَّيَّاتُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1336,narrator 'أَبِي الْمُخْتَارِ الطَّائِيِّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1337,narrator 'ابْنِ أَخِي الْحَارِثِ الأَعْوَرِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1339,narrator 'الْحَارِثِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1344,narrator 'أَحْمَدُ بْنُ إِسْحَاقَ الأَهْوَازِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1345,narrator 'أَبُو أَحْمَدَ الزُّبَيْرِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1347,narrator 'سُفْيَانُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1347,narrator 'مُحَمَّدُ بْنُ حُمَيْدٍ الرَّازِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1349,narrator 'مِهْرَانُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1349,narrator 'سُفْيَانَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1350,narrator 'مَنْصُورٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1350,narrator 'أَبِي وَائِلٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1356,narrator 'مَحْمُودُ بْنُ خِدَاشٍ الطَّالْقَانِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1358,narrator 'حُمَيْدُ بْنُ عَبْد الرَّحْمَنِ الرُّؤَاسِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1359,narrator 'عَلِيٌّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1360,narrator 'وَالْحَسَنُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1361,narrator 'عَبْدِ اللَّهِ بْنِ مُحَمَّدِ بْنِ عَقِيلٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1369,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1370,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1371,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1372,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1373,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1383,narrator 'سَهْلُ بْنُ مُوسَى الرَّازِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1384,narrator 'يَحْيَى بْنُ عَوْفٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1385,narrator 'الْفُرَاتِ بْنِ السَّائِبِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1386,narrator 'مَيْمُونِ بْنِ مِهْرَانَ' has no ID; kept as a separate narrator
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1392,commentary/1.10/12 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1394,narrator 'مَحْمُودُ بْنُ خِدَاشٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1395,narrator 'مُحَمَّدُ بْنُ رَبِيعَةَ الْكِلابِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1396,narrator 'إِسْمَاعِيلَ الأَزْرَقِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1397,narrator 'أَبِي عُمَرَ الْبَزَّارِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1398,narrator 'ابْنِ الْحَنَفِيَّةِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1405,narrator 'مُوسَى بْنُ هَارُونَ الْهَمْدَانِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1406,narrator 'عَمْرُو بْنُ طَلْحَةَ الْقَنَّادُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1408,narrator 'أَسْبَاطٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1409,narrator 'السُّدِّيِّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1410,narrator 'أَبِي مَالِكٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1410,narrator 'أَبِي صَالِحٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1411,narrator 'ابْنِ عَبَّاسٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1412,narrator 'مُرَّةَ الْهَمْدَانِيِّ' has no ID; kept as a separate narrator
+warning,possible-branching-chain,S001M/sure_1_section_1.1-1.14.xml,1405,hadith/163/chain/1 names 3 companions; the isnad may branch
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1420,commentary/1.10/15 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1422,narrator 'الْقَاسِمُ بْنُ الْحَسَنِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1423,narrator 'الْحُسَيْنُ بْنُ دَاوُدَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1424,narrator 'حَجَّاجٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1425,narrator 'ابْنِ جُرَيْجٍ' has no ID; kept as a separate narrator
+warning,quote-text-not-in-verse,S001M/sure_1_section_1.1-1.14.xml,1427,"quoted text 'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ، قَالَ : الطَّرِيقُ ""' not found in the canonical text of 1:6"
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1432,narrator 'عَبْدُ اللَّهِ بْنُ كَثِيرٍ أَبُو صُدَيْفٍ الآمُلِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1434,narrator 'هَاشِمُ بْنُ الْقَاسِمِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1435,narrator 'حَمْزَةُ بْنُ أَبِي الْمُغِيرَةِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1436,narrator 'عَاصِمٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1436,narrator 'أَبِي الْعَالِيَةِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1442,narrator 'لِلْحَسَنِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1445,narrator 'يُونُسُ بْنُ عَبْدِ الأَعْلَى' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1446,narrator 'ابْنُ وَهْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1447,narrator 'عَبْدُ الرَّحْمَنِ بْنُ زَيْدِ بْنِ أَسْلَمَ' has no ID; kept as a separate narrator
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,1444,hadith/166 has no <said>; its matn is not separated from the isnad
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1452,commentary/1.10/19 has no text
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,1482,<div n='1.11'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1514,narrator 'مُحَمَّدُ بْنُ الْعَلاءِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1515,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1516,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1517,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1518,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1525,commentary/1.11/4 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1527,narrator 'أَحْمَدُ بْنُ حَازِمٍ الْغِفَارِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1528,narrator 'عُبَيْدُ اللَّهِ بْنُ مُوسَى' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1529,narrator 'أَبِي جَعْفَرٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1530,narrator 'رَبِيعٍ' has no ID; kept as a separate narrator
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1533,commentary/1.11/6 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1535,narrator 'الْقَاسِمُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1536,narrator 'الْحُسَيْنُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1537,narrator 'حَجَّاجٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1537,narrator 'ابْنِ جُرَيْجٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1544,narrator 'الْقَاسِمُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1545,narrator 'الْحُسَيْنُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1546,narrator 'وَكِيعٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1551,narrator 'يُونُسُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1552,narrator 'ابْنُ وَهْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1553,narrator 'عَبْدُ الرَّحْمَنِ بْنُ زَيْدٍ' has no ID; kept as a separate narrator
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,1617,<div n='1.12'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,malformed-ana,S001M/sure_1_section_1.1-1.14.xml,1621,@ana='Qmajority yes' read as ['qmajority']
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1628,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1629,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1632,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1634,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1634,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1636,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1637,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1644,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1645,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1647,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1649,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1676,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1678,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1680,quran quotation without @n kept as an unlinked fragment: 'الَّذِينَ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1725,quran quotation without @n kept as an unlinked fragment: 'عَلَيْهِمْ'
+warning,quote-text-not-in-verse,S001M/sure_1_section_1.1-1.14.xml,1739,quoted text 'قَدْ كَانَ بعض نحويي البصريين يزعم أن قراءة من نَصَبِ ( غير ) فِي غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ عَلَى وجه استثناء : غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ من معاني صفة الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ' not found in the canonical text of 1:7
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1789,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,1806,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ'
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,1846,hadith/175 has no <said>; its matn is not separated from the isnad
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1859,commentary/1.12/19 has no text
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1878,commentary/1.12/21 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1903,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1904,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1905,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1906,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1907,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1914,narrator 'مُوسَى' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1915,narrator 'عَمْرٌو' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1916,narrator 'أَسْبَاطٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1917,narrator 'السُّدِّيِّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1918,narrator 'أَبِي مَالِكٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1918,narrator 'أَبِي صَالِحٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1919,narrator 'ابْنِ عَبَّاسٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1920,narrator 'مُرَّةَ الْهَمْدَانِيِّ' has no ID; kept as a separate narrator
+warning,possible-branching-chain,S001M/sure_1_section_1.1-1.14.xml,1914,hadith/179/chain/1 names 3 companions; the isnad may branch
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1927,commentary/1.12/25 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1929,narrator 'ابْنُ حُمَيْدٍ الرَّازِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1930,narrator 'مِهْرَانُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1931,narrator 'سُفْيَانَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1932,narrator 'مُجَاهِدٍ' has no ID; kept as a separate narrator
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,1936,commentary/1.12/27 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1938,narrator 'أَحْمَدُ بْنُ حَازِمٍ الْغِفَارِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1939,narrator 'عُبَيْدُ اللَّهِ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1940,narrator 'أَبِي جَعْفَرٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1941,narrator 'رَبِيعٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1946,narrator 'الْقَاسِمُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1947,narrator 'الْحُسَيْنُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1948,narrator 'حَجَّاجٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1948,narrator 'ابْنِ جُرَيْجٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1955,narrator 'يُونُسُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1956,narrator 'ابْنُ وَهْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1957,narrator 'ابْنُ زَيْدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1962,narrator 'يُونُسُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1963,narrator 'ابْنُ وَهْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1964,narrator 'ابْنُ زَيْدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,1965,narrator 'أَبِيهِ' has no ID; kept as a separate narrator
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,1993,<div n='1.13'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,2021,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ التي مَعَ الْمَغْضُوبِ عَلَيْهِمْ أنها بمعنى ( سوى ) . فكأن معنى الكلام كَانَ عنده : اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ ، الَّذِين هُمْ سوى المغضوب عليهم والضالين .'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,2040,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,2043,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ'
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,2097,quran quotation without @n kept as an unlinked fragment: 'غَيْرِ'
+info,hadith-without-id,S001M/sure_1_section_1.1-1.14.xml,2169,hadith paragraph without xml:id treated as a continuation of hadith/188
+info,hadith-without-matn,S001M/sure_1_section_1.1-1.14.xml,2169,hadith/188/continuation/1 has no <said>; its matn is not separated from the isnad
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,2176,commentary/1.13/16 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2207,narrator 'ابْنُ حُمَيْدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2208,narrator 'مِهْرَانُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2209,narrator 'سُفْيَانَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2209,narrator 'مُجَاهِدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2215,narrator 'أَبُو كُرَيْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2216,narrator 'عُثْمَانُ بْنُ سَعِيدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2217,narrator 'بِشْرُ بْنُ عُمَارَةَ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2218,narrator 'أَبُو رَوْقٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2219,narrator 'الضَّحَّاكِ' has no ID; kept as a separate narrator
+info,empty-paragraph,S001M/sure_1_section_1.1-1.14.xml,2234,commentary/1.13/21 has no text
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2236,narrator 'الْقَاسِمُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2237,narrator 'الْحُسَيْنُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2238,narrator 'حَجَّاجٌ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2238,narrator 'ابْنِ جُرَيْجٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2245,narrator 'مُوسَى بْنُ هَارُونَ الْهَمْدَانِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2246,narrator 'عَمْرُو بْنُ حَمَّادٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2247,narrator 'أَسْبَاطُ بْنُ نَصْرٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2248,narrator 'إِسْمَاعِيلَ السُّدِّيِّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2250,narrator 'أَبِي مَالِكٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2250,narrator 'أَبِي صَالِحٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2251,narrator 'ابْنِ عَبَّاسٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2252,narrator 'مُرَّةَ الْهَمْدَانِيِّ' has no ID; kept as a separate narrator
+warning,possible-branching-chain,S001M/sure_1_section_1.1-1.14.xml,2245,hadith/194/chain/1 names 3 companions; the isnad may branch
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2261,narrator 'أَحْمَدُ بْنُ حَازِمٍ الْغِفَارِيُّ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2262,narrator 'عُبَيْدُ اللَّهِ بْنُ مُوسَى' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2263,narrator 'أَبِي جَعْفَرٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2264,narrator 'رَبِيعٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2269,narrator 'يُونُسُ بْنُ عَبْدِ الأَعْلَى' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2270,narrator 'ابْنُ وَهْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2272,narrator 'عَبْدُ الرَّحْمَنِ بْنُ زَيْدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2277,narrator 'يُونُسُ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2278,narrator 'ابْنُ وَهْبٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2279,narrator 'عَبْدُ الرَّحْمَنِ بْنُ زَيْدٍ' has no ID; kept as a separate narrator
+info,narrator-without-id,S001M/sure_1_section_1.1-1.14.xml,2280,narrator 'أَبِيهِ' has no ID; kept as a separate narrator
+info,section-outside-chapter,S001M/sure_1_section_1.1-1.14.xml,2357,<div n='1.14'> follows the chapter <div> instead of being inside it; attached to chapter 1
+info,quote-without-reference,S001M/sure_1_section_1.1-1.14.xml,2372,qiraat quotation without @n kept as an unlinked fragment: 'مَلِكِ يَوْمِ الدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ'
