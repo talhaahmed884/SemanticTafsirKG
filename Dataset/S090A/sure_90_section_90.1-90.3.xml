@@ -1,0 +1,1956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>test</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>test</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>test</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+<text xml:lang="ar">
+<body>
+<div type="chapter" n="90" xml:lang="ar">
+<div type="chapter" n="90" xml:lang="ar">
+<head type="1">تفسير <name role="other">سُورَةِ ( الْبَلَدِ )</name>
+                </head>
+<div type="section" n="90.1">
+<head type="30">الْقَوْلُ فِي تَأْوِيلِ قَوْلِهِ تَعَالَى : <quote type="quran" n="90:1-7">
+                            <l n="1">لا أُقْسِمُ بِهَذَا الْبَلَدِ </l>
+                            <l n="2"> وَأَنْتَ حِلٌّ بِهَذَا الْبَلَدِ </l>
+                            <l n="3"> وَوَالِدٍ وَمَا وَلَدَ </l>
+                            <l n="4"> لَقَدْ خَلَقْنَا الإِنْسَان فِي كَبَدٍ </l>
+                            <l n="5"> أَيَحْسَبُ أَنْ لَنْ يَقْدِرَ عَلَيْهِ أَحَدٌ </l>
+                            <l n="6"> يَقُولُ أَهْلَكْتُ <seg ana="qiraat">مَالا لُبَدًا</seg>
+                            </l>
+                            <l n="7"> أَيَحْسَبُ أَنْ لَمْ يَرَهُ أَحَدٌ </l>
+                        </quote></head>
+<p n="nothadith">. قال <name role="person">أبو جعفر</name> رحمه اللَّهُ : يقول تعالى ذكره : أُقْسِمُ
+                            يا <name role="person">محمد</name> بهذا <name role="location">البلد
+                                الحرام</name> ، وهو <name role="location">مكة</name> . وكذلك قال
+                                <name role="organization">أهل التأويل</name> . </p>
+<div type="subsection" n="90.1.1">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34677"><lb n="50315"/><note> 34672 /3 /140 </note>حَدَّثَنِي <persName
+                                    ana="shaykh">مُحَمَّدُ بْنُ سَعْدٍ</persName> ، قَالَ : ثني
+                                    <persName ana="rawi">أَبِي</persName> ، قَالَ : ثني <persName
+                                    ana="rawi">عَمِّي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >أَبِي</persName> ، عَنْ <persName ana="rawi">أَبِيهِ</persName>
+                                ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> في
+                                قوله : <said>
+                                    <quote type="quran" n="90:1">لا أُقْسِمُ بِهَذَا الْبَلَدِ .
+                                        يَعْنِي : <name role="location">مَكَّةَ</name>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34678"><lb n="50316"/><note> 34673 /8 /140 </note>حَدَّثَنَا <persName
+                                    ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">وَكِيعٌ</persName> ، عَنْ <persName ana="rawi"
+                                    >سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                    >مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مُجَاهِدٍ</persName> : <said>
+                                    <quote type="quran" n="90:1">لا أُقْسِمُ بِهَذَا الْبَلَدِ .
+                                        قَالَ : <name role="location">مَكَّةَ</name>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34679"><lb n="50317"/><note> 34674 /8 /140 </note>حَدَّثَنَا <persName
+                                    ana="shaykh">ابْنُ بَشَّارٍ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">عَبْدُ الرَّحْمَنِ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">سُفْيَانُ</persName> ، عَنْ <persName ana="rawi"
+                                    >مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مُجَاهِدٍ</persName> : <said>
+                                    <quote type="quran" n="90:1">لا أُقْسِمُ بِهَذَا الْبَلَدِ .
+                                        قَالَ : <name role="location">مَكَّةَ</name>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34680"><lb n="50318"/><note> 34675 /8 /140 </note>حَدَّثَنَا <persName
+                                    ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">مِهْرَانُ</persName> ، عَنْ <persName ana="rawi"
+                                    >سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                    >مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مُجَاهِدٍ</persName> : <pb type="turki" n="24:402"/><said>
+                                    <quote type="quran" n="90:1">لا أُقْسِمُ بِهَذَا الْبَلَدِ .
+                                        قَالَ : <name role="location">مَكَّةُ</name>
+                                    </quote>
+                                </said></p>
+<p n="nothadith"><lb n="50319"/> حدثنا <name role="person">سوار بن عبد اللَّهِ</name> ، قال : ثنا
+                                    <name role="person">يحيى بن سعيد</name> ، عن <name role="person"
+                                    >عبد الملك</name> ، عن <name role="person">عطاء</name> في قوله :
+                                    <quote type="quran" n="90:1">لا أُقْسِمُ بِهَذَا الْبَلَدِ . قال
+                                    : هي <name role="location">مكة</name> .</quote></p>
+<p n="hadith" xml:id="h34681"><lb n="50320"/><note> 34676 /8 /140 </note>حَدَّثَنَا <persName
+                                    ana="shaykh">ابْنُ عَبْدِ الأَعْلَى</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">مُحَمَّدُ بْنُ ثَوْرٍ</persName> ، عَنْ
+                                    <persName ana="rawi">مَعْمَرٍ</persName> ، عَنْ <persName
+                                    ana="rawi">قَتَادَةَ</persName> في قوله : <said><quote
+                                        type="quran" n="90:1">لا أُقْسِمُ بِهَذَا الْبَلَدِ </quote>
+                                    . قَالَ : الْبَلَدُ : <name role="location">مَكَّةُ</name>
+                                </said></p>
+<p n="hadith" xml:id="h34682"><lb n="50321"/><note> 34677 /8 /140 </note>حدثنا <persName
+                                    ana="shaykh">بشر</persName> ، قال : ثنا <persName ana="rawi"
+                                    >يزيد</persName> ، قال : ثنا <persName ana="rawi"
+                                    >سعيد</persName> ، عن <persName ana="rawi">قتادة</persName>
+                                قولَه : <said><quote type="quran" n="90:1">لا أُقْسِمُ بِهَذَا
+                                        الْبَلَدِ </quote> . يعني : <name role="location">مكة</name>
+                                </said></p>
+<p n="hadith" xml:id="h34683"><lb n="50322"/><note> 34678 /8 /140 </note>حَدَّثَنِي <persName
+                                    ana="shaykh">يُونُسُ</persName> ، قَالَ : أَخْبَرَنَا <persName
+                                    ana="rawi">ابْنُ وَهْبٍ</persName> ، قَالَ : قَالَ <persName
+                                    ana="rawi">ابْنُ زَيْدٍ</persName> ، فِي قَوْلِ اللَّهِ جل وعز : <said>
+                                    <quote type="quran" n="90:1">لا أُقْسِمُ بِهَذَا الْبَلَدِ .
+                                        قَالَ : <name role="location">مَكَّةَ</name>
+                                    </quote>
+                                </said></p>
+<p n="nothadith" ana="fiqh lugha sirah yes"><lb n="50323"/> وقوله : <quote type="quran" n="90:2"
+                                        ><seg ana="sfathmakkah yes">وَأَنْتَ حِلٌّ بِهَذَا
+                                        الْبَلَدِ</seg>
+                                </quote> . يقول جل ثناؤه لنبيه <name role="person">محمد</name> صلى
+                                اللَّهُ عليه وسلم : <seg ana="sfathmakkah yes">وأنت يا <name
+                                        role="person">محمد</name> حل بهذا البلد</seg> ؛ يعني <name
+                                    role="location">مكة</name> ، يقول : <seg
+                                    ana="jihadsiyar sfathmakkah yes">أنت به حلال تصنع فيه من قتل من
+                                    أردت قتله ، وأسر من أردت أسره ، مُطْلَقٌ ذَلِكَ لك</seg> . يقال
+                                منه : <seg ana="yes tabeer">هو حِلٌّ وهو حَلالٌ ، وهو
+                                        <seg>حِرْمٌ</seg> وحَرَامٌ ، وهو مُحِلٌّ ، وَمُحْرِمٌ ،
+                                    وأحلَلْنا ، وأحرَمْنَا</seg> . وبنحو الذي قلنا في ذلك قال أهل
+                                التأويل . <pb type="turki" n="24:403"/><pb ed="GK" edRef="62749"
+                                    n="10431"/></p>
+</div>
+<div type="subsection" n="90.1.2">
+                            <head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+                            <p n="hadith" xml:id="h34684" ana="fiqh lugha sirah yes"><lb n="50324"
+                                    /><note> 34679 /2 /143 </note>حَدَّثَنِي <persName ana="shaykh"
+                                    n="L29197">مُحَمَّدُ بْنُ سَعْدٍ</persName> ، قَالَ : ثني
+                                    <persName ana="rawi" n="L17755">أَبِي</persName> ، قَالَ : ثني
+                                    <persName ana="rawi" n="L15185">عَمِّي</persName> ، قَالَ : ثني
+                                    <persName ana="rawi" n="L1277">أَبِي</persName> ، عَنْ <persName
+                                    ana="rawi" n="L5647">أَبِيهِ</persName> ، عَنِ <persName
+                                    ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> : <said><quote type="quran" n="90:2">وَ<seg ana="sfathmakkah yes">أَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ</seg>
+                                    </quote> : يَعْنِي بِذَلِكَ :<seg
+                                        ana="sfathmakkah yes jihadsiyar"> نَبِيَّ اللَّهِ صَلَّى
+                                        اللَّهُ عَلَيْهِ وَسَلَّمَ ، أَحَلَّ اللَّهُ لَهُ يَوْمَ
+                                        دَخَلَ <name role="location">مَكَّةَ</name> أَنْ يَقْتُلَ
+                                        مَنْ شَاءَ ، وَيُسْتَحْيِيَ مَنْ شَاءَ . فَقَتَلَ يَوْمَئِذٍ
+                                            <name role="person">ابْنَ خَطَلٍ</name> صَبْرًا وَهُوَ
+                                        آخِذٌ بِأَسْتَارِ <name role="location"
+                                                ><seg>الْكَعْبَةِ</seg></name> ، فَلَمْ يَحِلَّ
+                                        لأَحَدٍ مِنَ النَّاسِ بَعْدَ رَسُولِ اللَّهِ صَلَّى اللَّهُ
+                                        عَلَيْهِ وَسَلَّمَ أَنْ يَقْتُلَ فِيهَا حَرَامًا حَرَّمَهُ
+                                        اللَّهُ ، فَأَحَلَّ اللَّهُ عَزَّ وَجَلَّ لَهُ مَا صَنَعَ
+                                        بِأَهْلِ <name role="location">مَكَّةَ</name></seg> ، أَلَمْ
+                                    تَسْمَعْ أَنَّ اللَّهَ قَالَ فِي <seg ana="halalharam yes"
+                                        >تَحْرِيمِ الْحَرَمِ</seg> : <quote type="quran" n="3:97"
+                                            ><seg ana="hajj yes">وَلِلَّهِ عَلَى النَّاسِ حِجُّ
+                                            الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلا</seg> .
+                                        يَعْنِي بِالنَّاسِ : أَهْلَ الْقِبْلَةِ </quote></said></p>
+                            <p n="hadith" xml:id="h34685" ana="fiqh sirah yes"><lb n="50325"/><note>
+                                    34680 /8 /140 </note>حَدَّثَنَا <persName ana="shaykh">ابْنُ
+                                    حُمَيْدٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >مِهْرَانُ</persName> ، عَنْ <persName ana="rawi"
+                                    >سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                    >مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مُجَاهِدٍ</persName> : <said><quote type="quran" n="90:2"><seg
+                                            ana="yes sfathmakkah">وَأَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ</seg>
+                                    </quote> . قَالَ : <seg ana="sfathmakkah yes jihadsiyar">مَا
+                                        صَنَعْتَ فَأَنْتَ فِي حِلٍّ حين نأمر بالقتال</seg>
+                                </said></p>
+                            <p n="hadith" xml:id="h34686" ana="fiqh sirah yes"><lb n="50326"/><note>
+                                    34681 /2 /143 </note>حَدَّثَنَا <persName ana="shaykh" n="L6879"
+                                    >ابْنُ بَشَّارٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L4493">عَبْدُ الرَّحْمَنِ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi" n="L3436">سُفْيَانُ</persName> ، عَنْ <persName
+                                    ana="rawi" n="L7673">مَنْصُورٍ</persName> ، عَنْ <persName
+                                    ana="rawi" n="L6715">مُجَاهِدٍ</persName> : <said><quote
+                                        type="quran" n="90:2"><seg ana="yes sfathmakkah">وَأَنْتَ
+                                            حِلٌّ بِهَذَا الْبَلَدِ</seg>
+                                    </quote> . قال : <seg ana="jihadsiyar sfathmakkah yes">أُحِلَّ
+                                        لِرَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَا
+                                        صَنَعَ فِيهِ سَاعَةً</seg>
+                                </said></p>
+                            <p n="hadith" xml:id="h34687" ana="fiqh sirah yes"><lb n="50327"/><note>
+                                    34682 /2 /143 </note>حَدَّثَنَا <persName ana="shaykh" n="L6930"
+                                    >ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L2122">جَرِيرٌ</persName> ، عَنْ <persName ana="rawi"
+                                    n="L7673">مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                    n="L6715">مُجَاهِدٍ</persName> : <said><quote type="quran"
+                                        n="90:2"><seg ana="yes sfathmakkah">وَأَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ</seg>
+                                    </quote> . قال : <seg ana="jihadsiyar sfathmakkah yes">أُحِلَّ
+                                        لَهُ أَنْ يَصْنَعَ فِيهِ مَا شَاءَ</seg>
+                                </said></p>
+                            <p n="nothadith">
+                                <lb n="50328"/>
+                                <pb type="turki" n="24:404"/>
+                            </p>
+                            <p n="hadith" xml:id="h34688" ana="fiqh sirah yes"><lb n="50329"/><note>
+                                    34683 /2 /143 </note>حَدَّثَنَا <persName ana="shaykh" n="L6852"
+                                    >أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L8160">وَكِيعٌ</persName> ، عَنْ <persName ana="rawi"
+                                    n="L3436">سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                    n="L7673">مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                    n="L6715">مُجَاهِدٍ</persName> : <said><quote type="quran"
+                                        n="90:2"><seg ana="yes sfathmakkah">وَأَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ </seg></quote> . قَالَ : <seg
+                                        ana="jihadsiyar sfathmakkah yes">أُحِلَّتْ لِرَسُولِ اللَّهِ
+                                        صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ، قَالَ : اصْنَعْ فِيهَا
+                                        مَا شِئْتَ</seg>
+                                </said></p>
+                            <p n="nothadith">
+                                <lb n="50330"/>
+                                <pb ed="GK" edRef="35869" n="10432"/>
+                            </p>
+                            <p n="hadith" xml:id="h34689" ana="fiqh sirah yes"><lb n="50331"/><note>
+                                    34684 /2 /143 </note>حَدَّثَنِي <persName ana="shaykh" n="L7748"
+                                    >مُوسَى بْنُ عَبْدِ الرَّحْمَنِ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi" n="L1339">حُسَيْنٌ الْجُعْفِيُّ</persName>
+                                ، عَنْ <persName ana="rawi" n="L2980">زَائِدَةَ</persName> ، عَنْ
+                                    <persName ana="rawi" n="L7673">مَنْصُورٍ</persName> ، عَنْ
+                                    <persName ana="rawi" n="L6715">مُجَاهِدٍ</persName> فِي قَوْلِ
+                                اللَّهِ : <said><quote type="quran" n="90:2"><seg
+                                            ana="yes sfathmakkah">وَأَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ</seg>
+                                    </quote> . قال : <seg ana="jihadsiyar sfathmakkah yes">أَنْتَ في
+                                        حِلٍّ مِمَّا صَنَعْتَ فِيهِ</seg>
+                                </said></p>
+                            <p n="hadith" xml:id="h34690" ana="fiqh sirah yes"><lb n="50332"/><note>
+                                    34685 /2 /143 </note>حَدَّثَنَا <persName ana="shaykh" n="L6930"
+                                    >ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L2458">حَكَّامُ بْنُ سَلْمٍ</persName> ، عَنْ <persName
+                                    ana="rawi" n="L6070">عَمْرٍو</persName> ، عَنْ <persName
+                                    ana="rawi" n="L7673">مَنْصُورٍ</persName> ، عَنْ <persName
+                                    ana="rawi" n="L6715">مُجَاهِدٍ</persName> : <said><quote
+                                        type="quran" n="90:2"><seg ana="yes sfathmakkah">وَأَنْتَ
+                                            حِلٌّ بِهَذَا الْبَلَدِ</seg>
+                                    </quote> . قال : <seg ana="jihadsiyar sfathmakkah yes">أُحِلَّ
+                                        لَكَ يَا <name role="person">مُحَمَّدُ</name> مَا صَنَعْتَ
+                                        فِي هَذَا الْبَلَدِ مِنْ شَيْءٍ . يَعْنِي <name
+                                            role="location">مَكَّةَ</name></seg>
+                                </said></p>
+                            <p n="hadith" xml:id="h34691" ana="fiqh sirah yes"><lb n="50333"/><note>
+                                    34686 /2 /143 </note>حَدَّثَنِي <persName ana="shaykh" n="L7222"
+                                    >مُحَمَّدُ بْنُ عَمْرٍو</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi" n="L1494">أَبُو عَاصِمٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi" n="L26162">عِيسَى</persName> ؛ وَحَدَّثَنِي
+                                    <persName ana="shaykh" n="L14244">الْحَارِثُ</persName> ، قَالَ
+                                : ثنا <persName ana="rawi" n="L1304">الْحَسَنُ</persName> ، قَالَ :
+                                ثنا <persName ana="rawi" n="L8149">وَرْقَاءُ</persName> ، جَمِيعًا
+                                عَنِ <persName ana="rawi" n="L4653">ابْنِ أَبِي نَجِيحٍ</persName> ،
+                                عَنْ <persName ana="rawi" n="L6715">مُجَاهِدٍ</persName> :
+                                        <said><quote type="quran" n="90:2"><seg
+                                            ana="yes sfathmakkah">وَأَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ</seg>
+                                    </quote> . قَالَ : <seg ana="jihadsiyar sfathmakkah yes">لا
+                                        تُؤَاخَذُ بِمَا عَمِلْتَ فِيهِ ، وَلَيْسَ عَلَيْكَ فِيهِ مَا
+                                        عَلَى النَّاسِ </seg></said></p>
+                            <p n="hadith" xml:id="h34692" ana="fiqh sirah yes"><lb n="50334"/><note>
+                                    34687 /8 /140 </note>حَدَّثَنَا <persName ana="shaykh"
+                                    >بِشْرٌ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> : <said><quote type="quran" n="90:2"><seg
+                                            ana="yes sfathmakkah">وَأَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ</seg>
+                                    </quote> . يَقُولُ : <seg ana="jihadsiyar sfathmakkah yes"
+                                        >نَقِيٌّ لا حَرِجٌ وَلا آثِمٌ</seg>
+                                </said></p>
+                            <p n="hadith" xml:id="h34693" ana="fiqh sirah yes"><lb n="50335"/><note>
+                                    34688 /2 /143 </note>حَدَّثَنَا <persName ana="shaykh" n="L7050"
+                                    >ابْنُ عَبْدِ الأَعْلَى</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi" n="L6896">ابْنُ ثَوْرٍ</persName> ، عَنْ <persName
+                                    ana="rawi" n="L7633">مَعْمَرٍ</persName> ، عَنْ <persName
+                                    ana="rawi" n="L6458">قَتَادَةَ</persName> : <said><quote
+                                        type="quran" n="90:2"><seg ana="yes sfathmakkah">وَأَنْتَ
+                                            حِلٌّ بِهَذَا الْبَلَدِ</seg>
+                                    </quote> . <pb type="turki" n="24:405"/> يَقُولُ : <seg
+                                        ana="jihadsiyar yes">أَنْتَ بِهِ حِلٌّ لَسْتَ بِآثِمٍ</seg>
+                                </said></p>
+                            <p n="hadith" xml:id="h34694" ana="fiqh sirah yes"><lb n="50336"/><note>
+                                    34689 /2 /143 </note>حَدَّثَنِي <persName ana="shaykh" n="L8613"
+                                    >يُونُسُ</persName> ، قَالَ : أَخْبَرَنَا <persName ana="rawi"
+                                    n="L5147">ابْنُ وَهْبٍ</persName> ، قَالَ : قَالَ <persName
+                                    ana="rawi" n="L4366">ابْنُ زَيْدٍ</persName> في قوله :
+                                        <said><quote type="quran" n="90:2">وَ<seg
+                                            ana="yes sfathmakkah">أَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ</seg>
+                                    </quote> . قَالَ : <seg ana="jihadsiyar sfathmakkah yes">لَمْ
+                                        يَكُنْ بِهَا أَحَدٌ حِلا غَيْرَ النَّبِيِّ صَلَّى اللَّهُ
+                                        عَلَيْهِ وَسَلَّمَ ، كُلُّ مَنْ كَانَ بِهَا كان حَرَامًا ،
+                                        لَمْ يَحِلَّ لَهُمْ أَنْ يُقَاتِلُوا فِيهَا ، وَلا
+                                        يَسْتَحِلُّوا حُرْمَةً ، فَأَحَلَّهُ اللَّهُ عَزَّ وَجَلَّ
+                                        لِرَسُولِهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ، فَقَاتَلَ
+                                            <name role="organization"><seg ana="adyanterm"
+                                                >الْمُشْرِكِينَ</seg></name> فِيهِ</seg>
+                                </said></p>
+                            <p n="nothadith">
+                                <lb n="50337"/>
+                                <pb ed="GK" edRef="51470" n="10433"/>
+                            </p>
+                            <p n="hadith" xml:id="h34695" ana="fiqh sirah yes"><lb n="50338"/><note>
+                                    34690 /2 /143 </note>حَدَّثَنَا <persName ana="shaykh" n="L3700"
+                                    >سَوَّارُ بْنُ عَبْدِ اللَّهِ</persName> ، قَالَ : ثَنَا
+                                    <persName ana="rawi" n="L8271">يَحْيَى بْنُ سَعِيدٍ</persName> ،
+                                عَنْ <persName ana="rawi" n="L5193">عَبْدِ الْمَلِكِ</persName> ،
+                                عَنْ <persName ana="rawi" n="L5625">عَطَاءٍ</persName> : "
+                                        <said><quote type="quran" n="90:2"><seg
+                                            ana="yes sfathmakkah">وَأَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ</seg>
+                                    </quote> . قَالَ : <seg ana="jihadsiyar sfathmakkah yes">إِنَّ
+                                        اللَّهَ جَلَّ وَعَزَّ حَرَّمَ <name role="location"
+                                                ><seg>مَكَّةَ</seg></name> ، لَمْ تَحِلَّ لِنَبِيٍّ
+                                        إِلا نَبِيَّكُمْ سَاعَةً مِنْ نَهَارٍ</seg>
+                                </said></p>
+                            <p n="hadith" xml:id="h34696" ana="fiqh sirah yes"><lb n="50339"/><note>
+                                    34691 /8 /143 </note>حدثنا <persName ana="shaykh"
+                                    >الْمَرْوَزِيُّ</persName> ، <persName ana="unknown_rawi"
+                                    >L1131</persName> عَنِ <persName ana="rawi" n="L15198"
+                                    >الْحُسَيْنِ</persName> ، قَالَ : سَمِعْتُ <persName ana="rawi"
+                                    n="L26475">أَبَا مُعَاذٍ</persName> يَقُولُ : ثنا <persName
+                                    ana="rawi" n="L41124">عُبَيْدٌ</persName> ، قَالَ : سَمِعْتُ
+                                    <persName ana="rawi" n="L1495">الضَّحَّاكَ</persName> يَقُولُ
+                                فِي قَوْلِهِ : <said><quote type="quran" n="90:2"><seg
+                                            ana="yes sfathmakkah">وَأَنْتَ حِلٌّ بِهَذَا
+                                            الْبَلَدِ</seg>
+                                    </quote> : يَعْنِي : <seg ana="jihadsiyar sfathmakkah yes"><name
+                                            role="person">مُحَمَّدًا</name> صَلَّى اللَّهُ عَلَيْهِ
+                                        وَسَلَّمَ ، يَقُولُ : أَنْتَ حِلٌّ بِالْحَرَمِ ، فَاقْتُلْ
+                                        إِنْ شِئْتَ ، أَوْ دَعْ</seg>
+                                </said></p>
+                            <p n="nothadith" ana="lugha yes"><lb n="50340"/> وَقَوْلُهُ : <quote
+                                    type="quran" n="90:3">وَوَالِدٍ وَمَا وَلَدَ </quote> . يقول
+                                تعالى ذكره : و<seg ana="murad yes">أقسم بوالد وبولده الذي ولد</seg>
+                                . ثم اختلف <name role="organization">أهل التأويل</name> في المعنيِّ
+                                بذلك من الوالد وما ولد ؛ فقال <pb type="turki" n="24:406"/> بعضهم :
+                                    <seg ana="murad yes">عُنِيَ بِالْوَالِدِ : كُلُّ وَالِدٍ</seg> ،
+                                وبقوله : <seg ana="murad yes"><quote type="quran" n="90:3">وَمَا
+                                        وَلَدَ </quote> : كل عاقر لم يلد</seg> .<pb ed="GK"
+                                    edRef="33070" n="10434"/></p>
+                        </div>
+<div type="subsection" n="90.1.3">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34697" ana="lugha yes"><lb n="50341"/><note> 34692 /3 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">ابْنُ عَطِيَّةَ</persName> ، عَنْ <persName
+                                    ana="rawi">شَرِيكٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >خُصَيْفٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >عِكْرِمَةَ</persName> ، عَنِ <persName ana="sahabi" n="L4883"
+                                    >ابْنِ عَبَّاسٍ</persName> ، فِي قوله : <said><quote
+                                        type="quran" n="90:3">وَوَالِدٍ وَمَا وَلَدَ </quote> .
+                                    قَالَ : <seg ana="lughawi yes">الْوَالِدُ : الَّذِي يَلِدُ</seg>
+                                    ، وَ<seg ana="murad yes">مَا وَلَدَ : الْعَاقِرُ الَّذِي لا
+                                        يُولَدُ لَهُ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34698" ana="lugha yes"><lb n="50342"/><note> 34693 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">مِهْرَانُ</persName> ، عَنْ <persName
+                                ana="rawi">سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                >خُصَيْفٍ</persName> ، عَنْ <persName ana="rawi"
+                                >عِكْرِمَةَ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:3">وَ<seg ana="murad yes">وَالِدٍ وَمَا
+                                            وَلَدَ . قَالَ : الْعَاقِرُ وَالَّتِي تَلِدُ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34699" ana="lugha yes"><lb n="50343"/><note> 34694 /8 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">وَكِيعٌ</persName> ، عَنِ <persName ana="rawi"
+                                >النَّضْرِ بْنِ عَرَبِيٍّ</persName> ، عَنْ <persName ana="rawi"
+                                >عِكْرِمَةَ</persName> : <said>
+                                <quote type="quran" n="90:3">وَ<seg ana="murad yes">وَالِدٍ وَمَا
+                                            وَلَدَ . قَالَ : الْعَاقِرُ وَالَّتِي تَلِدُ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34700" ana="lugha yes"><lb n="50344"/><note> 34695 /3 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">مُحَمَّدُ بْنُ سَعْدٍ</persName> ، قَالَ
+                                : ثني <persName ana="rawi">أَبِي</persName> ، قَالَ : ثني <persName
+                                    ana="rawi">عَمِّي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >أَبِي</persName> ، عَنْ <persName ana="rawi">أَبِيهِ</persName>
+                                ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> :
+                                        <said><seg ana="murad yes"><quote type="quran" n="90:3"
+                                            >وَوَالِدٍ وَمَا وَلَدَ </quote> . قَالَ : هُوَ
+                                        الْوَالِدُ وَوَلَدُهُ</seg>
+                                </said> . وَقَالَ آخَرُونَ : <seg ana="murad yes">عُنِيَ بِذَلِكَ :
+                                        <name role="person">آدَمُ</name> وَوَلَدُهُ</seg></p>
+<p n="nothadith"><lb n="50345"/></p>
+</div>
+<div type="subsection" n="90.1.4">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34701" ana="lugha yes"><lb n="50346"/><note> 34696 /8 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">زَكَرِيَّا بْنُ يَحْيَى بْنِ أَبِي
+                                    زَائِدَةَ</persName> ، قَالَ : ثنا <persName ana="rawi">أَبُو
+                                    عَاصِمٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >عِيسَى</persName> ، عَنِ <persName ana="rawi">ابْنِ أَبِي
+                                    نَجِيحٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مُجَاهِدٍ</persName> : <said><quote type="quran" n="90:3"
+                                        >وَوَالِدٍ وَمَا وَلَدَ </quote> . قَالَ : <seg
+                                        ana="murad yes">الْوَالِدُ : <name role="person"
+                                            >آدَمُ</name></seg> ، <seg ana="murad yes">وَمَا وَلَدَ
+                                        : وَلَدُهُ</seg>
+                                </said></p>
+<p n="nothadith"><lb n="50347"/><pb type="turki" n="24:407"/></p>
+<p n="hadith" xml:id="h34702" ana="lugha yes"><lb n="50348"/><note> 34697 /8 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">مُحَمَّدُ بْنُ عَمْرٍو</persName> ، قَالَ
+                                : ثنا <persName ana="rawi">أَبُو عَاصِمٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">عِيسَى</persName> ؛ وَحَدَّثَنِي <persName
+                                    ana="shaykh">الْحَارِثُ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">الْحَسَنُ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">وَرْقَاءُ</persName> ، جَمِيعًا عَنِ <persName
+                                    ana="rawi">ابْنِ أَبِي نَجِيحٍ</persName> ، عَنْ <persName
+                                    ana="rawi">مُجَاهِدٍ</persName> قوله : <said><seg
+                                        ana="murad yes"><quote type="quran" n="90:3">وَوَالِدٍ
+                                        </quote> . قَالَ : <name role="person">آدم</name></seg> ،
+                                        <seg ana="murad yes"><quote type="quran">وما ولد </quote> .
+                                        قال : وَلَدُهُ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34703" ana="lugha yes"><lb n="50349"/><note> 34698 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> : <said><quote type="quran" n="90:3"
+                                        >وَوَالِدٍ وَمَا وَلَدَ </quote> . قَالَ : <seg
+                                        ana="murad yes"><name role="person">آدَمُ</name> وَمَا
+                                        وَلَدَ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34704" ana="lugha yes"><lb n="50350"/><note> 34699 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">ابْنُ عَبْدِ الأَعْلَى</persName> ، قَالَ
+                                : ثنا <persName ana="rawi">ابْنُ ثَوْرٍ</persName> ، عَنْ <persName
+                                    ana="rawi">مَعْمَرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> : <said><quote type="quran" n="90:3"
+                                        >وَوَالِدٍ وَمَا وَلَدَ </quote> . قَالَ : <seg
+                                        ana="murad yes"><name role="person">آدَمُ</name> وَمَا
+                                        وَلَدَ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34705" ana="lugha yes"><lb n="50351"/><note> 34700 /8 /140 </note>حَدَّثَني
+                                    <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">ابْنُ أَبِي زَائِدَةَ</persName> ، عَنِ
+                                    <persName ana="rawi">ابْنِ أَبِي خَالِدٍ</persName> ، عَنْ
+                                    <persName ana="rawi">أَبِي صَالِحٍ</persName> ، فِي قَوْلِ
+                                اللَّهِ عزَّ وجلَّ : <said><quote type="quran" n="90:3">وَوَالِدٍ
+                                        وَمَا وَلَدَ </quote> . قَالَ : <seg ana="murad yes"><name
+                                            role="person">آدَمُ</name> وَمَا وَلَدَ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34706" ana="lugha yes"><lb n="50352"/><note> 34701 /8 /140 </note>حُدِّثْتُ
+                                عَنِ <persName ana="rawi">الْحُسَيْنِ</persName> ، قَالَ : سَمِعْتُ
+                                    <persName ana="rawi">أَبَا مُعَاذٍ</persName> يَقُولُ : ثنا
+                                    <persName ana="rawi">عُبَيْدٌ</persName> ، قَالَ : سَمِعْتُ
+                                    <persName ana="rawi">الضَّحَّاكَ</persName> يَقُولُ في قوله :
+                                        <said><quote type="quran" n="90:3">وَوَالِدٍ وَمَا وَلَدَ
+                                    </quote> . قَالَ : <seg ana="murad yes">الْوَالِدُ : <name
+                                            role="person">آدَمُ</name></seg> ، وَ<seg
+                                        ana="murad yes">مَا وَلَدَ : وَلَدُهُ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34707" ana="lugha yes"><lb n="50353"/><note> 34702 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">مِهْرَانُ</persName> ، عَنْ <persName
+                                    ana="rawi">سُفْيَانَ</persName> : <said><quote type="quran"
+                                        n="90:3">وَوَالِدٍ وَمَا وَلَدَ </quote> . قَالَ : <seg
+                                        ana="murad yes"><name role="person">آدَمُ</name> وَمَا
+                                        وَلَدَ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34708" ana="lugha yes"><lb n="50354"/><note> 34703 /8 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">يُونُسُ بْنُ عَبْدِ الأَعْلَى</persName>
+                                ، قَالَ : ثنا <persName ana="rawi">مُحَمَّدُ بْنُ
+                                    عُبَيْدٍ</persName> ، عَنْ <persName ana="rawi">إِسْمَاعِيلَ
+                                    بْنِ أَبِي خَالِدٍ</persName> ، عَنْ <persName ana="rawi">أَبِي
+                                    صَالِحٍ</persName> في قوله : <said><quote type="quran" n="90:3"
+                                        >وَوَالِدٍ وَمَا وَلَدَ </quote> . قَالَ : <seg
+                                        ana="murad yes"><name role="person">آدَمُ</name> وَمَا
+                                        وَلَدَ</seg>
+                                </said> . <pb type="turki" n="24:408"/> وَقَالَ آخَرُونَ : <seg
+                                    ana="murad yes">عُنِيَ بِذَلِكَ : <name role="person"
+                                        >إِبْرَاهِيمُ</name> عَلَيْهِ السَّلامُ وَمَا
+                                وَلَدَ</seg></p>
+<p n="nothadith"><lb n="50355"/><pb ed="GK" edRef="47134" n="10435"/></p>
+</div>
+<div type="subsection" n="90.1.5">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34709" ana="lugha yes"><lb n="50356"/><note> 34704 /8 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">مُحَمَّدُ بْنُ مُوسَى
+                                    الْحَرَشِيُّ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >جَعْفَرُ بْنُ سُلَيْمَانَ</persName> ، قَالَ : سَمِعْتُ
+                                    <persName ana="rawi">أَبَا عِمْرَانَ الْجَوْنِيَّ</persName>
+                                يقولُ : <said><quote type="quran" n="90:3">وَوَالِدٍ وَمَا وَلَدَ
+                                    </quote> . قَالَ : <seg ana="murad yes"><name role="person"
+                                            >إِبْرَاهِيمُ</name> وَمَا وَلَدَ</seg>
+                                </said></p>
+<p n="nothadith" ana="fiqh lugha rajeh science yes"><lb n="50357"/> وَ<seg ana="lrajeh yes"
+                                    >الصَّوَابُ مِنَ الْقَوْلِ فِي ذَلِكَ : مَا قَالَهُ الَّذِينَ
+                                    قَالُوا : إِنَّ اللَّهَ عَزَّ وَجَلَّ أَقْسَمَ بِكُلِّ وَالِدٍ
+                                    وَوَلَدِهِ ؛ لأَنَّ اللَّهَ جَلَّ ثَنَاؤُهُ عَمَّ كُلَّ وَالِدٍ
+                                    وَمَا وَلَدَ</seg> . وَ<seg ana="usulfiqh yes">غَيْرُ جَائِزٍ
+                                    أَنْ يَخُصَّ ذَلِكَ إِلا بِحُجَّةٍ يَجِبُ التَّسْلِيمُ لَهَا
+                                    مِنْ خَبَرٍ ، أَوْ عَقْلٍ ، وَلا خَبَرَ بِخُصُوصِ ذَلِكَ ، وَلا
+                                    بُرْهَانَ يَجِبُ التَّسْلِيمُ لَهُ بِخُصُوصِهِ ، فَهُوَ عَلَى
+                                    عُمُومِهِ كَمَا عَمَّهُ</seg> . وَقَوْلُهُ : <quote type="quran"
+                                    n="90:4"><seg ana="sarfnahw yes"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ فِي كَبَدٍ</seg> . وهذا هو جواب
+                                        القسم</seg>
+                                </quote></p>
+<p n="hadith" xml:id="h34710" ana="lugha yes"><lb n="50358"/><note> 34705 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> ، قَالَ : <said><seg ana="sarfnahw yes"
+                                        >وَقَعَ الْقَسَمُ هَهُنَا : لَقَدْ خَلَقْنَا الإِنْسَانَ فِي
+                                        كَبَدٍ</seg>
+                                </said></p>
+<p n="nothadith" ana="lugha science yes"><lb n="50359"/> وَاخْتَلَفَ <name role="organization"
+                                    >أَهْلُ التَّأْوِيلِ</name> فِي تَأْوِيلِ ذَلِكَ ؛ فَقَالَ
+                                بَعْضُهُمْ : <seg ana="insan murad yes">مَعْنَاهُ : لَقَدْ خَلَقْنَا
+                                    ابْنَ <name role="person">آدَمَ</name> فِي شِدَّةٍ وَعَنَاءٍ
+                                    وَنَصَبٍ</seg> . </p>
+</div>
+<div type="subsection" n="90.1.6">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34711" ana="lugha science yes"><lb n="50360"/><note> 34706 /3 /140
+                                </note>حَدَّثَنِي <persName ana="shaykh">عَلِيٌّ</persName> ، قَالَ
+                                : ثنا <persName ana="rawi">أَبُو صَالِحٍ</persName> ، قَالَ : ثني
+                                    <persName ana="rawi">مُعَاوِيَةُ</persName> ، عَنْ <persName
+                                    ana="rawi">عَلِيٍّ</persName> ، عَنِ <persName ana="sahabi"
+                                    n="L4883">ابْنِ عَبَّاسٍ</persName> في قوله : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ <seg ana="murad yes lughawi">فِي
+                                                كَبَدٍ  . يَقُولُ : فِي نَصَبٍ</seg></seg>
+                                    </quote>
+                                </said></p>
+<p n="nothadith"><lb n="50361"/><pb type="turki" n="24:409"/></p>
+<p n="hadith" xml:id="h34712" ana="science yes"><lb n="50362"/><note> 34707 /8 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">ابْنُ
+                                    الْمُثَنَّى</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >مُحَمَّدُ بْنُ جَعْفَرٍ</persName> ، قَالَ : ثَنَا <persName
+                                    ana="rawi">شُعْبَةُ</persName> ، عَنْ <persName ana="rawi"
+                                    >مَنْصُورِ بْنِ زَاذَانَ</persName> ، عَنِ <persName ana="rawi"
+                                    >الْحَسَنِ</persName> ، أَنَّهُ قَالَ فِي هَذِهِ الآيَةِ :
+                                        <said><quote type="quran" n="90:4"><seg ana="insan yes"
+                                            >لَقَدْ خَلَقْنَا الإِنْسَانَ فِي كَبَدٍ</seg>
+                                    </quote> : <seg ana="insan yes">خُلِقَ حين خُلِقَ في مشقَّةٍ ،
+                                        لا تُلْفِي ابْنَ <name role="person">آدَمَ</name> إلا
+                                        يُكَابِدُ أَمْرَ الدُّنْيَا و<seg ana="samiyat yes"
+                                            >الآخرة</seg></seg>
+                                </said></p>
+<p n="hadith" xml:id="h34713" ana="science yes"><lb n="50363"/><note> 34708 /8 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">ابْنُ عَبْدِ
+                                    الأَعْلَى</persName> ، قَالَ : ثنا <persName ana="rawi">ابْنُ
+                                    ثَوْرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مَعْمَرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> في قوله : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">فِي كَبَدٍ .
+                                            قَالَ : يُكَابِدُ أَمْرَ الدُّنْيَا وَأمرَ <seg
+                                                ana="samiyat yes">الآخِرَةِ</seg> . وَقَالَ
+                                            بَعْضُهُمْ : خُلِقَ خَلْقًا لَمْ يُخْلَقْ خَلْقَهُ
+                                            شَيءٌ</seg></quote>
+                                </said></p>
+<p n="nothadith"><lb n="50364"/><pb ed="GK" edRef="55578" n="10436"/></p>
+<p n="hadith" xml:id="h34714" ana="science yes"><lb n="50365"/><note> 34709 /8 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">وَكِيعٌ</persName> ، عَنْ <persName
+                                    ana="rawi">عَلِيِّ بْنِ عَلِيِّ بن رِفَاعَةَ</persName> ، قَالَ
+                                : سَمِعْتُ <persName ana="rawi">الْحَسَنَ</persName> يَقُولُ : <seg
+                                    ana="insan"><said>لَمْ يَخْلُقِ اللَّهُ خَلْقًا يُكَابِدُ مَا
+                                        يُكَابِدُ ابْنُ <name role="person">آدَمَ</name>
+                                    </said></seg></p>
+<p n="hadith" xml:id="h34715" ana="science yes"><lb n="50366"/><note> 34710 /8 /140 </note>حدثنا
+                                    <persName ana="shaykh">أبو كريب</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">وَكِيعٌ</persName> ، عَنْ <persName
+                                    ana="rawi">عَلِيِّ بْنِ علي بن رِفَاعَةَ</persName> ، قَالَ :
+                                سَمِعْتُ <persName ana="rawi">سَعِيدَ بْنَ أَبِي
+                                    الْحَسَنِ</persName> يَقُولُ : <said>
+                                    <quote type="quran" n="90:4">لَقَدْ <seg ana="insan yes"
+                                            >خَلَقْنَا الإِنْسَانَ فِي كَبَدٍ . قَالَ : يُكَابِدُ
+                                            مَصَائِبَ الدُّنْيَا</seg> ، وَشَدَائِدَ <seg
+                                            ana="samiyat yes">الآخِرَةِ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34716" ana="lugha science yes"><lb n="50367"/><note> 34711 /8 /140
+                                </note>حدثنا <persName ana="shaykh">أبو كريب</persName> ، قَالَ :
+                                ثنا <persName ana="rawi">وَكِيعٌ</persName> ، عَنِ <persName
+                                    ana="rawi">النَّضْرِ</persName> ، عَنْ <persName ana="rawi"
+                                    >عِكْرِمَةَ</persName> : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ <seg ana="lughawi yes">فِي كَبَدٍ
+                                                . قَالَ : فِي شِدَّةٍ</seg></seg>
+                                    </quote>
+                                </said></p>
+<p n="nothadith"><lb n="50368"/><pb type="turki" n="24:410"/></p>
+<p n="hadith" xml:id="h34717" ana="lugha science yes"><lb n="50369"/><note> 34712 /3 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">مِهْرَانُ</persName> ، عَنْ
+                                    <persName ana="rawi">سُفْيَانَ</persName> ، عَنْ <persName
+                                    ana="rawi">عَطَاءٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >سَعِيدِ بْنِ جُبَيْرٍ</persName> ، عَنِ <persName ana="sahabi"
+                                    n="L4883">ابْنِ عَبَّاسٍ</persName> : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ <seg ana="lughawi yes">فِي كَبَدٍ
+                                                . قال : فِي شِدَّةٍ </seg></seg></quote>
+                                </said></p>
+<p n="hadith" xml:id="h34718" ana="science yes"><lb n="50370"/><note> 34713 /3 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ،
+                                قَالَ ثنا <persName ana="rawi">مِهْرَانُ</persName> ، عَنْ <persName
+                                    ana="rawi">سُفْيَانَ</persName> ، عَنِ <persName ana="rawi"
+                                    >ابْنِ جُرَيْجٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >عَطَاءٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883"
+                                    >ابْنِ عَبَّاسٍ</persName> ، قَالَ : <said><seg ana="insan yes"
+                                        >فِي شِدَّةِ مَعِيشَتِهِ ، وَحَمْلِهِ وَحَيَاتِهِ ،
+                                        وَنَبَاتِ أَسْنَانِهِ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34719" ana="science yes"><lb n="50371"/><note> 34714 /8 /140 </note>حدثنا
+                                    <persName ana="shaykh">ابن حميد</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">مِهْرَانُ</persName> ، قال : ثنا <persName
+                                    ana="rawi">سُفْيَانَ</persName> ، قَالَ : قَالَ <persName
+                                    ana="rawi">مُجَاهِدٌ</persName> : <said><quote type="quran"
+                                        n="90:4"><seg ana="insan yes">الإِنْسَانَ فِي كَبَدٍ</seg>
+                                    </quote> . قَالَ : <seg ana="insan">شِدَّةُ خُرُوجِ
+                                        أَسْنَانِهِ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34720" ana="lugha science yes"><lb n="50372"/><note> 34715 /8 /140
+                                </note>حَدَّثَنِي <persName ana="shaykh">مُحَمَّدُ بْنُ
+                                    عَمْرٍو</persName> ، قَالَ : ثنا <persName ana="rawi">أَبُو
+                                    عَاصِمٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >عِيسَى</persName> ، وَحَدَّثَنِي <persName ana="shaykh"
+                                    >الْحَارِثُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >الْحَسَنُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >وَرْقَاءُ</persName> ، جَمِيعًا عَنِ <persName ana="rawi">ابْنِ
+                                    أَبِي نَجِيحٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مُجَاهِدٍ</persName> قوله : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">الإِنْسَانَ
+                                            فِي <seg ana="lughawi yes">كَبَدٍ . قَالَ :
+                                                شِدَّةٍ</seg></seg>
+                                    </quote>
+                                </said> . وَقَالَ آخَرُونَ : بل <seg ana="insan yes">مَعْنَى ذَلِكَ
+                                    : أَنَّهُ خُلِقَ مُنْتَصِبًا مُعْتَدِلَ الْقَامَةِ</seg></p>
+<p n="nothadith"><lb n="50373"/><pb ed="GK" edRef="64287" n="10437"/></p>
+</div>
+<div type="subsection" n="90.1.7">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34721" ana="lugha science yes"><lb n="50374"/><note> 34716 /3 /140
+                                </note>حَدَّثَنِي <persName ana="shaykh">مُحَمَّدُ بْنُ
+                                    سَعْدٍ</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >أَبِي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >عَمِّي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >أَبِي</persName> ، عَنْ <persName ana="rawi">أَبِيهِ</persName>
+                                ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName>
+                                قوله : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ <seg ana="lughawi yes">فِي كَبَدٍ
+                                                . قَالَ : فِي انْتِصَابٍ ، وَيُقَالُ : فِي
+                                                شِدَّةٍ</seg></seg>
+                                    </quote>
+                                </said></p>
+<p n="nothadith"><lb n="50375"/><pb type="turki" n="24:411"/></p>
+<p n="hadith" xml:id="h34722" ana="lugha science yes"><lb n="50376"/><note> 34717 /8 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">ابْنُ
+                                    الْمُثَنَّى</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >حَرَمِيُّ بْنُ عُمَارَةَ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">شُعْبَةُ</persName> ، قَالَ : أَخْبَرَنِي <persName
+                                    ana="rawi">عُمَارَةُ</persName> ، عَنْ <persName ana="rawi"
+                                    >عِكْرِمَةَ</persName> في قوله : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ <seg ana="murad yes">فِي كَبَدٍ .
+                                                قَالَ : فِي انْتِصَابٍ . يَعْنِي : الخلقة
+                                            </seg></seg></quote>
+                                </said></p>
+<p n="hadith" xml:id="h34723" ana="lugha science yes"><lb n="50377"/><note> 34718 /8 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">ابْنُ بَشَّارٍ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">عَبْدُ الرَّحْمَنِ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">سُفْيَانُ</persName> ، عَنْ
+                                    <persName ana="rawi">مَنْصُورٍ</persName> ، عَنْ <persName
+                                    ana="rawi">إِبْرَاهِيمَ</persName> : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ <seg ana="lughawi yes">فِي كَبَدٍ
+                                                . قَالَ : مُنْتَصِبًا</seg></seg>
+                                    </quote>
+                                </said> . </p>
+                        <p n="hadith">حَدَّثَنَا <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ،
+                            قَالَ : ثنا <persName ana="rawi">مِهْرَانُ</persName> ؛ وَحَدَّثَنَا
+                                <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">وَكِيعٌ</persName> ، جَمِيعًا عَنْ <persName
+                                ana="rawi">سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                >مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                >إِبْرَاهِيمَ</persName> مِثْلَهُ</p>
+<p n="hadith" xml:id="h34724" ana="lugha science yes"><lb n="50378"/><note> 34719 /8 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">ابْنُ أَبِي زَائِدَةَ</persName> ،
+                                عَنْ <persName ana="rawi">إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ</persName>
+                                ، عَنْ <persName ana="rawi">عَبْدِ اللَّهِ بْنِ شَدَّادٍ</persName>
+                                في قوله : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ <seg ana="murad yes">فِي كَبَدٍ .
+                                                قَالَ : مُعْتَدِلا بِالْقَامَةِ</seg></seg>
+                                    </quote>
+                                </said> . قَالَ <persName ana="rawi">أَبُو صَالِحٍ</persName> : <seg
+                                    ana="murad yes">مُعْتَدِلا فِي الْقَامَةِ</seg></p>
+<p n="hadith" xml:id="h34725" ana="lugha science yes"><lb n="50379"/><note> 34720 /8 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">يَحْيَى بْنُ دَاوُدَ
+                                    الْوَاسِطِيُّ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >يَحْيَى بْنُ سَعِيدٍ الْقَطَّانُ</persName> ، عَنْ <persName
+                                    ana="rawi">إِسْمَاعِيلَ</persName> ، عَنْ <persName ana="rawi"
+                                    >أَبِي صَالِحٍ</persName> : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">خَلَقْنَا
+                                            الإِنْسَانَ <seg ana="murad yes">فِي كَبَدٍ . قَالَ :
+                                                قَائِمًا</seg></seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34726" ana="lugha science yes"><lb n="50380"/><note> 34721 /8 /140
+                                </note>حُدِّثْتُ عَنِ <persName ana="rawi">الْحُسَيْنِ</persName> ،
+                                قَالَ : سَمِعْتُ <persName ana="rawi">أَبَا مُعَاذٍ</persName>
+                                يَقُولُ : ثنا <persName ana="rawi">عُبَيْدٌ</persName> ، قَالَ :
+                                سَمِعْتُ <persName ana="rawi">الضَّحَّاكَ</persName> يَقُولُ في قوله
+                                : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ فِي <seg ana="murad yes">كَبَدٍ :
+                                                قَائِمًا</seg> ، خُلِقَ مُنْتَصِبًا عَلَى رِجْلَيْنِ
+                                            ، لَمْ تُخْلَقْ دَابَّةٌ عَلَى خَلْقِهِ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34727" ana="lugha science yes"><lb n="50381"/><note> 34722 /8 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">جَرِيرٌ</persName> ، عَنْ <persName
+                                    ana="rawi">مُغِيرَةَ</persName> ، عَنْ <persName ana="rawi"
+                                    >مُجَاهِدٍ</persName> : <said>
+                                    <quote type="quran" n="90:4"><seg ana="insan yes">لَقَدْ
+                                            خَلَقْنَا الإِنْسَانَ <seg ana="lughawi yes">فِي كَبَدٍ
+                                                . قَالَ : فِي صَعَدٍ</seg></seg>
+                                    </quote>
+                                </said> . <pb type="turki" n="24:412"/> وقال آخرون : بل <seg
+                                    ana="insan murad yes">معنى ذلك : أَنَّهُ خُلِقَ فِي
+                                    السَّمَاءِ</seg></p>
+<p n="nothadith"><lb n="50382"/><pb ed="GK" edRef="51250" n="10438"/></p>
+</div>
+<div type="subsection" n="90.1.8">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34728" ana="lugha science yes"><lb n="50383"/><note> 34723 /8 /140
+                                </note>حَدَّثَنِي <persName ana="shaykh">يُونُسُ</persName> ، قَالَ
+                                : أَخْبَرَنَا <persName ana="rawi">ابْنُ وَهْبٍ</persName> ، قَالَ :
+                                قَالَ <persName ana="rawi">ابْنُ زَيْدٍ</persName> في قوله : <said>
+                                    <quote type="quran" n="90:4">لَقَدْ <seg ana="insan murad yes"
+                                            >خَلَقْنَا الإِنْسَانَ فِي كَبَدٍ . قَالَ : فِي
+                                            السَّمَاءِ خَلَقَهُ</seg> ، <seg ana="insan murad yes"
+                                            >خلق <name role="person">آدم</name> في السماء ، فسمى ذلك
+                                            الكبد</seg>
+                                    </quote>
+                                </said></p>
+<p n="nothadith" ana="asbab lugha rajeh science yes"><lb n="50384"/> وَ<seg ana="yes lrajeh crajeh"
+                                    >أَوْلَى الأَقْوَالِ فِي ذَلِكَ بِالصَّوَابِ : قَوْلُ مَنْ قَالَ
+                                    : <seg ana="insan yes">مَعْنَى ذَلِكَ أَنَّهُ خُلِقَ يُكَابِدُ
+                                        الأُمُورَ وَيُعَالِجُهَا</seg></seg> . فَقَوْلُهُ : <quote
+                                    type="quran" n="90:4"><seg ana="lughawi yes">فِي كَبَدٍ :
+                                        مَعْنَاهُ : فِي شِدَّةٍ</seg> . وَإِنَّمَا قُلْنَا : ذَلِكَ
+                                    أَوْلَى بِالصَّوَابِ ؛ لأَنَّ ذَلِكَ هُوَ الْمَعْرُوفُ مِنْ
+                                    كَلامِ <name role="organization">الْعَرَبِ</name> مِنْ مَعَانِي
+                                    الْكَبَدِ , وَمِنْهُ قَوْلُ <name role="person">لَبِيدِ بْنِ
+                                        رَبِيعَةَ</name> : </quote><quote type="poetry">
+                                    <lg>
+                                        <l>يا عَيْنُ هَلا بَكَيْتِ أَرْبَدَ إِذْ </l>
+                                        <l>قُمْنَا وَقَامَ الْخُصُومُ فِي كَبَدِ </l>
+                                    </lg>
+                                </quote> وقوله : <quote type="quran" n="90:5">أَيَحْسَبُ أَنْ لَنْ
+                                    يَقْدِرَ عَلَيْهِ أَحَدٌ </quote> . ذكر أن ذلك <seg
+                                    ana="yes areason">نزل في رجل بعينه من <name role="organization"
+                                        >بني جمح</name> كان يدعى : أبا الأشدين ، وكان شديدًا , فقال
+                                    جل ثناؤه : أيحسب هذا القوي لجلده وقوَّته ، أن لن يقهره أحد
+                                    فيغلبه ؟ فاللَّهُ غالبه وقاهره</seg> . وقوله : <quote
+                                    type="quran" n="90:6">يَقُولُ أَهْلَكْتُ مَالا لُبَدًا </quote>
+                                . يقول تعالى ذكره : يقول هذا الجليد <pb type="turki" n="24:413"/>
+                                الشديد : أهلكت مالا كثيرا ، في عداوة <name role="person">محمد</name>
+                                ، فأنفقت ذلك فيه ، هو كاذب في قوله ، و<seg ana="sarfnahw yes">هو
+                                        <seg ana="lughaterm yes">فعل</seg> من <seg ana="lughawi yes"
+                                        >التلبيد ، وهو الكثير بعضه على بعض</seg> ، يقال منه : <seg
+                                        ana="yes lughawi tabeer">لبد بالأرض يلبد . إذا لصق
+                                    بها</seg></seg> . وبنحو الذي قلنا في ذلك قال <name
+                                    role="organization">أهل التأويل</name> . </p>
+</div>
+<div type="subsection" n="90.1.9">
+                        <head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+                        <p n="hadith" xml:id="h34729" ana="lugha yes"><lb n="50385"/><note> 34724 /3
+                                    /140 </note>حَدَّثَنِي <persName ana="shaykh">مُحَمَّدُ بْنُ
+                                    سَعْدٍ</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >أَبِي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >عَمِّي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >أَبِي</persName> ، عَنْ <persName ana="rawi">أَبِيهِ</persName>
+                                ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> :
+                                        <said><quote type="quran" n="90:6">مَالا لُبَدًا </quote> .
+                                    يَعْنِي بِ<seg ana="lughawi yes">اللُّبَدِ : الْمَالَ
+                                        الْكَثِيرَ</seg>
+                                </said></p>
+                        <p n="hadith" xml:id="h34730" ana="lugha yes"><lb n="50386"/><note> 34725 /8
+                                /140 </note>حَدَّثَنِي <persName ana="shaykh">مُحَمَّدُ بْنُ
+                                عَمْرٍو</persName> ، قَالَ : ثنا <persName ana="rawi">أَبُو
+                                عَاصِمٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                >عِيسَى</persName> ، وَحَدَّثَنِي <persName ana="shaykh"
+                                >الْحَارِثُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                >الْحَسَنُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                >وَرْقَاءُ</persName> ، جَمِيعًا عَنِ <persName ana="rawi">ابْنِ
+                                أَبِي نَجِيحٍ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> قوله : <said>
+                                <quote type="quran" n="90:6">مَالا <seg ana="lughawi yes">لُبَدًا .
+                                            قَالَ : كَثِيرًا</seg>
+                                    </quote>
+                            </said></p>
+                        <p n="hadith" xml:id="h34731" ana="lugha yes"><lb n="50387"/><note> 34726 /8
+                                /140 </note>حَدَّثَنِي <persName ana="shaykh">يُونُسُ</persName> ،
+                            قَالَ : أَخْبَرَنَا <persName ana="rawi">ابْنُ وَهْبٍ</persName> ، قَالَ
+                            : أَخْبَرَنِي <persName ana="rawi">مُسْلِمٌ</persName> ، عَنِ <persName
+                                ana="rawi">ابْنِ أَبِي نَجِيحٍ</persName> ، عَنْ <persName
+                                ana="rawi">مُجَاهِدٍ</persName> فِي قَوْلِ اللَّهِ عَزَّ وَجَلَّ : <said>
+                                <quote type="quran" n="90:6">أَهْلَكْتُ مَالا <seg ana="lughawi yes"
+                                            >لُبَدًا . أي : كَثِيرًا</seg>
+                                    </quote>
+                            </said></p>
+                        <p n="hadith" xml:id="h34732" ana="lugha yes"><lb n="50388"/><note> 34727 /8
+                                /140 </note>حَدَّثَنَا <persName ana="shaykh">بِشْرٌ</persName> ،
+                            قَالَ : ثنا <persName ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+                                >قَتَادَةَ</persName> قوله : <said>
+                                <quote type="quran" n="90:6">أَهْلَكْتُ مَالا <seg ana="lughawi yes"
+                                            >لُبَدًا : أَيْ : كَثِيرًا</seg>
+                                    </quote>
+                            </said> . <pb type="turki" n="24:414"/> حَدَّثَنَا <persName
+                                ana="shaykh">ابْنُ عَبْدِ الأَعْلَى</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">ابْنُ ثَوْرٍ</persName> ، عَنْ <persName
+                                ana="rawi">مَعْمَرٍ</persName> ، عَنْ <persName ana="rawi"
+                                >قَتَادَةَ</persName> مِثْلَهُ</p>
+                        <p n="hadith" xml:id="h34733" ana="lugha sufism yes"><lb n="50389"/><note>
+                                    34728 /8 /140 </note>حَدَّثَنِي <persName ana="shaykh"
+                                    >يُونُسُ</persName> ، قَالَ : أَخْبَرَنَا <persName ana="rawi"
+                                    >ابْنُ وَهْبٍ</persName> ، قَالَ : قَالَ <persName ana="rawi"
+                                    >ابْنُ زَيْدٍ</persName> في قوله : <said><quote type="quran"
+                                        n="90:6">يَقُولُ أَهْلَكْتُ مَالا لُبَدًا </quote> . قَالَ :
+                                        <seg ana="lughawi yes">اللُّبَدُ : الْكَثِيرُ</seg>
+                                </said></p>
+                        <p n="nothadith" ana="qiraat rajeh harakat yes"><lb n="50390"/>
+                                وَاخْتَلَفَتِ القرأة فِي قِرَاءَةِ ذَلِكَ ؛ فَقَرَأَتْهُ <seg
+                                    ana="qamsar yes">عَامَّةُ قرأة الأَمْصَارِ</seg> : <quote
+                                    type="quran" n="90:6"><seg ana="harakat qiraat">مَالا
+                                        لُبَدًا</seg>
+                                </quote> بِ<seg ana="harakat yes">تَخْفِيفِ الْبَاءِ</seg> .
+                                وَقَرَأَهُ <name role="person"><seg ana="qari">أَبُو
+                                    جَعْفَرٍ</seg></name> بِ<seg ana="harakat yes"
+                                    >تَشْدِيدِهَا</seg> . وَ<seg ana="harakat qahabsawab yes"
+                                    >الصَّوَابُ بِتَخْفِيفِهَا</seg> ؛ لإِجْمَاعِ الْحُجَّةِ
+                                عَلَيْهِ . وَقَوْلُهُ : <quote type="quran" n="90:7">أَيَحْسَبُ أَنْ
+                                    لَمْ يَرَهُ أَحَدٌ </quote> . يقول تعالى ذكره : أيظن هذا القائل
+                                : <quote type="quran" n="90:6">أَهْلَكْتُ مَالا لُبَدًا </quote> .
+                                أن لم يره أحد في حال إنفاقه ما يزعم أنه أنفقه .</p>
+                        <p n="hadith" xml:id="h34734" ana="sufism yes"><lb n="50391"/><note> 34729
+                                    /8 /140 </note>حَدَّثَنَا <persName ana="shaykh"
+                                    >بِشْرٌ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> : <said><quote type="quran" n="90:7"
+                                        >أَيَحْسَبُ أَنْ لَمْ يَرَهُ أَحَدٌ </quote> : <seg
+                                        ana="targhibtarhib yes"><name role="person">ابْنَ
+                                            آدَمَ</name> ، إِنَّكَ مَسْئُولٌ عَنْ هَذَا الْمَالِ ؛
+                                        مِنْ أَيْنَ اكْتَسَبْتَهُ ، وَأَيْنَ أَنْفَقْتَهُ</seg>
+                                </said> . حَدَّثَنَا <persName ana="shaykh">ابْنُ عَبْدِ
+                                    الأَعْلَى</persName> ، قَالَ : ثنا <persName ana="rawi">ابْنُ
+                                    ثَوْرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مَعْمَرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> مِثْلَهُ</p>
+                        <p n="nothadith"><lb n="50392"/><pb ed="GK" edRef="33306" n="10439"/></p>
+                    </div>
+</div>
+<div type="section" n="90.2">
+<head type="30">الْقَوْلُ فِي تَأْوِيلِ قَوْلِهِ تَعَالَى : <quote type="quran" n="90:8-16">
+                            <l n="8">أَلَمْ نَجْعَلْ لَهُ عَيْنَيْنِ </l>
+                            <l n="9"> وَلِسَانًا وَشَفَتَيْنِ </l>
+                            <l n="10"> وَهَدَيْنَاهُ النَّجْدَيْنِ </l>
+                            <l n="11"> فَلا اقْتَحَمَ الْعَقَبَةَ </l>
+                            <l n="12"> وَمَا أَدْرَاكَ مَا الْعَقَبَةُ </l>
+                            <l n="13">
+                                <seg ana="qiraat">فَكُّ رَقَبَةٍ</seg>
+                            </l>
+                            <l n="14">
+                                <seg ana="qiraat">أَوْ إِطْعَامٌ</seg> فِي يَوْمٍ ذِي مَسْغَبَةٍ </l>
+                            <l n="15"> يَتِيمًا ذَا مَقْرَبَةٍ </l>
+                            <l n="16"> أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ </l>
+                        </quote></head>
+<p n="nothadith" ana="sufism yes">. <pb type="turki" n="24:415"/> قال <name role="person">أبو
+                                جعفر</name> رحمه اللَّهُ : يقول تعالى ذكره : <seg
+                                ana="targhibtarhib yes">ألم نجعل لهذا القائل : <quote type="quran"
+                                    n="90:6">أَهْلَكْتُ مَالا لُبَدًا </quote> . عينين يبصر بهما
+                                حُجَجَ اللَّهِ عَلَيْهِ ، ولسانا يعبر به عن نفسه ما أراد ، وشفتين ،
+                                نعمة منا بذلك عليه</seg> .</p>
+<p n="hadith" xml:id="h34735" ana="sufism yes"><lb n="50393"/><note> 34730 /8 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ : ثنا <persName
+                                ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi">قَتَادَةَ</persName>
+                            قوله : <said><quote type="quran" n="90:8-9">
+                                    <l n="8">أَلَمْ نَجْعَلْ لَهُ عَيْنَيْنِ </l>
+                                    <l n="9"> وَلِسَانًا وَشَفَتَيْنِ </l>
+                                </quote> : <seg ana="targhibtarhib yes">نِعَمٌ مِنَ اللَّهِ
+                                    مُتَظَاهِرَةٌ ، يُقَرِّرُكَ بِهَا كَيْمَا تَشْكُرَ</seg>
+                            </said></p>
+<p n="nothadith" ana="kalam lugha sufism yes"><lb n="50394"/> وَقَوْلُهُ : <quote type="quran"
+                                n="90:10"><seg ana="murad yes">وَ<seg ana="targhibtarhib yes"
+                                        >هَدَيْنَاهُ النَّجْدَيْنِ</seg> . يقول تعالى ذكره :<seg
+                                        ana="targhibtarhib yes"> وهديناه الطريقين</seg></seg> .
+                                    و<seg ana="lughawi yes">النجد : طريق في ارتفاع</seg> . واختلف
+                                    <name role="organization">أهل التأويل</name> في معنى ذلك ؛ فقال
+                                بعضهم : <seg ana="khairshar yes">عني بذلك : نجد الخير ، ونجد
+                                    الشر</seg> ، كما قال عز وجل : </quote><quote type="quran"
+                                n="76:3">إِنَّا هَدَيْنَاهُ السَّبِيلَ إِمَّا <seg ana="sufiterm"
+                                    >شَاكِرًا</seg> وَإِمَّا <seg ana="sufiterm">كَفُورًا</seg>
+                            </quote> . </p>
+<div type="subsection" n="90.2.1">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34736" ana="kalam yes"><lb n="50395"/><note> 34731 /3 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">وَكِيعٌ</persName> ، عَنْ <persName
+                                    ana="rawi">سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                    >عَاصِمٍ</persName> ، عَنْ <persName ana="rawi">زِرٍّ</persName>
+                                ، عَنْ <persName ana="sahabi" n="L5079">عَبْدِ اللَّهِ</persName> : <said>
+                                    <quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ .
+                                        قَالَ : <seg ana="khairshar yes">الْخَيْرَ والشَّرَّ</seg>
+                                    </quote>
+                                </said> .</p>
+                        <p n="hadith"> حَدَّثَنَا <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ،
+                            قَالَ : ثنا <persName ana="rawi">مِهْرَانُ</persName> ، عَنْ <persName
+                                ana="rawi">سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                >عَاصِمٍ</persName> ، عَنْ <persName ana="rawi">زِرٍّ</persName> ،
+                            عَنْ عَبْدِ اللَّهِ مِثْلَهُ</p>
+<p n="nothadith"><lb n="50396"/><pb type="turki" n="24:416"/></p>
+<p n="hadith" xml:id="h34737"><lb n="50397"/><note> 34732 /8 /140 </note>حَدَّثَنَا <persName
+                                    ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">وَكِيعٌ</persName> ، عَنْ <persName ana="rawi"
+                                    >سُفْيَانَ</persName> ، عَنِ <persName ana="rawi">ابْنِ
+                                    مُنْذِرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >أَبِيهِ</persName> ، عَنِ <persName ana="rawi">الرَّبِيعِ بْنِ
+                                    خُثَيْمٍ</persName> ، قَالَ : لَيْسَا بِالثَّدْيَيْنِ </p>
+<p n="nothadith"><lb n="50398"/><pb ed="GK" edRef="52506" n="10440"/></p>
+<p n="hadith" xml:id="h34738" ana="kalam"><lb n="50399"/><note> 34733 /3 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">ابْنُ بَشَّارٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">عَبْدُ الرَّحْمَنِ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">سُفْيَانُ</persName> ، وَحَدَّثَنَا
+                                    <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">حَكَّامٌ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">عَمْرٌو</persName> ، جميعا عَنْ <persName ana="rawi"
+                                    >عَاصِمٍ</persName> ، عَنْ <persName ana="rawi">زِرٍّ</persName>
+                                ، عَنْ <persName ana="sahabi" n="L5079">عَبْدِ اللَّهِ</persName> : <said>
+                                    <quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ .
+                                        قَالَ : <seg ana="khairshar yes">نَجْدَ الْخَيْرِ ، وَنَجْدَ
+                                            الشَّرِّ</seg></quote>
+                                </said></p>
+<p n="hadith" xml:id="h34739" ana="kalam yes"><lb n="50400"/><note> 34734 /3 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">ابْنُ الْمُثَنَّى</persName> ، قَالَ :
+                                ثني <persName ana="rawi">هِشَامُ بْنُ عَبْدِ الْمَلِكِ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">شُعْبَةُ</persName> ، قَالَ :
+                                أَخْبَرَنِي <persName ana="rawi">عَاصِمٌ</persName> ، قَالَ :
+                                سَمِعْتُ <persName ana="rawi">أَبَا وَائِلٍ</persName> يَقُولُ :
+                                كَانَ <persName ana="sahabi" n="L5079">عَبْدُ اللَّهِ</persName>
+                                يَقُولُ : <said>
+                                    <quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ . قال
+                                        : <seg ana="khairshar yes">نَجْدُ الْخَيْرِ ، وَنَجْدُ
+                                            الشَّرِّ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34740" ana="kalam yes"><lb n="50401"/><note> 34735 /3 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">عَلِيٌّ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">أَبُو صَالِحٍ</persName> ، قَالَ : ثني
+                                    <persName ana="rawi">مُعَاوِيَةُ</persName> ، عَنْ <persName
+                                    ana="rawi">عَلِيٍّ</persName> ، عَنِ <persName ana="sahabi"
+                                    n="L4883">ابْنِ عَبَّاسٍ</persName> قوله : <said>
+                                    <quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ .
+                                        يَقُولُ : <seg ana="kalamterm">الْهُدَى</seg> وَ<seg
+                                            ana="kalamterm">الضَّلالَةَ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34741" ana="kalam yes"><lb n="50402"/><note> 34736 /3 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">مُحَمَّدُ بْنُ سَعْدٍ</persName> ، قَالَ
+                                : ثني <persName ana="rawi">أَبِي</persName> ، قَالَ : ثني <persName
+                                    ana="rawi">عَمِّي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >أَبِي</persName> ، عَنْ <persName ana="rawi">أَبِيهِ</persName>
+                                ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> :
+                                قَوْلَه <said>
+                                    <quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ .
+                                        يَقُولُ : سَبِيلَ <seg ana="khairshar yes">الْخَيْرِ
+                                            وَالشَّرِّ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34742" ana="kalam yes"><lb n="50403"/><note> 34737 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">هَنَّادُ بْنُ السَّرِيِّ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">أَبُو الأَحْوَصِ</persName> ، عَنْ
+                                    <persName ana="rawi">سِمَاكٍ</persName> ، عَنْ <persName
+                                    ana="rawi">عِكْرِمَةَ</persName> في قوله : <said>
+                                    <quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ .
+                                        قَالَ : <seg ana="khairshar yes">الْخَيْرَ
+                                        وَالشَّرَّ</seg></quote>
+                                </said></p>
+<p n="hadith" xml:id="h34743"><lb n="50404"/><note> 34738 /8 /140 </note>حَدَّثَنَا <persName
+                                    ana="shaykh">ابْنُ بَشَّارٍ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">عَبْدُ الرَّحْمَنِ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">سُفْيَانُ</persName> ، عَنْ <persName ana="rawi"
+                                    >عَبْدِ اللَّهِ بْنِ الرَّبِيعِ بْنِ خُثَيْمٍ</persName> ، <pb
+                                    type="turki" n="24:417"/> عَنْ <persName ana="rawi">أَبِي
+                                    بُرْدَةَ</persName> ، قَالَ : مَرَّ بِنَا <persName ana="rawi"
+                                    >الرَّبِيعُ بْنُ خُثَيْمٍ</persName> ، فَسَأَلْنَاهُ عَنْ هَذِهِ
+                                الآيَةِ : <said>
+                                    <quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ .
+                                        فَقَالَ : أَمَا إِنَّهُمَا لَيْسَا بِالثَّدْيَيْنِ</quote>
+                                </said></p>
+<p n="nothadith"><lb n="50405"/><pb ed="GK" edRef="51481" n="10441"/></p>
+<p n="hadith" xml:id="h34744" ana="kalam yes"><lb n="50406"/><note> 34739 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">وَكِيعٌ</persName> ، عَنْ <persName
+                                    ana="rawi">سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                    >مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مُجَاهِدٍ</persName> ، قَالَ : <said><seg ana="khairshar yes"
+                                        >الْخَيْرَ وَالشَّرَّ</seg>
+                                </said></p>
+<p n="hadith" xml:id="h34745" ana="kalam yes"><lb n="50407"/><note> 34740 /8 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">مُحَمَّدُ بْنُ عَمْرٍو</persName> ، قَالَ
+                                : ثنا <persName ana="rawi">أَبُو عَاصِمٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">عِيسَى</persName> ، وَحَدَّثَنِي <persName
+                                    ana="shaykh">الْحَارِثُ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">الْحَسَنُ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">وَرْقَاءُ</persName> ، جَمِيعًا عَنِ <persName
+                                    ana="rawi">ابْنِ أَبِي نَجِيحٍ</persName> ، عَنْ <persName
+                                    ana="rawi">مُجَاهِدٍ</persName> قوله : <said>
+                                    <quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ .
+                                        قَالَ : <seg ana="khairshar yes">سَبِيلَ الْخَيْرِ
+                                            وَالشَّرِّ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34746" ana="kalam yes"><lb n="50408"/><note> 34741 /8 /140 </note>حُدِّثْتُ
+                                عَنِ <persName ana="rawi">الْحُسَيْنِ</persName> ، قَالَ : سَمِعْتُ
+                                    <persName ana="rawi">أَبَا مُعَاذٍ</persName> يَقُولُ : ثنا
+                                    <persName ana="rawi">عُبَيْدٌ</persName> ، قَالَ : سَمِعْتُ
+                                    <persName ana="rawi">الضَّحَّاكَ</persName> يَقُولُ فِي قَوْلِهِ
+                                : <said>
+                                    <quote type="quran" n="90:10">وَهَدَيْنَاهُ <seg
+                                            ana="khairshar yes">النَّجْدَيْنِ : نَجْدَ الْخَيْرِ ،
+                                            وَنَجْدَ الشَّرِّ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34747" ana="kalam sufism yes"><lb n="50409"/><note> 34742 /2 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh" n="L6051">عِمْرَانُ بْنُ
+                                    مُوسَى</persName> ، قَالَ : ثنا <persName ana="rawi" n="L5270"
+                                    >عَبْدُ الْوَارِثِ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L8616">يُونُسُ</persName> ، عَنِ <persName ana="rawi"
+                                    n="L1239">الْحَسَنِ</persName> ، قَالَ : قَالَ رَسُولُ اللَّهِ
+                                صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ :" <seg ana="targhibtarhib yes"
+                                    >هُمَا نَجْدَانِ ؛ <seg ana="khairshar yes">نَجْدُ خَيْرٍ ،
+                                        وَنَجْدُ شَرٍّ</seg> ، فَمَا جَعَلَ <seg ana="khairshar yes"
+                                        >نَجْدَ الشَّرِّ</seg> أَحَبَّ إِلَيْكُمْ مِنْ<seg
+                                        ana="khairshar yes"> نَجْدِ الْخَيْرِ</seg></seg> ؟ " </p>
+<p n="hadith" xml:id="h34748" ana="kalam sufism yes"><lb n="50410"/><note> 34743 /2 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh" n="L6716">مُجَاهِدُ بْنُ
+                                    مُوسَى</persName> ، قَالَ : ثنا <persName ana="rawi" n="L8488"
+                                    >يَزِيدُ بْنُ هَارُونَ</persName> ، قَالَ : أَخْبَرَنَا
+                                    <persName ana="rawi" n="L23558">عَطِيَّةُ أَبُو
+                                    وَهْبٍ</persName> ، قَالَ : سَمِعْتُ <persName ana="rawi"
+                                    n="L1239">الْحَسَنَ</persName> يَقُولُ : قَالَ رَسُولُ اللَّهِ
+                                صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : " أَلا إِنَّمَا <said>هُمَا
+                                    نَجْدَانِ : <seg ana="khairshar yes">نَجْدُ الْخَيْرِ</seg> ،
+                                        وَ<seg ana="khairshar yes">نَجْدُ الشَّرِّ</seg> ، <seg
+                                        ana="targhibtarhib yes">فَمَا جَعَلَ <seg
+                                            ana="khairshar yes">نَجْدَ الشَّرِّ</seg> أَحَبَّ
+                                        إِلَيْكُمْ مِنْ <seg ana="khairshar yes">نَجْدِ
+                                            الْخَيْرِ</seg></seg> ؟ " </said> . <pb type="turki"
+                                    n="24:418"/> حَدَّثَنَا <persName ana="shaykh" n="L6861">ابْنُ
+                                    الْمُثَنَّى</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L8053">هِشَامُ بْنُ عَبْدِ الْمَلِكِ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi" n="L3795">شُعْبَةُ</persName> ، عَنْ
+                                    <persName ana="rawi" n="L2257">حَبِيبٍ</persName> ، عَنِ
+                                    <persName ana="rawi" n="L1239">الْحَسَنِ</persName> ، عَنِ
+                                النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَحْوَهُ</p>
+<p n="nothadith"><lb n="50411"/><pb ed="GK" edRef="41246" n="10442"/></p>
+<p n="hadith" xml:id="h34749" ana="kalam sufism yes"><lb n="50412"/><note> 34744 /2 /140
+                                </note>حَدَّثَنِي <persName ana="shaykh" n="L8514">يَعْقُوبُ بْنُ
+                                    إِبْرَاهِيمَ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L1003">ابْنُ عُلَيَّةَ</persName> ، عَنْ <persName ana="rawi"
+                                    n="L7017">أَبِي رَجَاءٍ</persName> ، قَالَ : سَمِعْتُ <persName
+                                    ana="rawi" n="L1239">الْحَسَنَ</persName> يَقُولُ : <said><quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ </quote> . قَالَ : ذُكِرَ
+                                    لَنَا أَنَّ نَبِيَّ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ
+                                    كَانَ يَقُولُ : " <seg ana="targhibtarhib yes">يَا أَيُّهَا
+                                        النَّاسُ ، إِنَّمَا هُمَا النَّجْدَانِ ؛ <seg
+                                            ana="khairshar yes">نَجْدُ الْخَيْرِ ، وَنَجْدُ الشَّرِّ
+                                        </seg>، فَمَا جَعَلَ <seg ana="khairshar yes">نَجْدَ
+                                            الشَّرِّ</seg> أَحَبَّ إِلَيْكُمْ مِنْ <seg
+                                            ana="khairshar yes">نَجْدِ الْخَيْر</seg>ِ</seg> ؟ " </said></p>
+<p n="hadith" xml:id="h34750" ana="kalam sufism yes"><lb n="50413"/><note> 34745 /2 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh" n="L1889">بِشْرٌ</persName>
+                                ، قَالَ : ثنا <persName ana="rawi" n="L8418">يَزِيدُ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi" n="L3281">سَعِيدٌ</persName> ، عَنْ
+                                    <persName ana="rawi" n="L6458">قَتَادَةَ</persName> : "
+                                        <said><quote type="quran" n="90:10">وَهَدَيْنَاهُ
+                                        النَّجْدَيْنِ </quote> : ذُكِرَ لَنَا أَنَّ نَبِيَّ اللَّهِ
+                                    صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ يَقُولُ : <seg
+                                        ana="targhibtarhib yes">أَيُّهَا النَّاسُ ، إِنَّمَا هُمَا
+                                        النَّجْدَانِ ، <seg ana="khairshar yes">نَجْدُ الْخَيْرِ ،
+                                            وَنَجْدُ الشَّرِّ</seg> ، فَمَا جَعَلَ <seg
+                                            ana="khairshar yes">نَجْدَ الشَّرِّ</seg> أَحَبَّ
+                                        إِلَيْكُمْ مِنْ <seg ana="khairshar yes">نَجْدِ
+                                            الْخَيْرِ</seg></seg> ؟ " </said></p>
+<p n="hadith" xml:id="h34751" ana="kalam sufism yes"><lb n="50414"/><note> 34746 /2 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh" n="L7050">ابْنُ عَبْدِ
+                                    الأَعْلَى</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L6896">ابْنُ ثَوْرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    n="L7633">مَعْمَرٍ</persName> ، عَنِ <persName ana="rawi"
+                                    n="L1239">الْحَسَنِ</persName> في قوله : <said><quote type="quran" n="90:10">وَهَدَيْنَاهُ النَّجْدَيْنِ </quote> . قال : قَالَ :
+                                    رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : " <seg
+                                        ana="targhibtarhib yes">إِنَّمَا هُمَا نَجْدَانِ ، فَمَا
+                                        جَعَلَ <seg ana="khairshar yes">نَجْدَ الشَّرِّ</seg>
+                                        أَحَبَّ إِلَيْكُمْ مِنْ <seg ana="khairshar yes">نَجْدِ
+                                            الْخَيْرِ</seg></seg> ؟ " </said></p>
+<p n="hadith" xml:id="h34752" ana="kalam sufism yes"><lb n="50415"/><note> 34747 /8 /140
+                                </note>حَدَّثَنِي <persName ana="shaykh">يُونُسُ</persName> ، قَالَ
+                                : أَخْبَرَنَا <persName ana="rawi">ابْنُ وَهْبٍ</persName> ، قَالَ :
+                                قَالَ <persName ana="rawi">ابْنُ زَيْدٍ</persName> ، فِي قَوْلِ
+                                اللَّهِ عز وجلَّ : <said><quote type="quran" n="90:10">وَهَدَيْنَاهُ
+                                        النَّجْدَيْنِ </quote> : قال رَسُولُ اللَّهِ صَلَّى اللَّهُ
+                                    عَلَيْهِ وَسَلَّمَ : " <seg ana="targhibtarhib">إِنَّمَا هُمَا
+                                        نَجْدَانِ ؛ لا نَجْعَلُ <seg ana="khairshar yes">نَجْدَ
+                                            الشَّرِّ</seg> أَحَبَّ إِلَيْكُمْ مِنْ <seg
+                                            ana="khairshar yes">نَجْدِ الْخَيْر</seg>ِ</seg> " </said> .</p>
+<p n="hadith" xml:id="h34753" ana="kalam sufism yes"><lb n="50416"/><note> /8 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">يُونُسُ</persName> ، قَالَ : أَخْبَرَنَا
+                                    <persName ana="rawi">ابْنُ وَهْبٍ</persName> ، قَالَ : قَالَ
+                                    <persName ana="rawi">ابْنُ زَيْدٍ</persName> ، فِي قَوْلِ
+                                اللَّهِ عز وجلَّ : <said><quote type="quran" n="90:10">وَهَدَيْنَاهُ
+                                        النَّجْدَيْنِ </quote> . قَال : <seg ana="khairshar">طَرِيقَ
+                                        الْخَيْرِ وَالشَّرِّ</seg> . وَقَرَأَ قَوْلَ اللَّهِ : <pb
+                                        type="turki" n="24:419"/><quote type="quran" n="76:3"><seg
+                                            ana="targhibtarhib yes">إِنَّا هَدَيْنَاهُ
+                                            السَّبِيلَ</seg>
+                                    </quote></said></p>
+<p n="nothadith" ana="science yes"><lb n="50417"/> وقال آخرون : بل <seg ana="insan">معنى ذلك :
+                                    وَهَدَيْنَاهُ الثَّدْيَيْنِ</seg> ؛ <seg ana="insan yes"
+                                    >سَبِيلَيِ اللَّبَنِ الَّذِي يَتَغَذَّى بِهِ ، وَيَنْبُتُ
+                                    عَلَيْهِ لَحْمُهُ وَجِسْمُهُ</seg> .<pb ed="GK" edRef="57370"
+                                    n="10443"/></p>
+</div>
+<div type="subsection" n="90.2.2">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34754" ana="science yes"><lb n="50418"/><note> 34748 /3 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">وَكِيعٌ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">عِيسَى بْنُ عِقَالٍ</persName> ، عَنْ
+                                    <persName ana="rawi">أَبِيهِ</persName> ، عَنِ <persName
+                                    ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> : <said>
+                                    <quote type="quran" n="90:10"><seg ana="insan">وَهَدَيْنَاهُ
+                                            النَّجْدَيْنِ . قال : هُمَا الثَّدْيَانِ</seg>
+                                    </quote>
+                                </said> . حَدَّثَنَا <persName ana="shaykh">ابْنُ
+                                    حُمَيْدٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >مِهْرَانُ</persName> ، عَنِ <persName ana="rawi">الْمُبَارَكِ
+                                    بْنِ مُجَاهِدٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >جُوَيْبِرٍ</persName> ، عَنِ <persName ana="rawi"
+                                    >الضَّحَّاكِ</persName> ، قَالَ : <seg ana="insan"
+                                    >الثَّدْيَانِ</seg></p>
+<p n="nothadith" ana="kalam rajeh sufism yes"><lb n="50419"/> وَ<seg ana="yes krajeh">أَوْلَى
+                                    الْقَوْلَيْنِ بِالصَّوَابِ فِي ذَلِكَ عِنْدَنَا قَوْلُ مَنْ
+                                    قَالَ : عُنِيَ بِذَلِكَ <seg ana="khairshar yes">طَرِيقُ
+                                        الْخَيْرِ وَالشَّرِّ</seg></seg> . وَذَلِكَ أَنَّهُ لا
+                                قَوْلَ فِي ذَلِكَ نَعْلَمُهُ غَيْرَ الْقَوْلَيْنِ اللَّذَيْنِ
+                                ذَكَرْنَاهما ، وَالثَّدْيَانِ ، وَإِنْ كَانَا سَبِيلَيِ اللَّبَنِ ،
+                                فَإِنَّ اللَّهَ تَعَالَى ذِكْرُهُ إِذْ عَدَّدَ عَلَى الْعَبْدِ
+                                نِعَمَهُ بِقَوْلِهِ : إِنَّا خَلَقْنَا الإِنْسَانَ مِنْ نُطْفَةٍ
+                                أَمْشَاجٍ نَبْتَلِيهِ فَجَعَلْنَاهُ سَمِيعًا بَصِيرًا إِنَّا
+                                هَدَيْنَاهُ السَّبِيلَ . إِنَّمَا عَدَّدَ عَلَيْهِ هِدَايَتَهُ
+                                إِيَّاهُ إِلَى <seg ana="khairshar yes">سَبِيلِ الْخَيْرِ</seg> مِنْ
+                                نِعَمِهِ ، فَكَذَلِكَ قَوْلُهُ : <quote type="quran" n="90:10"
+                                    >وَهَدَيْنَاهُ النَّجْدَيْنِ </quote> . وقوله : <quote
+                                    type="quran" n="90:11"><seg ana="targhibtarhib yes">فَلا
+                                        اقْتَحَمَ الْعَقَبَةَ : يقول تعالى ذكره : فلم يركب العقبة ،
+                                        فيقطعها ويجوزها</seg> . وذكر أن العقبة جَبَلٌ في <seg
+                                        ana="samiyat yes">جهنم</seg> . <pb type="turki" n="24:420"
+                                    /></quote></p>
+</div>
+<div type="subsection" n="90.2.3">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34755" ana="kalam yes"><lb n="50420"/><note> 34749 /3 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">عُمَرُ بْنُ إِسْمَاعِيلَ بْنِ
+                                    مُجَالِدٍ</persName> ، قَالَ : ثنا <persName ana="rawi">عَبْدُ
+                                    اللَّهِ بْنُ إِدْرِيسَ</persName> ، عَنْ <persName ana="rawi"
+                                    >أَبِيهِ</persName> ، عَنْ <persName ana="rawi"
+                                    >عَطِيَّةَ</persName> ، عَنِ <persName ana="sahabi" n="L4967"
+                                    >ابْنِ عُمَرَ</persName> فِي قَوْلِهِ : <said>
+                                    <quote type="quran" n="90:11">فَلا اقْتَحَمَ الْعَقَبَةَ . قَالَ
+                                        : <seg ana="samiyat yes">جَبَلٌ فِي جَهَنَّمَ أَزَلُّ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34756" ana="kalam yes"><lb n="50421"/><note> 34750 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">مُحَمَّدُ بْنُ الْمُثَنَّى</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">يَحْيَى بْنُ كَثِيرٍ</persName> ،
+                                قَالَ : ثنا <persName ana="rawi">شُعْبَةُ</persName> ، عَنْ
+                                    <persName ana="rawi">أَبِي رَجَاءٍ</persName> ، عَنِ <persName
+                                    ana="rawi">الْحَسَنِ</persName> في قوله عزَّ وجلَّ : <said>
+                                    <quote type="quran" n="90:11">فَلا اقْتَحَمَ الْعَقَبَةَ . قَالَ
+                                        : <seg ana="samiyat yes">عَقَبَةٌ فِي جَهَنَّمَ</seg>
+                                    </quote>
+                                </said></p>
+<p n="nothadith"><lb n="50422"/><pb ed="GK" edRef="52766" n="10444"/></p>
+<p n="hadith" xml:id="h34757" ana="kalam yes"><lb n="50423"/><note> 34751 /8 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">يَعْقُوبُ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">ابْنُ عُلَيَّةَ</persName> ، عَنْ <persName
+                                    ana="rawi">أَبِي رَجَاءٍ</persName> ، عَنِ <persName ana="rawi"
+                                    >الْحَسَنِ</persName> في قوله : <said>
+                                    <quote type="quran" n="90:11">فَلا اقْتَحَمَ الْعَقَبَةَ . قَالَ
+                                        : <seg ana="samiyat yes">جَهَنَّمَ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34758" ana="sufism yes"><lb n="50424"/><note> 34752 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> قوله : <said>
+                                    <quote type="quran" n="90:11"><seg ana="targhibtarhib yes">فَلا
+                                            اقْتَحَمَ الْعَقَبَةَ : إِنَّهَا قُحْمَةٌ شَدِيدَةٌ ،
+                                            فَاقْتَحِمُوهَا بِ<seg ana="fazail yes">طَاعَةِ
+                                                اللَّهِ</seg></seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34759" ana="kalam yes"><lb n="50425"/><note> 34753 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">ابْنُ عَبْدِ الأَعْلَى</persName> ، قَالَ
+                                : ثنا <persName ana="rawi">ابْنُ ثَوْرٍ</persName> ، عَنْ <persName
+                                    ana="rawi">مَعْمَرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> في قَوْلِهِ عَزَّ وَجَلَّ : <said>
+                                    <quote type="quran" n="90:11">فَلا اقْتَحَمَ الْعَقَبَةَ . قَالَ
+                                        : <seg ana="samiyat yes">النَّارُ عَقَبَةٌ دُونَ
+                                            الْجِسْرِ</seg>
+                                    </quote>
+                                </said></p>
+<p n="nothadith"><lb n="50426"/><pb type="turki" n="24:421"/></p>
+<p n="hadith" xml:id="h34760" ana="kalam yes"><lb n="50427"/><note> 34754 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">ابْنُ بَشَّارٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">وَهْبُ بْنُ جَرِيرٍ</persName> ، قَالَ :
+                                ثنا <persName ana="rawi">أَبِي</persName> ، قَالَ : سَمِعْتُ
+                                    <persName ana="rawi">يَحْيَى بْنَ أَيُّوبَ</persName> يُحَدِّثُ
+                                عَنْ <persName ana="rawi">يَزِيدَ بْنِ أَبَى حَبِيبٍ</persName> ،
+                                عَنْ <persName ana="rawi">شُعَيْبٍ</persName> ، عَنْ <persName
+                                    ana="rawi">زُرْعَةَ</persName> ، عَنْ <persName ana="rawi"
+                                    >حَنَشٍ</persName> ، عَنْ <persName ana="rawi">كَعْبٍ</persName>
+                                ، أَنَّهُ قَالَ : <said>
+                                    <quote type="quran" n="90:11">فَلا اقْتَحَمَ الْعَقَبَةَ . قَالَ
+                                        : <seg ana="samiyat yes">هي سَبْعُونَ دَرَجَةً فِي
+                                            جَهَنَّمَ</seg>
+                                    </quote>
+                                </said></p>
+<p n="nothadith" ana="lugha yes"><lb n="50428"/> وَأَفْرَدَ قَوْلَهُ : <seg ana="sarfnahw yes"
+                                        ><quote type="quran" n="90:11">فَلا اقْتَحَمَ الْعَقَبَةَ
+                                        بِذِكْرٍ ( لا ) مَرَّةً وَاحِدَةً ، وَ<name
+                                            role="organization">الْعَرَبُ</name> لا تَكَادُ
+                                        تُفْرِدُهَا فِي كَلامٍ فِي مِثْلِ هَذَا الْمَوْضِعِ ، حَتَّى
+                                        يُكَرِّرُوهَا مَعَ كَلامٍ آخَرَ ، كَمَا قَيلَ : فَلا صَدَّقَ
+                                        وَلا صَلَّى ، وَ : لا خَوْفٌ عَلَيْهِمْ وَلا هُمْ
+                                        يَحْزَنُونَ </quote> . وَإِنَّمَا فَعَلَ ذَلِكَ كَذَلِكَ فِي
+                                    هَذَا الْمَوْضِعِ ؛ اسْتِغْنَاءً بِدَلالَةِ آخِرِ الْكَلامِ
+                                    عَلَى مَعْنَاهُ ، مِنْ إِعَادَتِهَا مَرَّةً أُخْرَى ، وَذَلِكَ
+                                    قَوْلُهُ إِذْ فَسَّرَ اقْتِحَامَ الْعَقَبَةِ ، فَقَالَ : فَكُّ
+                                    رَقَبَةٍ أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ يَتِيمًا ذَا
+                                    مَقْرَبَةٍ أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ ثُمَّ كَانَ مِنَ
+                                    الَّذِينَ آمَنُوا . فَفَسَّرَ ذَلِكَ بِأَشْيَاءَ ثَلاثَةٍ ،
+                                    فَكَانَ كَأَنَّهُ فِي أَوَّلِ الْكَلامِ قَالَ : فَلا فَعَلَ ذَا
+                                    وَلا ذَا وَلا ذَا</seg> . وَ<seg ana="sarfnahw yes">تَأَوَّلَ
+                                    ذَلِكَ <persName ana="rawi">ابْنُ زَيْدٍ</persName> ، بِمَعْنَى
+                                    : أَفَلا . وَمَنْ تَأَوَّلَهُ كَذَلِكَ ، لَمْ تَكُنْ بِهِ
+                                    حَاجَةٌ إِلَى أَنْ يَزْعُمَ أَنَّ فِي الْكَلامِ مَتْرُوكًا</seg>
+                                    .<pb ed="GK" edRef="48412" n="10445"/></p>
+</div>
+<div type="subsection" n="90.2.4">
+                        <head type="7">ذِكْرُ الْخَبَرِ بِذَلِكَ عَنِ <name role="person">ابْنِ
+                                زَيْدٍ</name>
+                        </head>
+                        <p n="hadith" xml:id="h34761" ana="sufism yes"><lb n="50429"/><note> 34755
+                                    /8 /140 </note>حَدَّثَنِي <persName ana="shaykh"
+                                    >يُونُسُ</persName> ، قَالَ : أَخْبَرَنَا <persName ana="rawi"
+                                    >ابْنُ وَهْبٍ</persName> ، قَالَ : قَالَ <persName ana="rawi"
+                                    >ابْنُ زَيْدٍ</persName> ، وَقَرَأَ قَوْلَ اللَّهِ :
+                                        <said><quote type="quran" n="90:11"><seg
+                                            ana="targhibtarhib yes">فَلا اقْتَحَمَ الْعَقَبَةَ</seg>
+                                    </quote> . قَالَ : <seg ana="targhibtarhib yes">أَفَلا سَلَكَ
+                                        الطَّرِيقَ الَّتِي فيهَا النَّجَاةُ وَ<seg
+                                            ana="khairshar yes">الْخَيْرُ</seg></seg> . ثُمَّ قَرَأَ
+                                    : <quote type="quran" n="90:12">وَمَا أَدْرَاكَ مَا الْعَقَبَةُ
+                                    </quote></said></p>
+                        <p n="nothadith" ana="sufism yes"><lb n="50430"/><pb type="turki" n="24:422"
+                                /> وقوله : <quote type="quran" n="90:12">وَمَا أَدْرَاكَ مَا
+                                    الْعَقَبَةُ . يقول تعالى ذكره : وأي شيء أشعرك يا <name
+                                        role="person">محمد</name> ما العقبة ؟ ثم <seg
+                                        ana="targhibtarhib yes">بين جل ثناؤه له ، ما العقبة ، وما
+                                        النجاة منها ، وما وجه اقتحامها ؛ فقال : اقتحامها وقطعها <seg
+                                            ana="fazail yes">فك رقبة من الرق وأسر
+                                        العبودية</seg></seg> .</quote></p>
+                        <p n="hadith" xml:id="h34762" ana="sufism yes"><lb n="50431"/><note> 34756
+                                    /8 /140 </note>كَمَا حَدَّثَنِي <persName ana="shaykh"
+                                    >يَعْقُوبُ</persName> ، قَالَ : ثنا <persName ana="rawi">ابْنُ
+                                    عُلَيَّةَ</persName> ، عَنْ <persName ana="rawi">أَبِي
+                                    رَجَاءٍ</persName> ، عَنِ <persName ana="unknown_rawi"
+                                    >الْحَسَنِ</persName> : <said><quote type="quran" n="90:12-13">
+                                        <l n="12">وَمَا أَدْرَاكَ مَا الْعَقَبَةُ </l>
+                                        <l n="13">
+                                            <seg ana="fazail yes">فَكُّ رَقَبَةٍ</seg>
+                                        </l>
+                                    </quote> . قَالَ : <seg ana="targhibtarhib yes">ذُكِرَ لَنَا
+                                        أَنَّهُ لَيْسَ مُسْلِمٌ يُعْتِقُ رَقَبَةً مُسْلِمَةً ، إِلا
+                                        كَانَتْ <seg>فِدَاءَ</seg>هُ مِنَ <seg ana="samiyat yes"
+                                            >النَّارِ</seg></seg>
+                                </said></p>
+                        <p n="hadith" xml:id="h34763" ana="sufism yes"><lb n="50432"/><note> 34757
+                                    /2 /140 </note>حَدَّثَنَا <persName ana="shaykh" n="L1889"
+                                    >بِشْرٌ</persName> ، قَالَ : ثنا <persName ana="rawi" n="L8418"
+                                    >يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi" n="L3281"
+                                    >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi" n="L6458"
+                                    >قَتَادَةَ</persName> قوله : <said><quote type="quran"
+                                        n="90:12-13">
+                                        <l n="12">وَمَا أَدْرَاكَ مَا الْعَقَبَةُ </l>
+                                        <l n="13"><seg ana="fazail yes"> فَكُّ رَقَبَةٍ </seg></l>
+                                    </quote> : ذُكِرَ لَنَا أَنَّ <seg ana="targhibtarhib yes"
+                                        >نَبِيَّ اللَّهِ صلى اللَّهُ عليه وسلَّمَ سُئِلَ عَنِ
+                                        الرِّقَابِ أَيُّهَا أَعْظَمُ أَجْرًا ؟ قَالَ : " أَكْثَرُهَا
+                                        ثَمَنًا</seg> " </said></p>
+                        <p n="hadith" xml:id="h34764" ana="sufism yes"><lb n="50433"/><note> 34758
+                                    /2 /140 </note>حَدَّثَنَا <persName ana="shaykh" n="L1889"
+                                    >بِشْرٌ</persName> ، قَالَ : ثنا <persName ana="rawi" n="L8418"
+                                    >يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi" n="L3281"
+                                    >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi" n="L6458"
+                                    >قَتَادَةَ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L3182">سَالِمُ بْنُ أَبِي الْجَعْدِ</persName> ، عَنْ
+                                    <persName ana="rawi" n="L7608">مَعْدَانَ بْنِ أَبِي
+                                    طَلْحَةَ</persName> ، عَنْ <persName ana="sahabi" n="L6158"
+                                    >أَبِي نَجِيحٍ</persName> ، قَالَ : سَمِعْتُ رَسُولَ اللَّهِ
+                                صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ، يَقُولُ : " <said><seg
+                                        ana="targhibtarhib yes">أَيُّمَا مُسْلِمٍ <seg
+                                            ana="fazail yes">أَعْتَقَ رَجُلا مُسْلِمًا</seg> ،
+                                        فَإِنَّ اللَّهَ جَاعِلٌ وَفَاءَ كُلِّ عَظْمٍ مِنْ عِظَامِهِ
+                                        ، عَظْمًا مِنْ عِظَامٍ مُحَرَّرِهِ مِنَ النَّارِ ؛
+                                        وَأَيُّمَا امْرَأَةٍ مُسْلِمَةٍ <seg ana="fazail yes"
+                                            >أَعْتَقَتِ امْرَأَةً مِنْهُ مُسْلِمَةً</seg> ، فَإِنَّ
+                                        اللَّهَ جَاعِلٌ وَفَاءَ كُلِّ عَظْمٍ مِنْ عِظَامِهَا ،
+                                        عَظْمًا مِنْ عِظَامِ مُحَرَّرِهَا مِنَ <seg
+                                            ana="samiyat yes">النَّارِ</seg></seg> " </said></p>
+                        <p n="nothadith"><lb n="50434"/><pb ed="GK" edRef="42035" n="10446"/><pb
+                                type="turki" n="24:423"/></p>
+                        <p n="hadith" xml:id="h34765" ana="sufism yes"><lb n="50435"/><note> 34759
+                                    /2 /140 /34 </note>حدثنا بشر ، قَالَ : ثنا <persName ana="rawi"
+                                    n="L8418">يَزِيدُ</persName> ، قال : ثنا <persName ana="rawi"
+                                    n="L3281">سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+                                    n="L6458">قَتَادَةَ</persName> ، عَنْ <persName ana="rawi"
+                                    n="L6507">قَيْسٍ الْجُذَامِيِّ</persName> ، عَنْ <persName
+                                    ana="sahabi" n="L5672">عُقْبَةَ بْنِ عَامِرٍ
+                                    الْجُهَنِيِّ</persName> ، أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ
+                                عَلَيْهِ وَسَلَّمَ ، قَالَ : " <seg ana="targhibtarhib yes">مَنْ
+                                        <seg ana="fazail yes">أَعْتَقَ رَقَبَةً <name role="other"
+                                            >مُؤْمِنَةً</name></seg> ، فَهِيَ فِدَاؤُهُ مِنَ <seg
+                                        ana="samiyat yes">النَّارِ</seg></seg> " </p>
+                        <p n="hadith" xml:id="h34766" ana="fiqh sufism yes"><lb n="50436"/><note>
+                                    34760 /8 /140 </note>حَدَّثَنَا <persName ana="shaykh">ابْنُ
+                                    عَبْدِ الأَعْلَى</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >ابْنُ ثَوْرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >مَعْمَرٍ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> : <said><quote type="quran" n="90:12">وَمَا أَدْرَاكَ مَا الْعَقَبَةُ </quote> . ثُمَّ أَخْبَرَ
+                                    عَنِ اقْتِحَامِهَا ، فَقَالَ : <quote type="quran" n="90:13-14"
+                                            ><l n="13"><seg ana="fazail yes">فَكُّ رَقَبَةٍ</seg>
+                                        </l> أَوْ <seg ana="fazail yes">إِطْعَامٌ</seg>
+                                    </quote></said></p>
+                        <p n="nothadith" ana="lugha qiraat rajeh harakat Qrasmchange yes"><lb
+                                    n="50437"/> وَاخْتَلَفَتِ القرأة فِي قِرَاءَةِ ذَلِكَ ؛
+                                فَقَرَأَهُ <seg ana="Qbmakkah yes">بَعْضُ قرأة <name role="location"
+                                        >مَكَّةَ</name></seg> ، وَ<seg ana="qbasra yes">عَامَّةُ
+                                    قَرَأَةِ <name role="location">الْبَصْرَةِ</name></seg> ، غَيْرَ
+                                    <name role="person"><seg ana="qari">ابْنِ أَبِي
+                                    إِسْحَاقَ</seg></name> ، وَمِنَ <name role="organization"><seg
+                                        ana="Qbkufa yes">الْكُوفِيِّينَ</seg></name> : <name
+                                    role="person"><seg ana="qari yes">الْكِسَائِيُّ</seg></name> :
+                                    <quote type="qiraat"><seg ana="qiraat harakat">فَكَّ رَقَبَةً
+                                        أَوْ أَطْعَمَ</seg>
+                                </quote> . وَكَانَ <name role="person"><seg ana="qari">أَبُو عَمْرِو
+                                        بْنُ الْعَلاءِ</seg></name> يَحْتَجُّ فِيمَا بَلَغَنِي فِيهِ
+                                بِقَوْلِهِ : <quote type="quran" n="90:17">ثُمَّ كَانَ مِنَ
+                                    الَّذِينَ آمَنُوا </quote> . كَأَنَّ مَعْنَاهُ كَانَ عِنْدَهُ :
+                                    <seg ana="murad">فَلا فَكَّ رَقَبَةً ، وَلا أَطْعَمَ ، ثُمَّ
+                                    كَانَ مِنَ الَّذِينَ آمَنُوا</seg> . وَقَرَأَ ذَلِكَ <seg
+                                    ana="qmadina yes">عَامَّةُ قَرَأَةِ <name role="location"
+                                        >الْمَدِينَةِ</name></seg> وَ<name role="location"><seg
+                                        ana="qkufa yes">الْكُوفَةِ</seg></name> وَ<name
+                                    role="location"><seg ana="qsham">الشَّامِ</seg></name> : <quote
+                                    type="quran" n="90:13"><seg ana="qiraat harakat">فَكُّ
+                                        رَقَبَةٍ</seg>
+                                </quote> . <seg ana="yes sarfi">عَلَى <seg ana="lughaterm yes"
+                                        >الإِضَافَةِ</seg></seg> ، <quote type="quran" n="90:14"
+                                        ><seg ana="qiraat harakat Qrasmchange Zikrhazf">أَوْ
+                                        إِطْعَامٌ</seg>
+                                </quote>
+                                <seg ana="yes sarfi">عَلَى وَجْهِ <seg ana="lughaterm yes"
+                                        >الْمَصْدَرِ</seg></seg> . وَ<seg ana="qahabsawab yes"
+                                    >الصَّوَابُ مِنَ الْقَوْلِ فِي ذَلِكَ : أَنَّهُمَا قِرَاءَتَانِ
+                                    مَعْرُوفَتَانِ</seg> ، قَدْ قَرَأَ بِكُلِّ وَاحِدَةٍ <pb
+                                    type="turki" n="24:424"/> مِنْهُمَا عُلَمَاءُ مِنَ القرأة ،
+                                وَتَأْوِيلٌ مَفْهُومٌ ، فَ<seg ana="qahabsawab yes">بِأَيَّتِهِمَا
+                                    قَرَأَ الْقَارِئُ فَمُصِيبٌ</seg> . فَقِرَاءَتُهُ إِذَا قُرِئَ
+                                عَلَى وَجْهِ <seg ana="lughaterm yes">الْفِعْلِ</seg> تَأْوِيلُهُ :
+                                    <seg ana="murad sarfnahw yes">فَلا اقْتَحَمَ الْعَقَبَةَ ، لا
+                                    فَكَّ رَقَبَةً ، وَلا أَطْعَمَ ، ثُمَّ كَانَ مِنَ الَّذِينَ
+                                    آمَنُوا . و وَمَا أَدْرَاكَ مَا الْعَقَبَةُ عَلَى التَّعَجُّبِ
+                                    وَالتَّعْظِيمِ</seg> . وَ<seg ana="qahabsawab yes">هَذِهِ
+                                    الْقِرَاءَةُ أَحْسَنُ مَخْرَجًا فِي <name role="organization"
+                                        >الْعَرَبِيَّةِ</name></seg> ؛ لأَنَّ <seg
+                                    ana="sarfnahw yes">الإِطْعَامَ <seg ana="lughaterm yes"
+                                        >اسْمٌ</seg></seg> ، وَ<seg ana="sarfnahw yes">قَوْلُهُ :
+                                    ثُمَّ كَانَ مِنَ الَّذِينَ آمَنُوا . <seg ana="lughaterm yes"
+                                        >فِعْلٌ</seg></seg> ، وَ<seg ana="sarfnahw yes"><name
+                                        role="organization">الْعَرَبُ</name> تُؤْثِرُ رَدَّ <seg
+                                        ana="lughaterm yes">الأَسْمَاءِ</seg> عَلَى <seg
+                                        ana="lughaterm yes">الأَسْمَاءِ</seg> مِثْلِهَا ، وَ<seg
+                                        ana="lughaterm yes">الأَفْعَالَ</seg> عَلَى <seg
+                                        ana="lughaterm yes">الأَفْعَالِ</seg> ، وَلَوْ كَانَ مَجِيءُ
+                                    التَّنْزِيلِ : ثُمَّ أَنْ كَانَ مِنَ الَّذِينَ آمَنُوا . كان
+                                    أحسن وَأُشْبِهَ بِالإِطْعَامِ وَالْفَكِّ</seg> مِنْ :</p>
+                        <p n="nothadith" ana="lugha qiraat rajeh sufism harakat yes">
+                                <quote type="quran" n="90:17">ثُمَّ كَانَ </quote> ، ، وَ<seg
+                                    ana="sarfnahw yes">وَلِذَلِكَ قُلْتُ : <quote type="qiraat"><seg
+                                            ana="harakat Ibdal qiraat Qrasmchange Zikrhazf">فَكَّ
+                                            رَقَبَةً أَوْ أَطْعَمَ</seg>
+                                    </quote>
+                                    <seg ana="qahabsawab yes">أَوْجَهُ فِي <name role="organization"
+                                            >الْعَرَبِيَّةِ</name> مِنَ الآخَرِ</seg> ، وَإِنْ كَانَ
+                                    لِلآخَرِ وَجْهٌ مَعْرُوفٌ وَجْهُهُ أَنْ تُضْمَرَ ( أَنْ ) ثُمَّ
+                                    تُلْقَى</seg> ، كَمَا قَالَ <name role="person">طَرَفَةُ بْنُ
+                                    الْعَبْدِ</name> : <quote type="poetry">
+                                    <lg>
+                                        <l>أَلا أَيُّهَذَا الزَّاجِرِي أَحْضُرَ الْوَغَى </l>
+                                        <l>وَأَنْ أَشْهَدَ اللَّذَاتِ هَلْ أَنْتَ مُخْلِدِي </l>
+                                    </lg>
+                                </quote> بِمَعْنَى : أَلا أَيُّهَاذَا الزَّاجِرِي أَنْ أَحْضُرَ
+                                الْوَغَى . وَفِي قَوْلِهِ : ( <seg ana="sarfnahw yes">أَنْ أَشْهَدَ
+                                    ) الدَّلالَةُ الْبَيِّنَةُ عَلَى أَنَّهَا مَعْطُوفَةٌ عَلَى (
+                                    أَنْ ) أُخْرَى مِثْلِهَا قَدْ تَقَدَّمَتْ قَبْلَهَا ، فَذَلِكَ
+                                    وَجْهُ جَوَازِهِ</seg> . وَ<seg ana="sarfnahw yes">إِذَا وُجِّهَ
+                                    الْكَلامُ إِلَى هَذَا الْوَجْهِ كَانَ قَوْلُهُ : فَكُّ رَقَبَةٍ
+                                    أَوْ إِطْعَامٌ تَفْسِيرًا لِقَوْلِهِ : وَمَا أَدْرَاكَ مَا
+                                    الْعَقَبَةُ . كَأَنَّهُ قِيلَ : وَمَا أَدْرَاكَ مَا الْعَقَبَةُ
+                                    هِيَ فَكُّ رَقَبَةٍ  أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي
+                                    مَسْغَبَةٍ</seg> . كَمَا قَالَ جَلَّ ثَنَاؤُهُ : <quote
+                                    type="quran" n="101:10"><seg ana="sarfnahw yes">وَمَا أَدْرَاكَ
+                                        مَا هِيَهْ . ثُمَّ قَالَ : نَارٌ حَامِيَةٌ مُفَسِّرًا
+                                        لِقَوْلِهِ : فَأُمُّهُ هَاوِيَةٌ ، ثُمَّ قَالَ : وَمَا
+                                        أَدْرَاكَ مَا الْهَاوِيَةُ ؟ هِيَ نَارٌ حَامِيَةٌ</seg> .
+                                    وقوله : </quote><quote type="qiraat"><seg ana="murad yes"
+                                            >أَوْ<seg ana="fazail yes"> أَطْعَمَ فِي يَوْمٍ ذِي
+                                            مَسْغَبَةٍ</seg> . يقول : أو <seg ana="fazail yes"
+                                            >أطعم</seg> في يوم ذي مجاعة</seg> . و<seg
+                                        ana="lughawi yes">الساغب : الجائع</seg> . <pb type="turki"
+                                        n="24:425"/> وبنحو الذي قلنا في ذلك قال <name
+                                        role="organization">أهل التأويل</name> .<pb ed="GK"
+                                        edRef="48161" n="10447"/></quote></p>
+                    </div>
+<div type="subsection" n="90.2.5">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34767" ana="lugha yes"><lb n="50438"/><note> 34761 /3 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">مُحَمَّدُ بْنُ سَعْدٍ</persName> ، قَالَ
+                                : ثني <persName ana="rawi">أَبِي</persName> ، قَالَ : ثني <persName
+                                    ana="rawi">عَمِّي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >أَبِي</persName> ، عَنْ <persName ana="rawi">أَبِيهِ</persName>
+                                ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> : <said>
+                                    <quote type="quran" n="90:14">أَوْ إِطْعَامٌ <seg
+                                            ana="lughawi yes">فِي يَوْمٍ ذِي مَسْغَبَةٍ : بِيَوْمِ
+                                            مَجَاعَةٍ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34768" ana="lugha yes"><lb n="50439"/><note> 34762 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">الْحَسَنُ بْنُ عَرَفَةَ</persName> ،
+                                قَالَ : ثني <persName ana="rawi">خَالِدُ بْنُ حَيَّانَ الرَّقِّيُّ
+                                    أَبُو يَزِيدَ</persName> ، عَنْ <persName ana="rawi">جَعْفَرِ
+                                    بْنِ بُرْقَانَ</persName> ، عَنْ <persName ana="rawi"
+                                    >عِكْرِمَةَ</persName> فِي قَوْلِ اللَّهِ : <said>
+                                    <quote type="quran">أَوْ إطْعَامٌ فِي يَوْمٍ <seg
+                                            ana="lughawi yes">ذِي مَسْغَبَةٍ . قَالَ : ذِي
+                                            مَجَاعَةٍ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34769" ana="lugha yes"><lb n="50440"/><note> 34763 /8 /140 </note>حَدَّثَنِي
+                                <persName ana="shaykh">مُحَمَّدُ بْنُ عَمْرٍو</persName> ، قَالَ :
+                            ثنا <persName ana="rawi">أَبُو عَاصِمٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">عِيسَى</persName> ، وَحَدَّثَنِي <persName
+                                ana="shaykh">الْحَارِثُ</persName> ، قَالَ : ثنا <persName
+                                ana="rawi">الْحَسَنُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                >وَرْقَاءُ</persName> ، جَمِيعًا عَنِ <persName ana="rawi">ابْنِ
+                                أَبِي نَجِيحٍ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> في قوله : <said>
+                                <quote type="quran" n="90:14">فِي يَوْمٍ ذِي <seg ana="lughawi yes"
+                                            >مَسْغَبَةٍ . قَالَ : الْجُوعُ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34770" ana="lugha yes"><lb n="50441"/><note> 34764 /8 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                    >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> قوله : <said>
+                                    <quote type="quran" n="90:14">أَوْ <seg ana="murad yes"
+                                            >إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ . يَقُولُ : يَوْمٌ
+                                            يُشْتَهَى فِيهِ الطَّعَامُ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34771" ana="lugha yes"><lb n="50442"/><note> 34765 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">وَكِيعٌ</persName> ، عَنْ <persName ana="rawi"
+                                >سُفْيَانَ</persName> ، عَنْ <persName ana="rawi">عُثْمَانَ
+                                الثَّقَفِيِّ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:14">فِي يَوْمٍ <seg ana="lughawi yes">ذِي
+                                            مَسْغَبَةٍ . قال : ذِي مَجَاعَةٍ</seg>
+                                    </quote>
+                            </said> . </p>
+                        <p n="hadith"><pb type="turki" n="24:426"/> حَدَّثَنَا <persName
+                                ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا <persName
+                                ana="rawi">مِهْرَانُ</persName> ، عَنْ <persName ana="rawi"
+                                >سُفْيَانَ</persName> ، عَنْ <persName ana="rawi">عُثْمَانَ بْنِ
+                                الْمُغِيرَةِ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="rawi">ابْنِ
+                                عَبَّاسٍ</persName> مِثْلَهُ</p>
+<p n="hadith" xml:id="h34772" ana="lugha yes"><lb n="50443"/><note> 34766 /8 /140 </note>حُدِّثْتُ
+                            عَنِ <persName ana="rawi">الْحُسَيْنِ</persName> ، قَالَ : سَمِعْتُ
+                                <persName ana="rawi">أَبَا مُعَاذٍ</persName> يَقُولُ : ثنا
+                                <persName ana="rawi">عُبَيْدٌ</persName> ، قَالَ : سَمِعْتُ
+                                <persName ana="rawi">الضَّحَّاكَ</persName> يَقُولُ فِي قَوْلِهِ : <said>
+                                <quote type="quran" n="90:14">فِي يَوْمٍ ذِي <seg ana="lughawi yes"
+                                            >مَسْغَبَةٍ . قَالَ : مَجَاعَةٍ</seg>
+                                    </quote>
+                            </said></p>
+<p n="nothadith" ana="lugha sufism yes"><lb n="50444"/> وقوله : <quote type="quran" n="90:15">
+                                    <seg ana="murad yes">يَتِيمًا ذَا مَقْرَبَةٍ . يقول : أو <seg
+                                            ana="fazail yes">أطعم في يوم ذي مجاعة صغيرا لا أب له من
+                                            قرابته</seg></seg> . وهو اليتيم ذوالمقربة ، وعني ب<seg
+                                        ana="lughawi yes">ذي المقربة : ذو القرابة</seg>
+                                .</quote></p>
+<p n="hadith" xml:id="h34773" ana="lugha yes"><lb n="50445"/><note> 34767 /8 /140 </note>كما
+                            حَدَّثَنِي <persName ana="shaykh">يُونُسُ</persName> ، قَالَ :
+                            أَخْبَرَنَا <persName ana="rawi">ابْنُ وَهْبٍ</persName> ، قَالَ : قَالَ
+                                <persName ana="rawi">ابْنُ زَيْدٍ</persName> فِي قَوْلِهِ : <said>
+                                <quote type="quran" n="90:15">يَتِيمًا <seg ana="murad yes">ذَا
+                                            مَقْرَبَةٍ . قَالَ : ذَا قَرَابَةٍ </seg></quote>
+                            </said></p>
+<p n="nothadith" ana="lugha yes"><lb n="50446"/> وقوله : <quote type="quran" n="90:16">أَوْ
+                                    مِسْكِينًا ذَا مَتْرَبَةٍ </quote> . اختلف <name
+                                    role="organization">أهل التأويل</name> في تأويل قوله : <quote
+                                    type="quran" n="90:16"><seg ana="lughawi yes">ذَا مَتْرَبَةٍ ؛
+                                        فقال بعضهم : عُنِيَ بذلك : ذو اللصوقِ بالتراب</seg> .<pb
+                                        ed="GK" edRef="44060" n="10448"/></quote></p>
+</div>
+<div type="subsection" n="90.2.6">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34774" ana="lugha yes"><lb n="50447"/><note> 34768 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">ابْنُ الْمُثَنَّى</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">ابْنُ أَبِي عَدِيٍّ</persName> ، عَنْ <persName
+                                ana="rawi">شُعْبَةَ</persName> ، قَالَ : أَخْبَرَنِي <persName
+                                ana="rawi">الْمُغِيرَةُ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا <seg ana="lughawi yes"
+                                            >ذَا مَتْرَبَةٍ . قَالَ : الَّذِي لَيْسَ لَهُ مَأْوًى
+                                            إِلا التُّرَابُ</seg>
+                                    </quote>
+                            </said> .</p>
+                        <p n="hadith"> حَدَّثَنَا <persName ana="shaykh">مُطَرِّفُ بْنُ مُحَمَّدِ
+                                الضَّنِّيِّ</persName> ، قَالَ : ثنا <persName ana="rawi">أَبُو
+                                عَاصِمٍ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                >شُعْبَةُ</persName> ، عَنِ <persName ana="rawi"
+                                >الْمُغِيرَةِ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <name role="person">ابْنِ
+                                عَبَّاسٍ</name> مِثْلَهُ</p>
+<p n="nothadith"><lb n="50448"/><pb type="turki" n="24:427"/></p>
+<p n="hadith" xml:id="h34775" ana="lugha yes"><lb n="50449"/><note> 34769 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">ابْنُ الْمُثَنَّى</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">ابْنُ أَبِي عَدِيٍّ</persName> ، عَنْ <persName
+                                ana="rawi">شُعْبَةَ</persName> ، عَنْ <persName ana="rawi"
+                                >حُصَيْنٍ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> فِي قَوْلِ اللَّهِ : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا <seg ana="lughawi yes"
+                                            >ذَا مَتْرَبَةٍ . قَالَ : الَّذِي لا يُوَارِيهِ إِلا
+                                            التُّرَابُ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34776" ana="lugha yes"><lb n="50450"/><note> 34771 /3 /140 </note>حَدَّثَنِي
+                                <persName ana="shaykh">زَكَرِيَّا بْنُ يَحْيَى بْنِ أَبِي
+                                زَائِدَةَ</persName> ، قَالَ : ثنا <persName ana="rawi">أَبُو
+                                عَاصِمٍ</persName> ، عَنْ <persName ana="rawi">شُعْبَةَ</persName> ،
+                            عَنِ <persName ana="rawi">الْمُغِيرَةِ</persName> ، عَنْ <persName
+                                ana="rawi">مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi"
+                                n="L4883">ابْنِ عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:16"><seg ana="lughawi yes">ذَا مَتْرَبَةٍ
+                                            . قال : الَّذِي لَيْسَ لَهُ مَأْوًى إِلا
+                                            التُّرَابُ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34777" ana="lugha yes"><lb n="50451"/><note> 34772 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">جَرِيرٌ</persName> ، عَنْ <persName ana="rawi"
+                                >مُغِيرَةَ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:16">مِسْكِينًا <seg>ذَا مَتْرَبَةٍ  . <pb
+                                            type="turki" n="24:428"/> قال : <seg ana="lughawi yes"
+                                            >التَّرِبُ : الَّذِي لَيْسَ لَهُ مَأْوًى إِلا
+                                            التُّرَابُ</seg></seg>
+                                </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34778" ana="lugha yes"><lb n="50452"/><note> 34773 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">جَرِيرٌ</persName> ، عَنْ <persName ana="rawi"
+                                >مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> في قوله : <said>
+                                <quote type="quran" n="90:16">أَوْ <seg ana="lughawi yes">مِسْكِينًا
+                                            ذَا مَتْرَبَةٍ . قال : الْمِسْكِينُ : الْمَطْرُوحُ فِي
+                                            التُّرَابِ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34779" ana="lugha yes"><lb n="50453"/><note> 34774 /3 /140 </note>حَدَّثَنِي
+                                <persName ana="shaykh">أَبُو حُصَيْنٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">عَبْدُ اللَّهِ بْنُ أَحْمَدَ بْنِ
+                                يُونُسَ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                >عَبْثَرٌ</persName> ، عَنْ <persName ana="rawi">حُصَيْنٍ</persName>
+                            ، عَنْ <persName ana="rawi">مُجَاهِدٍ</persName> ، عَنِ <persName
+                                ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> قوله : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا <seg ana="lughawi yes"
+                                            >ذَا مَتْرَبَةٍ . قَالَ : الَّذِي لا يَقِيهِ مِنَ
+                                            التُّرَابِ شَيْءٌ</seg>
+                                    </quote>
+                            </said></p>
+<p n="nothadith"><lb n="50454"/><pb ed="GK" edRef="40732" n="10449"/></p>
+<p n="hadith" xml:id="h34780" ana="lugha yes"><lb n="50455"/><note> 34775 /3 /140 </note>حَدَّثَنِي
+                                <persName ana="shaykh">يَعْقُوبُ</persName> ، قَالَ : ثنا <persName
+                                ana="rawi">هُشَيْمٌ</persName> ، قَالَ أخبرنا : <persName ana="rawi"
+                                >حُصَيْنٌ</persName> ، <persName ana="rawi">وَمُغِيرَةُ</persName> ،
+                            كِلاهُمَا عَنْ <persName ana="rawi">مُجَاهِدٍ</persName> ، عَنِ
+                                <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> في قوله : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا <seg ana="lughawi yes"
+                                            >ذَا مَتْرَبَةٍ . قال : هُوَ اللازِقُ بِالتُّرَابِ مِنْ
+                                            شِدَّةِ الْفَقْرِ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34781" ana="lugha yes"><lb n="50456"/><note> 34776 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">حَكَّامٌ</persName> ، عَنْ <persName ana="rawi"
+                                >عَمْرِو بْنِ أَبِي قَيْسٍ</persName> ، عَنْ <persName ana="rawi"
+                                >مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا <seg ana="murad yes"
+                                            >ذَا مَتْرَبَةٍ . قَالَ : التَّرِبُ الْمُلْقَى عَلَى
+                                            الطَّرِيقِ عَلَى الْكُنَاسَةِ </seg></quote>
+                            </said></p>
+<p n="hadith" xml:id="h34782" ana="lugha yes"><lb n="50457"/><note> 34777 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">طَلْقُ بْنُ غَنَّامٍ</persName> ، عَنْ
+                                <persName ana="rawi">زَائِدَةَ</persName> ، عَنْ <persName
+                                ana="rawi">مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:16">أَوْ <seg ana="lughawi yes">مِسْكِينًا
+                                            ذَا مَتْرَبَةٍ . قال : هُوَ الْمِسْكِينُ الْمُلْقَى
+                                            بِالطَّرِيقِ بِالتُّرَابِ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34783" ana="lugha yes"><lb n="50458"/><note> 34778 /8 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">مِهْرَانُ</persName> ، عَنْ <persName
+                                ana="rawi">سُفْيَانَ</persName> ، عَنِ <persName ana="rawi"
+                                >الْحُصَيْنِ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا <seg ana="lughawi yes"
+                                            >ذَا مَتْرَبَةٍ . قَالَ : الْمَطْرُوحُ فِي الأَرْضِ ،
+                                            الَّذِي لا يَقِيهِ شَيْءٌ دُونَ التُّرَابِ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34784" ana="lugha yes"><lb n="50459"/><note> 34779 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">وَكِيعٌ</persName> ، عَنْ <persName ana="rawi"
+                                >سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                >حُصَيْنٍ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:16">أَوْ <seg ana="lughawi yes">مِسْكِينًا
+                                            ذَا مَتْرَبَةٍ . قال : هُوَ الْمُلْزَقُ بِالأَرْضِ ، لا
+                                            يَقِيهِ شَيْءٌ مِنَ التُّرَابِ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34785" ana="lugha yes"><lb n="50460"/><note> 34780 /3 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">ابْنُ بَشَّارٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">عَبْدُ الرَّحْمَنِ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">سُفْيَانُ</persName> ، عَنْ <persName
+                                ana="rawi">حُصَيْنٍ</persName><persName ana="rawi">وَعُثْمَانَ بْنِ
+                                الْمُغِيرَةِ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:16">أَوْ <seg ana="lughawi yes">مِسْكِينًا
+                                            ذَا مَتْرَبَةٍ . قال : المطروح في الطريق أو الطرق</seg>
+                                        . حدثنا <name role="person">أبو كريب</name> ، قال : حدثنا
+                                            <name role="person">ابن إدريس</name> ، قال : حدثنا
+                                        لَيْثٌ ، عَنْ <name role="person">مُجَاهِدٍ</name> : </quote>
+                                <quote type="quran" n="90:16">أَوْ <seg ana="lughawi yes">مِسْكِينًا
+                                            ذَا مَتْرَبَةٍ . قال : الَّذِي لَيْسَ لَهُ شَيْءٌ
+                                            يَقِيهِ مِنَ التُّرَابِ</seg>
+                                    </quote>
+                            </said></p>
+<p n="nothadith"><lb n="50461"/><pb ed="GK" edRef="45074" n="10450"/><pb type="turki" n="24:429"/></p>
+<p n="hadith" xml:id="h34786" ana="lugha yes"><lb n="50462"/><note> 34781 /8 /140 </note>حَدَّثَنِي
+                                <persName ana="shaykh">مُحَمَّدُ بْنُ عَمْرٍو</persName> ، قَالَ :
+                            ثنا <persName ana="rawi">أَبُو عَاصِمٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">عِيسَى</persName> ، وَحَدَّثَنِي <persName
+                                ana="shaykh">الْحَارِثُ</persName> ، قَالَ : ثنا <persName
+                                ana="rawi">الْحَسَنُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                >وَرْقَاءُ</persName> ، جَمِيعًا عَنِ <persName ana="rawi">ابْنِ
+                                أَبِي نَجِيحٍ</persName> ، عَنْ <persName ana="rawi"
+                                >مُجَاهِدٍ</persName> قوله : <said>
+                                <quote type="quran" n="90:16"><seg ana="lughawi yes">ذَا مَتْرَبَةٍ
+                                            . قَالَ : سَاقِطٌ فِي التُّرَابِ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34787" ana="lugha yes"><lb n="50463"/><note> 34782 /8 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">وَكِيعٌ</persName> ، عَنْ <persName ana="rawi"
+                                >جَعْفَرِ بْنِ بُرْقَانَ</persName> ، قَالَ : سَمِعَ <persName
+                                ana="rawi">عِكْرِمَةَ</persName> : <said>
+                                <quote type="quran" n="90:16">أَوْ <seg ana="lughawi yes">مِسْكِينًا
+                                            ذَا مَتْرَبَةٍ . قَالَ : الْمُلْتَزِقُ بِالأَرْضِ مِنَ
+                                            الْحَاجَةِ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34788" ana="lugha yes"><lb n="50464"/><note> 34783 /8 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">ابْنُ عَبْدِ الأَعْلَى</persName> ، قَالَ :
+                            ثنا <persName ana="rawi">ابْنُ ثَوْرٍ</persName> ، عَنْ <persName
+                                ana="rawi">مَعْمَرٍ</persName> ، عَنْ <persName ana="rawi"
+                                >عِكْرِمَةَ</persName> في قوله : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ . قَالَ
+                                        : <seg ana="lughawi yes">التَّرِبُ : اللاصِقُ
+                                            بِالأَرْضِ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34789" ana="lugha yes"><lb n="50465"/><note> 34784 /3 /140 </note>حَدَّثَنَا
+                                    <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">مِهْرَانُ</persName> ، عَنْ <persName
+                                    ana="rawi">سُفْيَانَ</persName> ، عَنْ <persName ana="rawi"
+                                    >عُثْمَانَ بْنِ الْمُغِيرَةِ</persName> ، عَنْ <persName
+                                    ana="rawi">سَعِيدِ بْنِ جُبَيْرٍ</persName> ، عَنِ <persName
+                                    ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> ، <seg
+                                    ana="lughawi yes">قَالَ : <said>الْمُلْقَى فِي الطَّرِيقِ ،
+                                        الَّذِي لَيْسَ لَهُ بَيْتٌ إِلا التُّرَابُ </said> . وَقَالَ
+                                    آخَرُونَ : بَلْ هُوَ الْمُحْتَاجُ ؛ كَانَ لاصِقًا بِالتُّرَابِ ،
+                                    أَوْ غَيْرَ لاصِقٍ</seg> . وَ<seg ana="yes lughawi tabeer"
+                                    >قَالُوا : إِنَّمَا هُوَ مِنْ قَوْلِهِمْ : تَرِبَ الرَّجُلُ .
+                                    إِذَا افْتَقَرَ</seg></p>
+<p n="nothadith"><lb n="50466"/><pb ed="GK" edRef="65313" n="10451"/></p>
+</div>
+<div type="subsection" n="90.2.7">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34790" ana="lugha yes"><lb n="50467"/><note> 34785 /3 /140 </note>حَدَّثَنِي
+                                <persName ana="shaykh">عَلِيٌّ</persName> ، قَالَ : ثنا <persName
+                                ana="rawi">أَبُو صَالِحٍ</persName> ، قَالَ : ثني <persName
+                                ana="rawi">مُعَاوِيَةُ</persName> ، عَنْ <persName ana="rawi"
+                                >عَلِيٍّ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                                عَبَّاسٍ</persName><pb type="turki" n="24:430"/> في قوله : <said>
+                                <quote type="quran" n="90:16">أَوْ <seg ana="lughawi yes">مِسْكِينًا
+                                            ذَا مَتْرَبَةٍ . يَقُولُ : شَدِيدَ الْحَاجَةِ
+                                        </seg></quote>
+                            </said></p>
+<p n="hadith" xml:id="h34791" ana="lugha yes"><lb n="50468"/><note> 34786 /8 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">هَنَّادُ بْنُ السَّرِيِّ</persName> ، قَالَ :
+                            ثنا <persName ana="rawi">أَبُو الأَحْوَصِ</persName> ، عَنْ <persName
+                                ana="rawi">حُصَيْنٍ</persName> ، عَنْ <persName ana="rawi"
+                                >عِكْرِمَةَ</persName> في قوله : <said>
+                                <quote type="quran" n="90:16">أَوْ <seg ana="murad yes">مِسْكِينًا
+                                            ذَا مَتْرَبَةٍ . قَالَ : هُوَ الْمُحَارَفُ الَّذِي لا
+                                            مَالَ لَهُ</seg>
+                                    </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34792" ana="lugha yes"><lb n="50469"/><note> 34787 /8 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">يُونُسُ</persName> ، قَالَ : أَخْبَرَنَا
+                                    <persName ana="rawi">ابْنُ وَهْبٍ</persName> ، قَالَ : قَالَ
+                                    <persName ana="rawi">ابْنُ زَيْدٍ</persName> في قوله : <said>
+                                    <quote type="quran" n="90:16">أَوْ مِسْكِينًا <seg
+                                            ana="lughawi yes">ذَا مَتْرَبَةٍ . قَالَ : ذَا
+                                            حَاجَةٍ</seg> ؛ <seg ana="lughawi yes">التَّرِبُ :
+                                            الْمُحْتَاجُ</seg>
+                                    </quote>
+                                </said> . وَ<seg ana="murad">قَالَ آخَرُونَ : بَلْ هُوَ ذُو
+                                    الْعِيَالِ الْكَثِيرِ الَّذِينَ قَدْ لَصَقُوا بِالتُّرَابِ مِنَ
+                                    الضُّرِّ وَشِدَّةِ الْحَاجَةِ</seg></p>
+<p n="nothadith"><lb n="50470"/></p>
+</div>
+<div type="subsection" n="90.2.8">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34793" ana="lugha yes"><lb n="50471"/><note> 34788 /3 /140 </note>حَدَّثَنِي
+                                <persName ana="shaykh">مُحَمَّدُ بْنُ سَعْدٍ</persName> ، قَالَ :
+                            ثني <persName ana="rawi">أَبِي</persName> ، قَالَ : ثني <persName
+                                ana="rawi">عَمِّي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                >أَبِي</persName> ، عَنْ <persName ana="rawi">أَبِيهِ</persName> ،
+                            عَنِ <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:16">أَوْ <seg ana="murad yes">مِسْكِينًا
+                                        ذَا مَتْرَبَةٍ  . يَقُولُ : مِسْكِينٌ ذُو بَنِينَ وَعِيَالٍ
+                                        ، لَيْسَ بَيْنَكَ وَبَيْنَهُ قَرَابَةٌ</seg>
+                                </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34794" ana="lugha yes"><lb n="50472"/><note> 34789 /8 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا
+                                <persName ana="rawi">ابْنُ يَمَانٍ</persName> ، عَنْ <persName
+                                ana="rawi">أَشْعَثَ</persName> ، عَنْ <persName ana="rawi">جَعْفَرِ
+                                بْنِ أَبِي الْمُغِيرَةِ</persName> ، عَنْ <persName ana="rawi"
+                                >سَعِيدِ بْنِ جُبَيْرٍ</persName> في قوله : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا <seg ana="murad yes"
+                                        >ذَا مَتْرَبَةٍ  . قَالَ : ذَا عِيَالٍ</seg>
+                                </quote>
+                            </said></p>
+<p n="hadith" xml:id="h34795" ana="lugha yes"><lb n="50473"/><note> 34790 /8 /140 </note>حَدَّثَنَا
+                                <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ : ثنا <persName
+                                ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                                >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi">قَتَادَةَ</persName>
+                            قوله : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ  :
+                                    كُنَّا نُحَدَّثُ أَنَّ <seg ana="murad yes">التَّرِبَ هُوَ ذُو
+                                        الْعِيَالِ الَّذِي لا شَيْءَ لَهُ</seg>
+                                </quote>
+                            </said></p>
+<p n="nothadith"><lb n="50474"/><pb type="turki" n="24:431"/></p>
+<p n="hadith" xml:id="h34796" ana="lugha yes"><lb n="50475"/><note> 34791 /8 /140 </note>حُدِّثْتُ
+                            عَنِ <persName ana="rawi">الْحُسَيْنِ</persName> ، قَالَ : سَمِعْتُ
+                                <persName ana="rawi">أَبَا مُعَاذٍ</persName> يَقُولُ : ثنا
+                                <persName ana="rawi">عُبَيْدٌ</persName> ، قَالَ : سَمِعْتُ
+                                <persName ana="rawi">الضَّحَّاكَ</persName> يَقُولُ فِي قَوْلِهِ : <said>
+                                <quote type="quran" n="90:16">أَوْ مِسْكِينًا <seg ana="murad yes"
+                                        >ذَا مَتْرَبَةٍ  : ذَا عِيَالٍ لاصِقِينَ بِالأَرْضِ ، مِنَ
+                                        الْمَسْكَنَةِ وَالْجَهْدِ</seg>
+                                </quote>
+                            </said></p>
+<p n="nothadith" ana="lugha yes rajeh"><lb n="50476"/> وَأَوْلَى الأَقْوَالِ فِي ذَلِكَ بِالصِّحَّةِ
+                                قَوْلُ مَنْ قَالَ : <seg ana="lrajeh yes">عُنِيَ بِهِ : أَوْ
+                                    مِسْكِينًا قَدْ لَصَقَ بِالتُّرَابِ مِنَ الْفَقْرِ
+                                    وَالْحَاجَةِ</seg> ؛ لأَنَّ ذَلِكَ هُوَ الظَّاهِرُ مِنْ
+                                مَعَانِيهِ . وَأَنَّ قَوْلَهُ : <quote type="quran" n="90:16"><seg
+                                        ana="sarfnahw yes">مَتْرَبَةٍ إِنَّمَا هِيَ ( مَفْعَلَةٌ )
+                                        مِنْ : تَرِبَ الرَّجُلُ : إِذَا أَصَابَهُ التُّرَابُ</seg>
+                                        .<pb ed="GK" edRef="64810" n="10452"/></quote></p>
+</div>
+</div>
+<div type="section" n="90.3">
+<head type="30">القول في تأويل قوله جَلَّ ثَنَاؤُهُ : <quote type="quran" n="90:17-20">
+                            <l n="17">ثُمَّ كَانَ مِنَ الَّذِينَ آمَنُوا وَتَوَاصَوْا بِالصَّبْرِ
+                                وَتَوَاصَوْا بِالْمَرْحَمَةِ </l>
+                            <l n="18"> أُولَئِكَ <name role="organization">أَصْحَابُ
+                                    الْمَيْمَنَةِ</name>
+                            </l>
+                            <l n="19"> وَالَّذِينَ كَفَرُوا بِآيَاتِنَا هُمْ <name
+                                    role="organization">أَصْحَابُ الْمَشْأَمَةِ</name>
+                            </l>
+                            <l n="20"> عَلَيْهِمْ نَارٌ مُؤْصَدَةٌ </l>
+                        </quote></head>
+<p n="nothadith" ana="sufism yes">. قال <name role="person">أبو جعفر</name> رحمه اللَّهُ : يقول
+                            تعالى ذكره : ثم كان هذا الذي قال : <quote type="quran" n="90:6"
+                                >أَهْلَكْتُ مَالا لُبَدًا </quote> . من الذين آمنوا باللَّهِ ورسوله
+                            ، فيؤمن معهم كما آمنوا ، <quote type="quran" n="90:17">وَ<seg
+                                    ana="fazail yes">تَوَاصَوْا بِ<seg ana="sufiterm"
+                                        >الصَّبْرِ</seg></seg>
+                            </quote> . يقول : وممن <seg ana="fazail yes">أوصى بعضهم بعضا ب<seg
+                                    ana="sufiterm">الصبر</seg> على ما نابهم في ذات اللَّهِ</seg> ،
+                                <quote type="quran" n="90:17">وَ<seg ana="fazail yes">تَوَاصَوْا
+                                        بِ<seg ana="sufiterm">الْمَرْحَمَةِ</seg></seg>
+                            </quote> . يقول : و<seg ana="fazail yes">أوصى بعضهم بعضا ب<seg
+                                    ana="sufiterm">المرحمة</seg></seg> .</p>
+<p n="hadith" xml:id="h34797" ana="lugha sufism yes"><lb n="50477"/><note> 34792 /3 /140 </note>كما
+                            حَدَّثَنَا <persName ana="shaykh">مُحَمَّدُ بْنُ سِنَانٍ
+                                الْقَزَّازُ</persName> ، قَالَ : ثنا <persName ana="rawi">أَبُو
+                                عَاصِمٍ</persName> ، عَنْ <persName ana="rawi">شَبِيبٍ</persName> ،
+                            عَنْ <persName ana="rawi">عِكْرِمَةَ</persName> ، عَنِ <persName
+                                ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> : <said>
+                                <quote type="quran" n="90:17"><seg ana="fazail yes">وَتَوَاصَوْا
+                                            بِ<seg ana="sufiterm">الْمَرْحَمَةِ</seg> . قال : <seg
+                                            ana="sufiterm">مَرْحَمَةِ</seg> النَّاسِ</seg>
+                                </quote>
+                            </said></p>
+<p n="nothadith" ana="kalam lugha sufism"><lb n="50478"/> وقوله : <quote type="quran" n="90:18"><seg
+                                    ana="targhibtarhib yes">أُولَئِكَ <name role="organization"><seg
+                                            ana="samiyat">أَصْحَابُ الْمَيْمَنَةِ</seg></name></seg>
+                            </quote> . يقول : <seg ana="targhibtarhib yes">الذين فعلوا هذه الأفعال
+                                التي ذكرتها ؛ من <seg ana="fazail yes">فك الرقاب</seg> ، و<seg
+                                    ana="fazail yes">إطعام اليتيم</seg> ، وغير ذلك<name
+                                    role="organization">
+                                    <seg ana="samiyat">أصحابُ اليمين</seg></name> ، الذين يؤخذ بهم
+                                    <name role="time"><seg ana="samiyat yes">يوم
+                                    القيامة</seg></name> ذاتَ اليمينِ إلى <seg ana="samiyat yes"
+                                    >الْجَنَّةِ</seg></seg> . وقوله : <quote type="quran" n="90:19"
+                                >وَالَّذِينَ كَفَرُوا بِآيَاتِنَا </quote> . يقول : والذين كفروا
+                            بأدلتنا وأعلامنا <pb type="turki" n="24:432"/> وحججنا ؛ من <seg
+                                ana="ktub yes">الكتب</seg> والرسل وغير ذلك ، <quote type="quran"
+                                n="90:19"><seg ana="samiyat yes">هُمْ <name role="organization"
+                                        >أَصْحَابُ الْمَشْأَمَةِ</name></seg>
+                            </quote> . يقول : <seg ana="targhibtarhib yes">هم <name
+                                    role="organization">أصحاب الشمال</name>
+                                <name role="time"><seg ana="samiyat yes">يوم القيامة</seg></name> ،
+                                الذين يؤخذ بهم ذات الشمال</seg> . وقد بينا معنى المشأمةِ ، ولم قيل
+                            لليسار المشأمة فيما مضى ، فأغنى ذلك عن إعادته في هذا الموضع . وقوله :
+                                <quote type="quran" n="90:20"><seg ana="targhibtarhib yes"
+                                    >عَلَيْهِمْ نَارٌ مُؤْصَدَةٌ</seg>
+                            </quote> . يقول تعالى ذكره : عليهم <seg ana="samiyat yes">نار جهنم</seg>
+                            <name role="time"><seg ana="samiyat yes">يوم القيامة</seg></name> مطبقة
+                            ، يقال منه : <seg ana="lughawi yes">أوصدت وأصدت . إذا أطبقت</seg> .
+                            وبنحو الذي قلنا في ذلك قال <name role="organization">أهل التأويل</name>
+                            . </p>
+<div type="subsection" n="90.3.1">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h34798" ana="lugha yes"><lb n="50479"/><note> 34793 /3 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">عَلِيٌّ</persName> ، قَالَ : ثنا
+                                    <persName ana="rawi">أَبُو صَالِحٍ</persName> ، قَالَ : ثني
+                                    <persName ana="rawi">مُعَاوِيَةُ</persName> ، عَنْ <persName
+                                    ana="rawi">عَلِيٍّ</persName> ، عَنِ <persName ana="sahabi"
+                                    n="L4883">ابْنِ عَبَّاسٍ</persName> قوله : <said>
+                                    <quote type="quran" n="90:20">عَلَيْهِمْ نَارٌ <seg
+                                            ana="lughawi yes">مُؤْصَدَةٌ : مُطْبَقَةٌ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34799" ana="lugha yes"><lb n="50480"/><note> 34794 /3 /140 </note>حَدَّثَنِي
+                                    <persName ana="shaykh">مُحَمَّدُ بْنُ سَعْدٍ</persName> ، قَالَ
+                                : ثني <persName ana="rawi">أَبِي</persName> ، قَالَ : ثني <persName
+                                    ana="rawi">عَمِّي</persName> ، قَالَ : ثني <persName ana="rawi"
+                                    >أَبِي</persName> ، عَنْ <persName ana="rawi">أَبِيهِ</persName>
+                                ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> : <said>
+                                    <quote type="quran" n="90:20">عَلَيْهِمْ نَارٌ <seg
+                                            ana="lughawi yes">مُؤْصَدَةٌ . قال : مُطْبَقَةٌ</seg>
+                                    </quote>
+                                </said></p>
+<p n="nothadith" ana="lugha yes"><lb n="50481"/> حدثني <name role="person">محمد بن عمرو</name> ، قال
+                                : ثنا <name role="person">أبو عاصم</name> ، قال : ثنا <name
+                                    role="person">عيسى</name> ، وحدثني <name role="person"
+                                    >الحارث</name> ، قال : ثنا <name role="person">ورقاء</name> ،
+                                جميعا عن <name role="person">ابن أبي نجيح</name> ، عن <name
+                                    role="person">مجاهد</name> قولَه : <quote type="quran" n="90:20"
+                                    >عَلَيْهِمْ <seg ana="lughawi yes">نَارٌ مُؤْصَدَةٌ . قال :
+                                        مُطْبَقَةٌ</seg>
+                                    <pb type="turki" n="24:433"/></quote></p>
+<p n="hadith" xml:id="h34800" ana="lugha sufism yes"><lb n="50482"/><note> 34796 /8 /140
+                                </note>حَدَّثَنَا <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ :
+                                ثنا <persName ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName
+                                    ana="rawi">سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+                                    >قَتَادَةَ</persName> قوله : <said>
+                                    <quote type="quran" n="90:20">عَلَيْهِمْ نَارٌ <seg
+                                            ana="lughawi yes">مُؤْصَدَةٌ : أَيْ : مُطْبَقَةٌ</seg> ,
+                                            <seg ana="targhibtarhib yes">أَطْبَقَهَا اللَّهُ
+                                            عَلَيْهِمْ ، فَلا ضَوْءَ فِيهَا وَلا فَرْجَ ، وَلا
+                                            خُرُوجَ مِنْهَا آخِرَ الأَبَدِ</seg>
+                                    </quote>
+                                </said></p>
+<p n="hadith" xml:id="h34801" ana="lugha yes"><lb n="50483"/><note> 34797 /8 /140 </note>حُدِّثْتُ
+                                عَنِ <persName ana="rawi">الْحُسَيْنِ</persName> ، قَالَ : سَمِعْتُ
+                                    <persName ana="rawi">أَبَا مُعَاذٍ</persName> يَقُولُ : ثنا
+                                    <persName ana="rawi">عُبَيْدٌ</persName> ، قَالَ : سَمِعْتُ
+                                    <persName ana="rawi">الضَّحَّاكَ</persName> يَقُولُ فِي قَوْلِهِ
+                                : <said>
+                                    <quote type="quran" n="90:20"><seg ana="lughawi yes">مُؤْصَدَةٌ
+                                            . قَالَ : مُغْلَقَةٌ عَلَيْهِمْ</seg>
+                                    </quote>
+                                </said></p>
+<p n="nothadith"><lb n="50484"/> آخِرُ تَفْسِيرِ سُورَةِ <name type="sura">لا أُقْسِمُ بِهَذَا
+                                    الْبَلَدِ </name><pb type="turki" n="24:434"/> بِسْمِ اللَّهِ
+                                الرَّحْمَنِ الرَّحِيمِ<pb ed="GK" edRef="53532" n="10453"/></p>
+</div>
+</div>
+</div>
+</div></body>
+</text>
+</TEI>

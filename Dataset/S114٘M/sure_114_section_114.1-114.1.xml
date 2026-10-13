@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>test</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>test</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>test</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+<text xml:lang="ar">
+<body>
+<div type="chapter" n="114" xml:lang="ar">
+<head type="1">تفسير <name role="other">سورة ( النّاس )</name>
+                </head>
+<p n="nothadith">بسم اللَّهِ الرَّحْمَن الرحيم</p>
+</div>
+<div type="section" n="114.1">
+<head type="30">القول في تأويل قوله جل ثناؤه وتقدست أسماؤه : <quote type="quran" n="114:1-6">
+                        <l n="1">قُلْ أَعُوذُ بِرَبِّ النَّاسِ </l>
+                        <l n="2"> مَلِكِ النَّاسِ </l>
+                        <l n="3"> إِلَهِ النَّاسِ </l>
+                        <l n="4"> مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ </l>
+                        <l n="5"> الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ </l>
+                        <l n="6"> مِنَ الْجِنَّةِ وَالنَّاسِ </l>
+                    </quote></head>
+<p n="nothadith" ana="sufism yes">. يَقُولُ تَعَالَى ذِكْرُهُ لِنَبِيِّهِ <name role="person"
+                        >مُحَمَّدٍ</name> صلى اللَّهُ عليه وسلم : قل يا <name role="person"
+                        >مُحَمَّد</name> : أستجير <quote type="quran" n="114:1-2">
+                        <l n="1">بِرَبِّ النَّاسِ </l>
+                        <l n="2"> مَلِكِ النَّاسِ </l>
+                    </quote> . وهو ملك جميع الخلق ؛ إنسهم و<seg ana="samiyat yes">جنهم</seg> ، وغير
+                    ذَلِكَ . إعلامًا منه بذلك من كَانَ يعظم النّاس تعظيم <name role="organization"
+                            ><seg ana="kalamterm">المؤمنين</seg></name> ربهم ، أَنَّهُ ملك من يعظمه
+                    ، وأن ذَلِكَ في ملكه وسلطانه ، تجري عَلَيْهِ قدرته ، وأنه أولى بالتعظيم ، وأحق
+                    بالتعبد لَهُ ممن يعظمه ويتعبد لَهُ ، من غيره من النّاس . وقوله : <quote
+                        type="quran" n="114:3">إِلَهِ النَّاسِ . يَقُولُ : معبود النّاس ، الّذي لَهُ
+                        العبادة دون كل شيء سواه . وقوله : </quote><quote type="quran" n="114:4">مِنْ
+                            <seg ana="khairshar yes">شَرِّ</seg> الْوَسْوَاسِ </quote> . يعني : من
+                        <seg ana="khairshar yes">شر</seg>
+                    <name role="other"><seg ana="samiyat yes">الشيطان</seg></name> ، <quote
+                        type="quran" n="114:4"><seg ana="sufiterm">الْخَنَّاسِ</seg>
+                    </quote> : الّذي يخنس مُرَّة ، ويوسوس أخرى . وإنما يخنس فيما ذُكِرَ عِنْدَ <seg
+                        ana="asghalamal yes">ذِكْرِ</seg> الْعَبْدِ رَبَّهُ .<pb ed="GK"
+                        edRef="38187" n="10666"/></p>
+<div type="subsection" n="114.1.1">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h35743" ana="sufism yes"><lb n="51817"/><note> 35743 /3 /140 </note>حَدَّثَنَا
+                            <persName ana="shaykh">أَبُو كُرَيْبٍ</persName> ، قَالَ : ثنا <persName
+                            ana="rawi">يَحْيَى بْنُ عِيسَى</persName> ، عَنْ <persName ana="rawi"
+                            >سُفْيَانَ</persName> ، عَنْ <persName ana="rawi">حَكِيمِ بْنِ
+                            جُبَيْرٍ</persName> ، عَنْ <persName ana="rawi">سَعِيدِ بْنِ
+                            جُبَيْرٍ</persName> ، عَنِ <persName ana="sahabi" n="L4883">ابْنِ
+                            عَبَّاسٍ</persName> ، قَالَ : <said>مَا مِنْ مَوْلُودٍ إِلا عَلَى
+                            قَلْبِهِ <seg ana="sufiterm">الْوَسْوَاسُ</seg> ، فَإِذَا <pb
+                                type="turki" n="24:754"/> عَقَلَ فَ<seg ana="asghalamal yes">ذَكَرَ
+                                اللَّهَ</seg> خَنَسَ ، وَإِذَا <seg ana="razail yes">غَفَلَ</seg>
+                            وَسْوَسَ . قَالَ : فَذَلِكَ قَوْلُهُ : <quote type="quran" n="114:4"
+                                    ><seg ana="sufiterm">الْوَسْوَاسِ</seg>
+                                <seg ana="sufiterm">الْخَنَّاسِ</seg>
+                            </quote></said></p>
+<p n="hadith" xml:id="h35744" ana="sufism yes"><lb n="51818"/><note> 35744 /3 /140 </note>حَدَّثَنَا
+                            <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ : ثنا <persName
+                            ana="rawi">جَرِيرٌ</persName> ، عَنْ <persName ana="rawi"
+                            >مَنْصُورٍ</persName> ، عَنْ <persName ana="rawi">سعيد</persName> ، عَنِ
+                            <persName ana="sahabi" n="L4883">ابْنِ عَبَّاسٍ</persName> في قوله :
+                                <said><quote type="quran" n="114:4"><seg ana="sufiterm"
+                                    >الْوَسْوَاسِ</seg>
+                                <seg ana="sufiterm">الْخَنَّاسِ</seg>
+                            </quote> . قَالَ : <name role="other"><seg ana="samiyat yes"
+                                    >الشَّيْطَانُ</seg></name> جَاثِمٌ عَلَى قَلْبِ <name
+                                role="organization">ابْنِ آدَمَ</name> ، فَإِذَا <seg
+                                ana="razail yes">سَهَا</seg>
+                            <seg ana="razail yes">وَغَفَلَ</seg> وَسْوَسَ ، وَإِذَا <seg
+                                ana="asghalamal yes">ذَكَرَ اللَّهَ</seg> خَنَسَ </said></p>
+<p n="hadith" xml:id="h35745" ana="sufism yes"><lb n="51819"/><note> 35745 /8 /140 </note>قَالَ :
+                        ثنا <persName ana="rawi">مِهْرَانُ</persName> ، عَنْ <persName ana="rawi"
+                            >عُثْمَانَ بْنِ الأَسْوَدِ</persName> ، عَنْ <persName ana="rawi"
+                            >مُجَاهِدٍ</persName> : <said><quote type="quran" n="114:4"><seg
+                                    ana="sufiterm">الْوَسْوَاسِ</seg>
+                                <seg ana="sufiterm">الْخَنَّاسِ</seg>
+                            </quote> . قَالَ : يَنْبَسِطُ ، فَإِذَا <seg ana="asghalamal yes">ذَكَرَ
+                                اللَّهَ</seg> خَنَسَ وَانْقَبَضَ ، فَإِذَا <seg ana="razail yes"
+                                >غَفَلَ</seg> انْبَسَطَ </said></p>
+<p n="hadith" xml:id="h35746" ana="sufism yes"><lb n="51820"/><note> 35746 /8 /140 </note>حَدَّثَنِي
+                            <persName ana="shaykh">مُحَمَّدُ بْنُ عَمْرٍو</persName> ، قَالَ : ثنا
+                            <persName ana="rawi">أَبُو عَاصِمٍ</persName> ، قَالَ : ثنا <persName
+                            ana="rawi">عِيسَى</persName> ، وَحَدَّثَنِي <persName ana="shaykh"
+                            >الْحَارِثُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                            >الْحَسَنُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                            >وَرْقَاءُ</persName> ، جَمِيعًا عَنِ <persName ana="rawi">ابْنِ أَبِي
+                            نَجِيحٍ</persName> ، عَنْ <persName ana="rawi">مُجَاهِدٍ</persName> في
+                        قوله : <said><quote type="quran" n="114:4"><seg ana="sufiterm"
+                                    >الْوَسْوَاسِ</seg>
+                                <seg ana="sufiterm">الْخَنَّاسِ</seg>
+                            </quote> . قَالَ : <name role="other"><seg ana="samiyat yes"
+                                    >الشَّيْطَانُ</seg></name> يَكُونُ عَلَى قَلْبِ الإِنْسَانِ ،
+                            فَإِذَا <seg ana="asghalamal yes">ذَكَرَ اللَّهَ</seg> خَنَسَ
+                        </said></p>
+<p n="hadith" xml:id="h35747" ana="sufism yes"><lb n="51821"/><note> 35747 /8 /140 </note>حَدَّثَنَا
+                            <persName ana="shaykh">ابْنُ عَبْدِ الأَعْلَى</persName> ، قَالَ : ثنا
+                            <persName ana="rawi">ابْنُ ثَوْرٍ</persName> ، عَنْ <persName ana="rawi"
+                            >مَعْمَرٍ</persName> ، عَنْ <persName ana="rawi">قَتَادَةَ</persName> :
+                                <said><quote type="quran" n="114:4"><seg ana="sufiterm"
+                                    >الْوَسْوَاسِ</seg>
+                            </quote> . قَالَ : هُوَ <name role="other"><seg ana="samiyat yes"
+                                    >الشَّيْطَانُ</seg></name> ، وَهُوَ <seg ana="sufiterm"
+                                >الْخَنَّاسُ</seg> أَيْضًا ، إِذَا <seg ana="asghalamal yes"
+                                >ذَكَرَ</seg> الْعَبْدُ رَبَّهُ <seg ana="sufiterm">خَنَسَ</seg> ،
+                            وَهُوَ <seg ana="sufiterm">يُوَسْوِسُ</seg> وَيَخْنِسُ </said></p>
+<p n="nothadith"><lb n="51822"/><pb type="turki" n="24:755"/></p>
+<p n="hadith" xml:id="h35748" ana="sufism yes"><lb n="51823"/><note> 35748 /8 /140 </note>حَدَّثَنَا
+                            <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ : ثنا <persName
+                            ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName ana="rawi"
+                            >سَعِيدٌ</persName> ، عَنْ <persName ana="rawi">قَتَادَةَ</persName> :
+                                <said><quote type="quran" n="114:4">مِنْ شَرِّ <seg ana="sufiterm"
+                                    >الْوَسْوَاسِ</seg> الْخَنَّاسِ </quote> . يَعْنِي : <name
+                                role="other"><seg ana="samiyat yes">الشَّيْطَانَ</seg></name> ، <seg
+                                ana="sufiterm">يُوَسْوِسُ</seg> فِي صَدْرِ <name role="organization"
+                                >ابْنِ آدَم</name>َ ، وَيَخْنِسُ إِذَا <seg ana="asghalamal yes"
+                                >ذَكَرَ اللَّهَ</seg>
+                        </said></p>
+<p n="hadith" xml:id="h35749" ana="sufism yes"><lb n="51824"/><note> 35749 /8 /140 </note>حَدَّثَنَا
+                            <persName ana="shaykh">ابْنُ عَبْدِ الأَعْلَى</persName> ، قَالَ : ثنا
+                            <persName ana="rawi">ابْنُ ثَوْرٍ</persName> ، عَنْ <persName
+                            ana="unknown_rawi">أَبِيهِ</persName> ، قَالَ : ذُكِرَ لِي أَنَّ
+                                <said><name role="other"><seg ana="samiyat yes"
+                                >الشَّيْطَانَ</seg></name> . <add type="parenthesis">أَوْ قَالَ :
+                                    <seg ana="sufiterm">الْوَسْوَاسَ</seg> ، </add> يَنْفُثُ فِي
+                            قَلْبِ الإِنْسَانِ عِنْدَ <seg ana="sufiterm">الْحُزْنِ</seg> وَعِنْدَ
+                                <seg ana="sufiterm">الْفَرَحِ</seg> ، وَإِذَا <seg
+                                ana="asghalamal yes">ذَكَرَ اللَّهَ</seg> خَنَسَ </said></p>
+<p n="hadith" xml:id="h35750" ana="sufism yes"><lb n="51825"/><note> 35750 /8 /140 </note>حَدَّثَنِي
+                            <persName ana="shaykh">يُونُسُ</persName> ، قَالَ : أَخْبَرَنَا
+                            <persName ana="rawi">ابْنُ وَهْبٍ</persName> ، قَالَ : قَالَ <persName
+                            ana="rawi">ابْنُ زَيْدٍ</persName> في قوله : <said><quote type="quran"
+                                n="114:4"><seg ana="sufiterm">الْخَنَّاسِ</seg>
+                            </quote> . قَالَ : <seg ana="sufiterm">الْخَنَّاسُ</seg> الَّذِي <seg
+                                ana="yes razail">يُوَسْوِسُ</seg> مَرَّةً ، وَيَخْنِسُ مَرَّةً ،
+                            مِنَ <seg ana="samiyat yes">الْجِنِّ</seg> وَالإِنْسِ ، وَكَانَ يُقَالُ
+                            : <name role="other"><seg ana="samiyat yes">شَيْطَانُ</seg></name>
+                            الإِنْسِ أَشَدُّ عَلَى النَّاسِ مِنْ <name role="other"><seg
+                                    ana="samiyat yes">شَيْطَانِ</seg></name>
+                            <seg ana="samiyat yes">الْجِنِّ</seg> ؛ <name role="other"><seg
+                                    ana="samiyat yes">شَيْطَانُ</seg></name>
+                            <seg ana="samiyat yes">الْجِنِّ</seg> يُوَسْوِسُ وَلا تَرَاهُ ، وَهَذَا
+                            يُعَايِنُكَ مُعَايَنَةً </said> . وَرُوِيَ عَنِ <name role="person"
+                            >ابْنِ عَبَّاسٍ</name> ، رَضِيَ اللَّهُ عَنْهُ ، أَنَّهُ كَانَ يَقُولُ
+                        فِي ذَلِكَ : <quote type="quran" n="114:4">مِنْ <seg ana="khairshar yes"
+                                >شَرِّ</seg>
+                            <seg ana="sufiterm">الْوَسْوَاسِ</seg>
+                        </quote> : <seg ana="razail yes">الَّذِي يُوَسْوِسُ بِالدُّعَاءِ إِلَى
+                            طَاعَتِهِ فِي صُدُورِ النَّاسِ ، حَتَّى يُسْتَجَابَ لَهُ إِلَى مَا دَعَا
+                            إِلَيْهِ مِنْ طَاعَتِهِ ، فَإِذَا اسْتُجِيبَ لَهُ إِلَى ذَلِكَ
+                            خَنَسَ</seg></p>
+<p n="nothadith"><lb n="51826"/><pb ed="GK" edRef="50948" n="10667"/></p>
+</div>
+<div type="subsection" n="114.1.2">
+
+<head type="7">ذِكْرُ الرّوَايَةِ بذَلِكَ </head>
+<p n="hadith" xml:id="h35751" ana="sufism yes"><lb n="51827"/><note> 35751 /3 /140 </note>حَدَّثَنِي
+                            <persName ana="shaykh">مُحَمَّدُ بْنُ سَعْدٍ</persName> ، قَالَ : ثني
+                            <persName ana="rawi">أَبِي</persName> ، قَالَ : ثني <persName ana="rawi"
+                            >عَمِّي</persName> ، قَالَ : ثني <persName ana="rawi">أَبِي</persName> ،
+                        عَنْ <persName ana="rawi">أَبِيهِ</persName> ، عَنِ <persName ana="sahabi"
+                            n="L4883">ابْنِ عَبَّاسٍ</persName> في قوله : <said><quote type="quran"
+                                n="114:4"><seg ana="sufiterm">الْوَسْوَاسِ</seg>
+                            </quote> . قَالَ : هُوَ <name role="other"><seg ana="samiyat yes"
+                                    >الشَّيْطَانُ</seg></name> يَأْمُرُهُ ، <seg ana="razail yes"
+                                >فَإِذَا أُطِيعَ</seg> خَنَسَ </said></p>
+<p n="nothadith" ana="kalam rajeh sufism yes"><lb n="51828"/><pb ed="GK" edRef="59923" n="10668"/>
+                        <seg ana="srajeh">وَالصَّوَابُ مِنَ الْقَوْلِ فِي ذَلِكَ عِنْدِي</seg> ،
+                        أَنْ يُقَالَ : إِنَّ اللَّهَ تعالى ذكره أَمَرَ نَبِيَّهُ <pb type="turki"
+                            n="24:756"/>
+                        <name role="person">مُحَمَّدً</name>ا صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنْ
+                        يَسْتَعِيذَ بِهِ مِنْ <seg ana="khairshar yes">شَرِّ</seg>
+                        <name role="other"><seg ana="samiyat yes">شَيْطَانٍ</seg></name>
+                        <seg ana="razail">يُوَسْوِسُ</seg> مَرَّةً وَ<seg ana="razail"
+                            >يَخْنِسُ</seg> أُخْرَى ، وَلَمْ يَخُصَّ <seg ana="sufiterm"
+                            >وَسْوَسَتَ</seg>هُ عَلَى نَوْعٍ مِنْ أَنْوَاعِهَا ، وَلا خُنُوسَهُ
+                        عَلَى وَجْهٍ دُونَ وَجْهٍ ، وَقَدْ <seg ana="razail">يُوَسْوِسُ</seg>
+                        بالدُّعَاءِ إِلَى <seg ana="razail yes">مَعْصِيَةِ</seg> اللَّهِ ، فَإِذَا
+                        أُطِيعَ فِيهَا خَنَسَ ، وَقَدْ <seg ana="razail yes">يُوَسْوِسُ</seg> بِ<seg
+                            ana="razail yes">النَّهْيِ عَنْ طَاعَةِ اللَّهِ</seg> فَإِذَا <seg
+                            ana="fazail yes">ذَكَرَ الْعَبْدُ أَمْرَ رَبِّهِ</seg> ، <seg
+                            ana="fazail yes">فَأَطَاعَهُ فِيهِ</seg> ، وَ<seg ana="fazail yes">عَصَى
+                                <name role="other"><seg ana="samiyat yes"
+                            >الشَّيْطَانَ</seg></name></seg> ، خَنَسَ ، فَهُوَ فِي كُلِّ حَالَتَيْهِ
+                            <seg ana="sufiterm">وَسْوَاسٌ</seg>
+                        <seg ana="sufiterm">خَنَّاسٌ</seg> ، وَهَذِهِ الصِّفَةُ صِفَتُهُ . وقوله :
+                            <quote type="quran" n="114:5">الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ
+                        </quote> . يعني بذلك <name role="other"><seg ana="samiyat yes"
+                            >الشيطان</seg></name>
+                        <seg ana="sufiterm">الوسواس</seg> ، الّذي <seg ana="razail">يوسوس</seg> في
+                        صدور النّاس ؛<seg ana="samiyat yes"> جن</seg>هم وإنسهم . فإن قَالَ قائل :
+                            ف<seg ana="samiyat yes">الجن</seg> ناس ، فيقال : <quote type="quran"
+                            n="114:5-6">
+                            <l n="5">الَّذِي <seg ana="razail yes">يُوَسْوِسُ</seg> فِي صُدُورِ
+                                النَّاسِ </l>
+                            <l n="6"> مِنَ <seg ana="samiyat yes">الْجِنَّةِ</seg> وَالنَّاسِ </l>
+                        </quote> ؟ قِيلَ : قد سماهم اللَّهُ في هذا الموضع ناسًا ، كما سماهم في موضع
+                        آخر رجالا ، فَقَالَ : <quote type="quran" n="72:6">وَأَنَّهُ كَانَ رِجَالٌ
+                            مِنَ الإِنْسِ يَعُوذُونَ بِرِجَالٍ مِنَ <seg ana="samiyat yes"
+                                >الْجِنِّ</seg>
+                        </quote> . فجعل <seg ana="samiyat yes">الجن</seg> رجالا ، وكذلك جعل منهم
+                        ناسًا . وقد ذكر عَن بعض <name role="organization">العرب</name> أَنَّهُ قَالَ
+                        وهو يحدث : إذ جاء قوم من <seg ana="samiyat yes">الجن</seg> فوقفوا ، فقيل :
+                        من أنتم ؟ فقالوا : ناس من <seg ana="samiyat yes">الجن</seg> . فجعل منهم
+                        ناسًا ، فكذلك ما في التنزيل من ذَلِكَ . آخِرُ كِتَابِ التَّفْسِيرِ ، والحمد
+                        لِلَّهِ الْعَلِيِّ الكبير .</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

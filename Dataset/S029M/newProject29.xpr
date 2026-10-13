@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QnewProject29.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="newProject29.xpr">
+        <folder path="."/>
+        <file name="TT_s029_div011.xml"/>
+    </projectTree>
+</project>

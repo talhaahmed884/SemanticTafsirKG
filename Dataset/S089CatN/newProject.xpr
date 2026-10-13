@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QnewProject.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="newProject.xpr">
+        <folder masterFiles="true" name="Main Files">
+            <file name="TT_s089_div000.xml"/>
+            <file name="TT_s089_div001.xml"/>
+            <file name="TT_s089_div002.xml"/>
+            <file name="TT_s089_div003.xml"/>
+            <file name="TT_s089_div004.xml"/>
+            <file name="TT_s089_div005.xml"/>
+            <file name="TT_s089_div006.xml"/>
+        </folder>
+        <folder path="."/>
+    </projectTree>
+</project>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>test</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>test</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>test</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+<text xml:lang="ar">
+<body>
+<div type="section" n="16.112">
+<head type="30">الْقَوْلُ فِي تَأْوِيلِ قَوْلِهِ تَعَالَى : <quote type="quran" n="16:128">إِنَّ
+						اللَّهَ مَعَ الَّذِينَ اتَّقَوْا وَالَّذِينَ هُمْ مُحْسِنُونَ
+					</quote></head>
+<p n="nothadith" ana="kalam lugha sufism yes">يَقُولُ تَعَالَى ذكره : وإن الله يا <name
+						role="person">مُحَمَّد</name>
+					<quote type="quran" n="16:128">مَعَ الَّذِينَ <seg ana="fazail">اتَّقَوْا</seg>
+					</quote> الله فِي محارمه <seg ana="fazail">فاجتنبوها</seg> ، و<seg ana="fazail"
+						>خافوا <seg ana="sawabiqab">عقاب</seg>ه عَلَيْهَا </seg>، ف<seg ana="fazail"
+						>أحجموا عَنْ التقدم عَلَيْهَا</seg> ، <quote type="quran" n="16:128"
+						>اتَّقَوْا وَالَّذِينَ هُمْ <seg ana="sufiterm">مُحْسِنُونَ</seg>
+					</quote> . يَقُولُ : <seg ana="murad">وَهُوَ مَعَ الَّذِين <seg ana="fazail"
+							>يحسنون رعاية <seg ana="fiqhterm">فرائض</seg>ه</seg> ، و<seg
+							ana="fazail">القيام ب<seg ana="fiqhterm">حقوق</seg>ه</seg> ، و<seg
+							ana="fazail">لزوم طاعته فيما أمرهم بِهِ ونهاهم عَنْهُ</seg></seg> .
+					وبنحو الَّذِي قُلْنَا فِي ذَلِكَ قَالَ <name role="organization">أَهْل
+						التأويل</name> . </p>
+<div type="subsection" n="16.112.1">
+					<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+					<p n="hadith" xml:id="h20129" ana="lugha sufism yes"><lb n="28842"/><note> 20146 /8 /140
+						</note>حَدَّثَنَا <persName ana="shaykh">ابْنُ حُمَيْدٍ</persName> ، قَالَ :
+						ثنا <persName ana="rawi">حَكَّامٌ</persName> ، عَنْ <persName ana="rawi"
+							>سُفْيَانَ</persName> ، عَنْ <persName ana="unknown_rawi"
+							>رَجُلٍ</persName> ، عَنِ <persName ana="rawi">الْحَسَنِ</persName> : "
+								<said><quote type="quran" n="16:128">إِنَّ اللَّهَ مَعَ الَّذِينَ
+									<seg ana="fazail">اتَّقَوْا</seg> وَالَّذِينَ هُمْ <seg
+									ana="sufiterm">مُحْسِنُونَ</seg>
+							</quote> . قَالَ : " <seg ana="murad"><seg ana="fazail">اتَّقُوا اللَّهَ
+									فِيمَا حَرَّمَ عَلَيْهِمْ</seg> ، وَ<seg ana="fazail">أَحْسَنُوا
+									فِيمَا افْتَرَضَ عَلَيْهِمْ</seg></seg> " </said> . </p>
+					<p n="hadith">حَدَّثَنَا <persName ana="shaykh">الْحَسَنُ</persName> ، قَالَ :
+						أَخْبَرَنَا <persName ana="rawi">عَبْدُ الرَّزَّاقِ</persName> ، قَالَ :
+						أَخْبَرَنَا <persName ana="rawi">مَعْمَرٌ</persName> ، عَنْ <persName
+							ana="unknown_rawi">رَجُلٍ</persName> ، عَنِ <persName ana="rawi"
+							>الْحَسَنِ</persName> ، مِثْلَهُ</p>
+					<p n="hadith" xml:id="h20130" ana="asbab fiqh sufism yes"><lb n="28843"/><note> 20147 /2 /140
+						</note>حَدَّثَنَا <persName ana="shaykh" n="L1889">بِشْرٌ</persName> ، قَالَ
+						: ثنا <persName ana="rawi" n="L8418">يَزِيدُ</persName> ، قَالَ : ثنا
+							<persName ana="rawi" n="L3281">سَعِيدٌ</persName> ، عَنْ <persName
+							ana="rawi" n="L6458">قَتَادَةَ</persName> ، قَالَ : ذُكِرَ لَنَا ، أَنَّ
+							<persName ana="rawi" n="L8021">هَرِمَ بْنَ حَيَّانَ
+							الْعَبْدِيَّ</persName> لَمَّا حَضَرَهُ الْمَوْتُ ، قِيلَ لَهُ : أَوْصِ
+						، قَالَ : " مَا أَدْرِي مَا أُوصِي ، وَلَكِنْ <pb type="turki" n="14:410"
+							/><seg ana="yes wasaya"> بِيعُوا دِرْعِي فَاقْضُوا عَنِّي <seg
+								ana="fiqhterm">دَيْنِ</seg>ي ، فَإِنْ لَمْ يَفِ فَبِيعُوا فَرَسِي ،
+							فَإِنْ لَمْ تَفِ فَبِيعُوا <seg><seg ana="yes itq"
+							>غُلامِ</seg></seg>ي</seg> ، وَأُوصِيكُمْ بِخَوَاتِيمِ <name
+							role="other">سُورَةِ ( النَّحْلِ</name> ) : <said><quote type="quran"
+								n="16:125-126">
+								<l n="125"><seg ana="targhibtarhib">ادْعُ إِلَى سَبِيلِ رَبِّكَ
+										بِالْحِكْمَةِ وَالْمَوْعِظَةِ الْحَسَنَةِ وَجَادِلْهُمْ
+										بِالَّتِي هِيَ أَحْسَنُ</seg> إِنَّ رَبَّكَ هُوَ أَعْلَمُ
+									بِمَنْ ضَلَّ عَنْ سَبِيلِهِ وَهُوَ أَعْلَمُ بِ<seg
+										ana="kalamterm">الْمُهْتَدِينَ</seg>
+								</l>
+								<l n="126">
+									<seg ana="targhibtarhib">وَإِنْ عَاقَبْتُمْ فَعَاقِبُوا بِمِثْلِ
+										مَا عُوقِبْتُمْ بِهِ وَلَئِنْ صَبَرْتُمْ لَهُوَ خَيْرٌ
+											لِل<seg ana="sufiterm">صَّابِرينَ</seg></seg>
+								</l>
+							</quote> . <seg ana="areaction yes">ذُكِرَ لَنَا أَنَّ نَبِيَّ اللَّهِ
+								صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ " ، لَمَّا نَزَلَتْ هَذِهِ الآيَةُ
+								، قَالَ : " بَلْ نَصْبِرُ</seg> " </said></p>
+					<p n="nothadith"><lb n="28844"/> آخر تفسير <name role="other">سورة النحل</name>
+						. <pb type="turki" n="14:411"/><pb ed="GK" edRef="62517" n="6311"/></p>
+				</div>
+</div>
+</body>
+</text>
+</TEI>

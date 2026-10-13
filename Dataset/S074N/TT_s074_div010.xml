@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>test</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>test</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>test</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+<text xml:lang="ar">
+<body>
+<div type="section" n="74.10">
+<head type="30">الْقَوْلُ فِي تَأْوِيلِ قَوْلِهِ عَزَّ وَجَلّ : <quote type="quran" n="74:54-56">
+						<l n="54">كَلَّا إِنَّهُ تَذْكِرَةٌ </l>
+						<l n="55"> فَمَنْ شَاءَ ذَكَرَهُ </l>
+						<l n="56"> وَمَا يَذْكُرُونَ إِلا أَنْ يَشَاءَ اللَّهُ هُوَ أَهْلُ
+							التَّقْوَى وَأَهْلُ الْمَغْفِرَةِ </l>
+					</quote></head>
+<p n="nothadith" ana="adyan kalam lugha sufism yes">قال <name role="person">أبو جعفر</name> رحمه
+					الله : يعني جل ثناؤه بقوله : <quote type="quran" n="74:54">كَلَّا إِنَّهُ <seg
+							ana="sufiterm yes">تَذْكِرَةٌ</seg>
+					</quote> ليس الأمر كما يقول هؤلاء <name role="organization"><seg
+							ana="adyanterm yes">المشركون</seg></name> في هذا <name role="other"><seg
+							ana="ktub yes">القرآن</seg></name> من أنه <seg ana="samiyat yes"
+						>سحر</seg> يؤثر ، وأنه قول البشر ، و<seg ana="murad">لكنه <seg
+							ana="sufiterm yes">تذكرة</seg> من الله لخلقه ، ذكرهم به</seg> . وبنحو
+					الذي قلنا في ذلك قال <name role="organization">أهل التأويل</name> . <pb
+						type="turki" n="23:463"/><pb ed="GK" edRef="48166" n="10069"/></p>
+<div type="subsection" n="74.10.1">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h33049" ana="kalam lugha sufism yes"><lb n="47985"/><note> 33043 /8 /140
+						</note>حَدَّثَنَا <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ : ثنا
+							<persName ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName
+							ana="rawi">سَعِيدٌ</persName> ، عَنْ <persName ana="rawi"
+							>قَتَادَةَ</persName> ، قَوْلَهُ : <said><quote type="quran" n="74:54"
+								>كَلَّا إِنَّهُ <seg ana="sufiterm">تَذْكِرَةٌ</seg>
+							</quote> . أَيِ : <name role="other"><seg ana="ktub yes"><seg
+										ana="murad">الْقُرْآنَ</seg></seg></name>
+						</said></p>
+<p n="nothadith" ana="kalam lugha sufism yes"><lb n="47986"/> وقوله : <quote type="quran" n="74:55"
+								><seg ana="targhibtarhib">فَمَنْ شَاءَ <seg ana="asghalamal yes"
+									>ذَكَرَهُ</seg></seg>
+						</quote> . يقول تعالى <seg ana="ashghalamal yes">ذكره</seg> : <seg
+							ana="murad"><seg ana="targhibtarhib">فمن شاء من عباد الله الذين <seg
+									ana="ashghalamal yes">ذكرهم</seg> الله بهذا <name role="other"
+										><seg ana="ktub yes">القرآن</seg></name>
+								<seg ana="ashghalamal yes">ذكره</seg> ، <seg ana="fazail">فاتعظ
+									به</seg> و<seg ana="fazail">استعمل ما فيه من أمر الله
+									ونهيه</seg></seg></seg> ، <quote type="quran" n="74:56"><seg
+								ana="qazaqadr yes">وَمَا يَذْكُرُونَ إِلا أَنْ يَشَاءَ اللَّهُ</seg>
+						</quote> . يقول تعالى ذكره : <seg ana="qazaqadr murad">وما <seg
+								ana="ashghalamal yes">يذكرون</seg> هذا <name role="other"><seg
+									ana="ktub yes">القرآن</seg></name>
+							<seg ana="fazail">فيتعظون به</seg> ، و<seg ana="fazail">يستعملون ما
+								فيه</seg> ، إلا أن يشاء الله أن يذكروه ؛ لأنه لا أحد يقدر على شيء
+							إلا بأن يشاء الله أن يقدره عليه ويعطيه القدرة عليه</seg> . وقوله :
+							<quote type="quran" n="74:56"><seg ana="sifatilahi">هُوَ أَهْلُ
+								التَّقْوَى وَأَهْلُ الْمَغْفِرَةِ</seg>
+						</quote> . يقول تعالى ذكره : <seg ana="murad">الله أهل أن يتقي عباده <seg
+								ana="sawabiqab">عقابه</seg> على معصيتهم إياه ، فيجتنبوا <seg
+								ana="razail yes">معاصيه</seg> ، ويسارعوا إلى <seg ana="razail yes"
+								>طاعته</seg></seg> ، <quote type="quran" n="74:56">وَ<seg
+								ana="sifatilahi">أَهْلُ الْمَغْفِرَةِ</seg>
+						</quote> . يقول : <seg ana="murad"><seg ana="sifatilahi">هو أهل أن يغفر <seg
+									ana="razail yes">ذنوبهم</seg> إذا هم فعلوا ذلك ، ولا يعاقبهم
+								عليها مع توبتهم منها</seg></seg> . وبنحو الذي قلنا في ذلك قال <name
+							role="organization">أهل التأويل</name> . <pb type="turki" n="23:464"
+						/></p>
+</div>
+<div type="subsection" n="74.10.2">
+<head type="7">ذِكْرُ مَنْ قَالَ ذَلِكَ </head>
+<p n="hadith" xml:id="h33050" ana="kalam lugha yes"><lb n="47987"/><note> 33044 /8 /140
+						</note>حَدَّثَنَا <persName ana="shaykh">بِشْرٌ</persName> ، قَالَ : ثنا
+							<persName ana="rawi">يَزِيدُ</persName> ، قَالَ : ثنا <persName
+							ana="rawi">سَعِيدٌ</persName> ، عَنْ <persName ana="rawi">قَتَادَةَ
+							قوله</persName> : <said><quote type="quran" n="74:56"><seg
+									ana="sifatilahi">هُوَ أَهْلُ التَّقْوَى وَأَهْلُ الْمَغْفِرَةِ
+								</seg></quote> : <seg ana="murad"><seg ana="sifatilahi">رَبُّنَا
+									مَحْقُوقٌ أَنْ تُتَّقَى مَحَارِمُهُ ، وَهُوَ أَهْلُ
+									الْمَغْفِرَةِ يَغْفِرُ الذُّنُوبَ</seg></seg>
+						</said></p>
+<p n="hadith" xml:id="h33051" ana="kalam lugha yes"><lb n="47988"/><note> 33045 /8 /140
+						</note>حَدَّثَنَا <persName ana="shaykh">ابْنُ عَبْدِ الأَعْلَى</persName> ،
+						قَالَ : ثنا <persName ana="rawi">ابْنُ ثَوْرٍ</persName> ، عَنْ <persName
+							ana="rawi">مَعْمَرٍ</persName> ، عَنْ <persName ana="rawi"
+							>قَتَادَةَ</persName> فِي قَوْلِهِ : <said><quote type="quran" n="74:56"
+									><seg ana="sifatilahi">هُوَ أَهْلُ التَّقْوَى وَأَهْلُ
+									الْمَغْفِرَةِ</seg>
+							</quote> . قَالَ : <seg ana="murad"><seg ana="sifatilahi">أَهْلٌ أَنْ
+									تُتَّقَى مَحَارِمُهُ ، وَأَهْلُ الْمَغْفِرَةِ : أَهْلٌ أَنْ
+									يَغْفِرَ الذُّنُوبَ</seg></seg>
+						</said></p>
+<p n="nothadith"><lb n="47989"/> آخر تفسير <name role="other">سورة المدثر</name>
+						<pb type="turki" n="23:465"/> بسم الله <seg ana="sifatilahi">الرحمن</seg>
+						<seg ana="sifatilahi">الرحيم</seg>
+					</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>
