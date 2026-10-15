@@ -59,6 +59,12 @@ Rules to keep:
 
 - **Structure:** `div[@type=chapter]` → `div[@type=section][@n=s.k]` → `div[@type=subsection]`. A chapter spread over several files is merged. Some files close the chapter `<div>` right after its `<head>` and place the sections at body level; those sections belong to the preceding chapter. Section numbers can differ from the chapter: chapter 1 contains sections `0.11`–`0.16`.
 - **Paragraphs:** `p[@n=nothadith]` becomes `st:Commentary`, and `p[@n=hadith]` becomes `hadith:Hadith`, numbered from `xml:id="h134"`. A hadith paragraph without `xml:id` continues the previous hadith (it gives another isnad, ending in بمثله/بنحوه). Its IRI is `hadith/<n>/continuation/<k>` and it gets `st:refersTo` pointing to the hadith it continues.
+- **Paragraph numbering:** every paragraph has an `ordinal`, its position among all `<p>` of its division (hadith
+  included). It is read from the division's paragraph list, so it continues when a chapter resumes in another file.
+  Commentary IRIs use it (`commentary/1.2/7`). The commentary *number* (label `Commentary 6` and `st:hasCommentaryNo`)
+  counts only commentary paragraphs (`Division.commentaries`), because a hadith is quoted material, not Tabari's own
+  words. Numbering is per division: it starts at 1 in each section or subsection and resumes in the parent after a
+  nested subsection.
 - **Isnad:** made from the `persName` elements outside `said`/`quote`, in document order. A new chain starts at each `shaykh`. The last narrator is the root. Names before the first `shaykh` are mentions, not chain links. Chains naming several Companions may branch ("وعن"); they are reported but stay linear.
 - **Themes:** `@ana` is split on spaces and commas and lower-cased, and the `yes` flag (meaning undocumented) is dropped. Paragraph themes go on the paragraph. A `seg`, or a `name`/`time` that has `@ana`, becomes an `st:Segment` with its themes. A themed span inside a Qur'an quotation becomes a `ThematicVerse(Fragment)Reference`. Themes are flat; there is no Theme/SubTheme hierarchy.
 - **Qur'an:** `quote[@type=quran]` with `@n` refers to the `st:Verse` if the text is the whole verse, otherwise to an `st:VerseFragment` linked to it with `isPartOfVerse`. Comparison uses a consonant skeleton, so Uthmani and standard spelling match. A range with `<l n>` per verse is resolved line by line. `qiraat` quotes are always fragments with `st:hasType "qiraat"`. Quotes without `@n` (often `subtype="short"` single words) become fragments that are not linked to any verse.

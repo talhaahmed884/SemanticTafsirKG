@@ -20,6 +20,7 @@ from typing import Protocol
 
 from tafsirkg.source import SourceRef
 
+
 # ---------------------------------------------------------------------------
 # Shared resources
 # ---------------------------------------------------------------------------
@@ -217,7 +218,12 @@ class Note:
 
 @dataclass(eq=False, kw_only=True)
 class Paragraph(TextUnit):
-    """A ``<p>``. ``ordinal`` is its 1-based position within its division."""
+    """A ``<p>``. ``ordinal`` is its 1-based position among all ``<p>`` of its division.
+
+    The position counts every paragraph, hadith included, and continues across files
+    when a division is spread over several of them. It mirrors the XML and is used for
+    identifiers; the commentary number is a separate count (``Division.commentaries``).
+    """
 
     ordinal: int
     notes: list[Note] = field(default_factory=list)
@@ -282,6 +288,16 @@ class Division(TextUnit):
     number: str
     paragraphs: list[Paragraph] = field(default_factory=list)
     subdivisions: list[Division] = field(default_factory=list)
+
+    @property
+    def commentaries(self) -> tuple[Commentary, ...]:
+        """The division's commentary paragraphs in order; commentary ``k`` is ``commentaries[k - 1]``.
+
+        Commentary numbering counts only Tabari's own words. A hadith is quoted material,
+        not commentary, so it does not take a commentary number (it has its own number).
+        The numbers are derived from ``paragraphs``, so they cannot drift from the structure.
+        """
+        return tuple(paragraph for paragraph in self.paragraphs if isinstance(paragraph, Commentary))
 
 
 @dataclass(eq=False, kw_only=True)

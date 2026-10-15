@@ -50,8 +50,9 @@ def subsection(number: str) -> str:
     return f"Subsection {number}"
 
 
-def commentary(ordinal: int) -> str:
-    return f"Commentary {ordinal}"
+def commentary(number: int) -> str:
+    """``number`` counts commentaries only (see ``Division.commentaries``), not hadith."""
+    return f"Commentary {number}"
 
 
 def hadith(number: int) -> str:

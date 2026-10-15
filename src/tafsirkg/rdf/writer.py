@@ -12,13 +12,16 @@ cause problems, are made here and documented next to the code:
   ``st:hasType`` literals on the chain link.
 * Every paragraph, heading and annotated span carries ``dcterms:source`` with the file
   and line it came from.
+* A commentary's number (label and ``st:hasCommentaryNo``) counts only the commentary
+  paragraphs of its division (``Division.commentaries``); hadith are not counted. Its IRI
+  keeps the position among all paragraphs, so it does not move if a paragraph is re-tagged.
 * Every typed node gets exactly one ``rdfs:label`` naming its type (``Verse 1:2``); the
   rules are in :mod:`tafsirkg.rdf.labels`.
 """
 
 from __future__ import annotations
 
-from collections.abc import Iterable
+from collections.abc import Iterable, Mapping
 
 from rdflib import RDF, RDFS, Graph, Literal, URIRef
 from rdflib.namespace import DCTERMS
@@ -106,9 +109,10 @@ class GraphWriter:
         # Qur'an quotations in a heading say which verses the division is about.
         self._text_unit(subject, division, quran_predicate=ST.isAbout)
 
+        commentary_numbers = {commentary: k for k, commentary in enumerate(division.commentaries, start=1)}
         previous: URIRef | None = None
         for paragraph in division.paragraphs:
-            node = self._paragraph(paragraph)
+            node = self._paragraph(paragraph, commentary_numbers)
             predicate = ST.containsCommentary if isinstance(paragraph, Commentary) else ST.hasPart
             self._add(subject, predicate, node)
             if previous is not None:
@@ -125,13 +129,14 @@ class GraphWriter:
 
     # -- paragraphs and text --------------------------------------------------------
 
-    def _paragraph(self, paragraph: Paragraph) -> URIRef:
+    def _paragraph(self, paragraph: Paragraph, commentary_numbers: Mapping[Paragraph, int]) -> URIRef:
         subject = self._iri(paragraph.id)
         if isinstance(paragraph, Hadith):
             self._hadith(subject, paragraph)
         else:
-            self._typed(subject, ST.Commentary, labels.commentary(paragraph.ordinal))
-            self._add(subject, ST.hasCommentaryNo, Literal(paragraph.ordinal))
+            number = commentary_numbers[paragraph]
+            self._typed(subject, ST.Commentary, labels.commentary(number))
+            self._add(subject, ST.hasCommentaryNo, Literal(number))
         for note in paragraph.notes:
             node = self._iri(note.id)
             self._typed(node, ST.Note, labels.owned("Note", note.id))

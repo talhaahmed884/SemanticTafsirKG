@@ -1,11 +1,10 @@
 from rdflib import RDF, RDFS, Literal, URIRef
+from snippets import section_body
 
 from tafsirkg.domain.model import NarratorRole
 from tafsirkg.rdf.iris import IriFactory
 from tafsirkg.rdf.vocabulary import HADITH, NARRATOR_TYPE_IRIS, ST
 from tafsirkg.rdf.writer import GraphWriter
-
-from snippets import section_body
 
 BASE = "http://example.org/r/"
 IRI = IriFactory(BASE)
@@ -119,3 +118,16 @@ def test_owned_units_are_labelled_without_their_parent(map_bodies):
     assert str(graph.value(continuation, RDFS.label)) == "Hadith Continuation 1"
     chain = IRI("hadith/9/continuation/1/chain/1")
     assert str(graph.value(chain, RDFS.label)) == "Narrator Chain 1"
+
+
+def test_commentary_number_skips_hadith_but_iri_keeps_position(map_bodies):
+    body = section_body(
+        '<p n="nothadith">أ</p>'
+        '<p n="hadith" xml:id="h9"><persName ana="shaykh">ب</persName></p>'
+        '<p n="nothadith">ج</p>'
+    )
+    graph = _graph(map_bodies(body))
+    second = IRI("commentary/1.1/3")
+    assert str(graph.value(second, RDFS.label)) == "Commentary 2"
+    assert graph.value(second, ST.hasCommentaryNo) == Literal(2)
+    assert graph.value(IRI("commentary/1.1/1"), ST.hasCommentaryNo) == Literal(1)

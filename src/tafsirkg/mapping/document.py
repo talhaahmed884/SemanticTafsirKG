@@ -140,14 +140,15 @@ class TafsirMapper:
         return division
 
     def _fill(self, division: Division, element: tei.Division) -> None:
-        ordinal = 0
+        # A division can be filled more than once (a chapter spread over several files), so
+        # positions continue from the paragraphs it already holds instead of restarting at 1.
         for child in element.elements():
             if isinstance(child, tei.Head):
                 heading = plain_text(child)
                 division.text = f"{division.text} {heading}".strip() if division.text else heading
                 self._inline.map(division, child.children)
             elif isinstance(child, tei.Paragraph):
-                ordinal += 1
+                ordinal = len(division.paragraphs) + 1
                 division.paragraphs.append(self._paragraph(child, division, ordinal))
             elif isinstance(child, tei.Division):
                 division.subdivisions.append(self._division(child, division))
