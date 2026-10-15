@@ -1,0 +1,327 @@
+# SHACL shapes for knowledge graphs that use the SemanticTafsir ontology (version 2.0.0).
+#
+# OWL axioms describe what the data means; they do not report missing data (under the
+# open-world assumption a reasoner assumes a missing narrator chain exists somewhere).
+# These shapes do: they state what a well-formed graph must contain and are checked
+# against the generated graph, e.g. with pyshacl.
+#
+# sh:Violation  the graph is wrong (a converter bug or broken structure)
+# sh:Warning    the source data is incomplete (e.g. a hadith whose isnad was not annotated)
+
+@prefix st:      <http://www.semantictafsir.com/ontology/> .
+@prefix hadith:  <http://www.semantichadith.com/ontology/> .
+@prefix shapes:  <http://www.semantictafsir.com/ontology/shapes/> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+
+shapes:
+    a owl:Ontology ;
+    rdfs:label "SemanticTafsir SHACL shapes"@en ;
+    owl:versionInfo "2.0.0" ;
+    sh:declare [
+        sh:prefix "st" ;
+        sh:namespace "http://www.semantictafsir.com/ontology/"^^xsd:anyURI ;
+    ] , [
+        sh:prefix "hadith" ;
+        sh:namespace "http://www.semantichadith.com/ontology/"^^xsd:anyURI ;
+    ] .
+
+# ---------------------------------------------------------------------------------------
+# Every node
+# ---------------------------------------------------------------------------------------
+
+shapes:LabelledNode
+    a sh:NodeShape ;
+    rdfs:comment "Every typed node has exactly one label, so it can be recognised when the graph is visualised."@en ;
+    sh:targetSubjectsOf rdf:type ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+shapes:AcyclicPartOf
+    a sh:NodeShape ;
+    rdfs:comment "Part-of links form a tree: no unit is (transitively) part of itself."@en ;
+    sh:targetSubjectsOf st:hasPart , st:containsChapter , st:containsSection , st:containsSubSection ,
+        st:containsCommentary , st:containsHadith , st:containsSegment , st:containsAdditionalText ,
+        st:containsVerse , st:containsVerseFragment , hadith:hasHadithText , hadith:hasNarratorChain ;
+    sh:sparql [
+        sh:message "{$this} is part of itself through a cycle of part-of links" ;
+        sh:prefixes shapes: ;
+        sh:select """
+            SELECT $this WHERE {
+                $this (st:hasPart|st:containsChapter|st:containsSection|st:containsSubSection|
+                       st:containsCommentary|st:containsHadith|st:containsSegment|
+                       st:containsAdditionalText|st:containsVerse|st:containsVerseFragment|
+                       hadith:hasHadithText|hadith:hasNarratorChain)+ $this .
+            }
+        """ ;
+    ] .
+
+# ---------------------------------------------------------------------------------------
+# Structure of the Tafsir
+# ---------------------------------------------------------------------------------------
+
+shapes:TafsirCollection
+    a sh:NodeShape ;
+    sh:targetClass st:TafsirCollection ;
+    sh:property [
+        sh:path st:containsChapter ;
+        sh:minCount 1 ;
+        sh:class st:TafsirChapter ;
+    ] .
+
+shapes:TafsirChapter
+    a sh:NodeShape ;
+    sh:targetClass st:TafsirChapter ;
+    sh:property [
+        sh:path st:hasChapterNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+    ] , [
+        sh:path [ sh:inversePath st:containsChapter ] ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "a chapter belongs to exactly one Tafsir collection" ;
+    ] , [
+        sh:path st:containsSection ;
+        sh:class st:Section ;
+    ] .
+
+shapes:Section
+    a sh:NodeShape ;
+    sh:targetClass st:Section ;
+    sh:property [
+        sh:path st:hasSectionNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+    ] , [
+        sh:path [ sh:inversePath st:containsSection ] ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class st:TafsirChapter ;
+    ] .
+
+shapes:SubSection
+    a sh:NodeShape ;
+    sh:targetClass st:SubSection ;
+    sh:property [
+        sh:path st:hasSubSectionNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+    ] , [
+        sh:path [ sh:inversePath st:containsSubSection ] ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+shapes:Commentary
+    a sh:NodeShape ;
+    sh:targetClass st:Commentary ;
+    sh:property [
+        sh:path st:hasCommentaryNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+    ] , [
+        sh:path [ sh:inversePath st:containsCommentary ] ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] , [
+        sh:path dcterms:source ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] , [
+        sh:path st:hasText ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "commentary paragraph without text" ;
+    ] .
+
+# ---------------------------------------------------------------------------------------
+# Hadith and their narrator chains
+# ---------------------------------------------------------------------------------------
+
+shapes:Hadith
+    a sh:NodeShape ;
+    sh:targetClass hadith:Hadith ;
+    sh:property [
+        sh:path st:hasHadithNo ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+    ] , [
+        sh:path [ sh:inversePath st:containsHadith ] ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] , [
+        sh:path dcterms:source ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] , [
+        sh:path hadith:hasNarratorChain ;
+        sh:minCount 1 ;
+        sh:class hadith:NarratorChain ;
+        sh:severity sh:Warning ;
+        sh:message "hadith without a narrator chain (isnad not annotated)" ;
+    ] , [
+        sh:path hadith:hasHadithText ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "hadith without a text (matn not annotated)" ;
+    ] .
+
+shapes:NarratorChain
+    a sh:NodeShape ;
+    sh:targetClass hadith:NarratorChain ;
+    sh:property [
+        sh:path hadith:hasNarratorSegment ;
+        sh:minCount 1 ;
+        sh:class hadith:NarratorChainSegment ;
+    ] , [
+        sh:path hadith:hasRootNarratorSegment ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class hadith:RootNarratorChainSegment ;
+    ] , [
+        sh:path [ sh:inversePath hadith:hasNarratorChain ] ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "a narrator chain belongs to exactly one hadith" ;
+    ] .
+
+shapes:NarratorChainSegment
+    a sh:NodeShape ;
+    sh:targetClass hadith:NarratorChainSegment ;
+    sh:property [
+        sh:path hadith:refersToNarrator ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class hadith:HadithNarrator ;
+    ] .
+
+shapes:HadithNarrator
+    a sh:NodeShape ;
+    sh:targetClass hadith:HadithNarrator ;
+    sh:property [
+        sh:path st:hasNarratorType ;
+        sh:in ( st:qari st:rawi st:sahabi st:shaykh st:unknown_rawi st:unknown_sahabi ) ;
+    ] , [
+        sh:path st:hasName ;
+        sh:minCount 1 ;
+    ] .
+
+# ---------------------------------------------------------------------------------------
+# The Qur'an
+# ---------------------------------------------------------------------------------------
+
+shapes:Surah
+    a sh:NodeShape ;
+    sh:targetClass st:Surah ;
+    sh:property [
+        sh:path st:hasSurahNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 114 ;
+    ] .
+
+shapes:Verse
+    a sh:NodeShape ;
+    sh:targetClass st:Verse ;
+    sh:property [
+        sh:path st:hasSurahNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 114 ;
+    ] , [
+        sh:path st:hasVerseNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+    ] , [
+        sh:path st:hasText ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:languageIn ( "ar" ) ;
+    ] , [
+        sh:path [ sh:inversePath st:containsVerse ] ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class st:Surah ;
+    ] .
+
+shapes:VerseFragment
+    a sh:NodeShape ;
+    sh:targetClass st:VerseFragment ;
+    sh:property [
+        sh:path st:hasText ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] , [
+        sh:path st:isPartOfVerse ;
+        sh:class st:Verse ;
+    ] .
+
+# ---------------------------------------------------------------------------------------
+# Locations
+# ---------------------------------------------------------------------------------------
+
+shapes:BookLocation
+    a sh:NodeShape ;
+    sh:targetClass st:BookLocation ;
+    sh:property [
+        sh:path st:hasEdition ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] , [
+        sh:path st:hasVolumeNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+    ] , [
+        sh:path st:hasPageNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+    ] .
+
+shapes:DatasetLocation
+    a sh:NodeShape ;
+    sh:targetClass st:DatasetLocation ;
+    sh:property [
+        sh:path st:hasEdition ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] , [
+        sh:path st:hasReferenceNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+    ] , [
+        sh:path st:hasPageNo ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+    ] .
+
+shapes:LineBeginning
+    a sh:NodeShape ;
+    sh:targetClass st:LineBeginning ;
+    sh:property [
+        sh:path st:hasReferenceNo ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+    ] .

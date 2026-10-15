@@ -82,11 +82,21 @@ Rules to keep:
 - `Dataset/S074N/sure_74_section_74.1-74.10.xml` is corrupted: every `s` was replaced with `imankufr`, so the TEI namespace is wrong. The reader rejects it with an `invalid-tei` error. Be careful with global find-and-replace.
 - Only some `persName` elements carry a narrator ID (`L<num>`): about 209 of 502 in S001M.
 
-## Ontology (`Ontology/SemanticTafsirOntology.owl`, RDF/XML)
+## Ontology (`Ontology/`, version 2.0.0)
 
-- `st:` = `http://www.semantictafsir.com/ontology/`, `hadith:` = `http://www.semantichadith.com/ontology/`. It is aligned with CIDOC CRM and LRMoo and uses schema.org, Dublin Core and SKOS.
-- The converter works around these known problems. The ontology file itself has not been changed.
-  - `st:isPartOf` has range `hadith:Hadith`, and `isPartOfVerse` is a sub-property of it. Under OWL reasoning every `VerseFragment … isPartOfVerse` triple makes the verse a `Hadith`, which is disjoint with `Verse`, so the data becomes **inconsistent**. Expect this if reasoning with disjointness is enabled in GraphDB.
-  - `Hadith` and `Commentary` are disjoint while `containsCommentary` has range `Commentary`, so sections link hadith with `st:hasPart`.
-  - The `NarratorType` individuals use `…/ontology#rawi` (with a hash); the converter uses those exact IRIs. Roles outside the enumeration (`qari`) are kept as `st:hasType` literals on the chain link.
-  - `owl:equivalentClass`/`owl:equivalentProperty` are redeclared as annotation properties with string values. `isSubThemeOf` maps to `crm:P127i` instead of `P127`. The datatype properties have no domains or ranges.
+- `SemanticTafsirOntology.owl` (RDF/XML, edited in Protégé): `st:` = `http://www.semantictafsir.com/ontology/`,
+  `hadith:` = `http://www.semantichadith.com/ontology/`. It is aligned with CIDOC CRM and LRMoo through
+  `rdfs:subClassOf`/`subPropertyOf`, and links to other Qur'an and hadith vocabularies through `skos:closeMatch` (never
+  `owl:equivalentClass`). `SemanticTafsirShapes.ttl` holds the SHACL shapes a generated graph must satisfy.
+  `Ontology/CHANGELOG.md` records every change and why it was made. Read it before changing a domain, range or
+  alignment.
+- One `owl:AllDisjointClasses` axiom covers 27 classes, including Hadith/Commentary, Verse/VerseFragment and
+  Section/SubSection/TafsirChapter. A domain or range in OWL infers types, so a narrow domain or range on a shared
+  property makes valid data inconsistent. Version 2.0.0 removed three such axioms (`isPartOf` range, `isAbout` domain,
+  `commentedIn` range).
+- Hadith are not commentary: a division links them with `st:containsHadith`, and commentary with
+  `st:containsCommentary`. Chapters belong to a `st:TafsirCollection` through `st:containsChapter`.
+- The `NarratorType` individuals are `st:qari`, `st:rawi`, `st:sahabi`, `st:shaykh`, `st:unknown_rawi` and
+  `st:unknown_sahabi`. The old hash IRIs (`…/ontology#rawi`) were removed in 2.0.0.
+- Every datatype property has a range: counts are `xsd:integer`, dotted numbers and identifiers are `xsd:string`, and
+  `hasText`/`hasName` are `rdf:PlainLiteral`. A literal of the wrong datatype makes the graph inconsistent.

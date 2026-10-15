@@ -11,16 +11,19 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:hadith="http://www.semantichadith.com/ontology/">
     <owl:Ontology rdf:about="http://www.semantictafsir.com/ontology/">
-        <owl:versionIRI rdf:resource="https://purl.org/semantictafsir"/>
+        <owl:versionIRI rdf:resource="http://www.semantictafsir.com/ontology/2.0.0"/>
+        <owl:priorVersion rdf:resource="https://purl.org/semantictafsir"/>
         <terms:creator>Amna Basharat</terms:creator>
         <terms:creator>Amna binte Kamran</terms:creator>
+        <terms:creator>Talha Ahmed</terms:creator>
         <terms:description xml:lang="en">The SemanticTafsir ontology is developed to encapsulate and preserve the knowledge from Tafsir, focusing on the Quranic commentary structured within its literary context. This ontology serves as a vocabulary to model  Quranic verses, Tafsir interpretations, and referenced Hadith</terms:description>
-        <terms:license>https://creativecommons.org/licenses/by-sa/4.0/</terms:license>
-        <terms:title>The  Semantic Tafsir Ontology</terms:title>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:title>The Semantic Tafsir Ontology</terms:title>
         <rdfs:comment>SemanticTafsir is aligned with CIDOC CRM for cultural heritage interoperability
             and selectively aligned with LRMoo for bibliographic distinctions. Domain-specific
             constructs for Tafsir interpretation, thematic analysis, and Hadith transmission
             are retained as SemanticTafsir .</rdfs:comment>
+        <owl:versionInfo>2.0.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -63,18 +66,6 @@
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#equivalentClass -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#equivalentClass"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#equivalentProperty -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty"/>
     
 
 
@@ -143,12 +134,6 @@
     
 
 
-    <!-- http://www.cidoc-crm.org/cidoc-crm/P3_has_note -->
-
-    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
-    
-
-
     <!-- http://www.cidoc-crm.org/cidoc-crm/P67_refers_to -->
 
     <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
@@ -166,6 +151,7 @@
     <owl:ObjectProperty rdf:about="http://www.semantichadith.com/ontology/follows">
         <owl:inverseOf rdf:resource="http://www.semantichadith.com/ontology/precedes"/>
         <rdfs:comment xml:lang="en">follows Establishes a sequential relationship where one entity like a segment or a section follows another within the text.</rdfs:comment>
+        <rdfs:label xml:lang="en">follows</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -177,6 +163,7 @@
         <rdfs:domain rdf:resource="http://www.semantichadith.com/ontology/Hadith"/>
         <rdfs:range rdf:resource="http://www.semantichadith.com/ontology/HadithText"/>
         <rdfs:comment xml:lang="en">Connects a Hadith entity to its textual content.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasHadithText</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -191,6 +178,7 @@
             <rdf:Description rdf:about="http://www.semantichadith.com/ontology/refersToNarrator"/>
         </owl:propertyChainAxiom>
         <rdfs:comment xml:lang="en">Links a Hadith or commentary to the person who narrated it, forming part of the chain of transmission.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasNarrator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -205,6 +193,7 @@
             Domain-specific property linking a Hadith to its ordered narrator chain.
         </rdfs:comment>
         <rdfs:comment xml:lang="en">Links a Hadith to its entire chain of narrators, providing a complete view of its transmission history.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasNarratorChain</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -215,6 +204,7 @@
         <rdfs:domain rdf:resource="http://www.semantichadith.com/ontology/NarratorChain"/>
         <rdfs:range rdf:resource="http://www.semantichadith.com/ontology/NarratorChainSegment"/>
         <rdfs:comment xml:lang="en">Connects a Hadith to a segment of the narrator chain, allowing for detailed tracking of the transmission process.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasNarratorSegment</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -224,6 +214,7 @@
     <owl:ObjectProperty rdf:about="http://www.semantichadith.com/ontology/hasRootNarrator">
         <rdfs:range rdf:resource="http://www.semantichadith.com/ontology/RootNarrator"/>
         <rdfs:comment xml:lang="en">Connects a Hadith to its root narrator, the earliest source in the chain of transmission</rdfs:comment>
+        <rdfs:label xml:lang="en">hasRootNarrator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -237,6 +228,7 @@
             Domain-specific property linking a Hadith to the initial segment of its narrator chain.
         </rdfs:comment>
         <rdfs:comment xml:lang="en">Links a Hadith to the initial segment of its narrator chain, starting from the root narrator</rdfs:comment>
+        <rdfs:label xml:lang="en">hasRootNarratorSegment</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -252,6 +244,7 @@
             the Hadith was heard. No direct CRM or LRMoo equivalent is asserted.
         </rdfs:comment>
         <rdfs:comment xml:lang="en">Indicates the source from which a narrator heard the Hadith, typically another narrator in the chain.</rdfs:comment>
+        <rdfs:label xml:lang="en">heardFrom</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -261,6 +254,7 @@
     <owl:ObjectProperty rdf:about="http://www.semantichadith.com/ontology/narrated">
         <rdfs:comment xml:lang="en">Connects a narrator to the Hadith or text they transmitted.</rdfs:comment>
         <rdfs:comment>Domain-specific textual ordering relation.</rdfs:comment>
+        <rdfs:label xml:lang="en">narrated</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -269,6 +263,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semantichadith.com/ontology/precedes">
         <rdfs:comment xml:lang="en">Establishes that one text or segment comes before another, used to maintain the order of content in the ontology.</rdfs:comment>
+        <rdfs:label xml:lang="en">precedes</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -280,6 +275,7 @@
         <rdfs:domain rdf:resource="http://www.semantichadith.com/ontology/NarratorChainSegment"/>
         <rdfs:range rdf:resource="http://www.semantichadith.com/ontology/HadithNarrator"/>
         <rdfs:comment xml:lang="en">Specifically links a text to a particular narrator referenced within it.</rdfs:comment>
+        <rdfs:label xml:lang="en">refersToNarrator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -292,6 +288,7 @@
         <rdfs:comment xml:lang="en">Captures the transfer of knowledge, narration, or content from one entity to another, such as the passing of narration from one scholar to another</rdfs:comment>
         <rdfs:comment>Domain-specific property representing transfer of knowledge, narration, or content
             from one entity to another.</rdfs:comment>
+        <rdfs:label xml:lang="en">transferredTo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -300,13 +297,13 @@
 
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/commentedIn">
         <owl:inverseOf rdf:resource="http://www.semantictafsir.com/ontology/isAbout"/>
-        <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/Section"/>
         <rdfs:comment xml:lang="en">
             Domain-specific exegetical relation indicating that a verse or passage is commented on
             within a Tafsir section. Not reduced to CIDOC CRM because it captures interpretation,
             not only reference.
         </rdfs:comment>
         <rdfs:comment xml:lang="en">Indicates that a specific verse or passage is commented on within a particular section of the Tafsir.</rdfs:comment>
+        <rdfs:label xml:lang="en">commentedIn</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -317,6 +314,19 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/hasPart"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/AdditionalText"/>
         <rdfs:comment xml:lang="en">Specifies that an entity includes additional text or annotation, often used for footnotes or marginalia.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsAdditionalText</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semantictafsir.com/ontology/containsChapter -->
+
+    <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/containsChapter">
+        <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semantictafsir.com/ontology/TafsirCollection"/>
+        <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/TafsirChapter"/>
+        <rdfs:comment xml:lang="en">Links the Tafsir collection (the whole work) to one of its chapters.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsChapter</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -330,6 +340,18 @@
             Domain-specific property for linking textual structures to Tafsir commentary.
         </rdfs:comment>
         <rdfs:comment xml:lang="en">Indicates that an entity includes commentary, typically linked to a Quranic verse or thematic discussion.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsCommentary</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semantictafsir.com/ontology/containsHadith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/containsHadith">
+        <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/hasPart"/>
+        <rdfs:range rdf:resource="http://www.semantichadith.com/ontology/Hadith"/>
+        <rdfs:comment xml:lang="en">Links a division of the Tafsir to a hadith quoted in it. Hadith are not commentary (the two classes are disjoint), so they are not linked with containsCommentary.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsHadith</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -340,6 +362,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/hasPart"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/Section"/>
         <rdfs:comment xml:lang="en">Associates a higher-level entity (e.g., a chapter) with one of its sections.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsSection</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -350,6 +373,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/hasPart"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/Segment"/>
         <rdfs:comment xml:lang="en">Links a section to one of its smaller segments, reflecting the breakdown of the content into manageable parts.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsSegment</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -360,6 +384,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/hasPart"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/SubSection"/>
         <rdfs:comment xml:lang="en">Indicates that a section is further divided into subsections, used for detailed organisational structure.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsSubSection</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -369,7 +394,8 @@
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/containsVerse">
         <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/hasPart"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/Verse"/>
-        <rdfs:comment xml:lang="en">Connects a Tafsir or commentary to the specific Quranic verse it interprets or explains.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Connects a Surah to the verses it is made of.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsVerse</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -380,6 +406,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/hasPart"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/VerseFragment"/>
         <rdfs:comment xml:lang="en">Links a commentary or note to a specific fragment of a Quranic verse, allowing for granular analysis.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsVerseFragment</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -388,6 +415,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/hasBookLocation">
         <rdfs:comment xml:lang="en">Links an entity to its corresponding book location, indicating where the text can be found within a physical or digital book.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasBookLocation</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -396,6 +424,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/hasDatasetLocation">
         <rdfs:comment xml:lang="en">Connects an entity to the dataset’s location, often used to reference the source of data or annotations.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasDatasetLocation</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -404,6 +433,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/hasLineBeginning">
         <rdfs:comment xml:lang="en">Associates a segment of text with the beginning of a line, important for preserving the structure of the text as presented in the original manuscript.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasLineBeginning</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -414,6 +444,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
         <rdfs:domain rdf:resource="http://www.semantichadith.com/ontology/HadithNarrator"/>
         <rdfs:comment xml:lang="en">Specifies the type of narrator, such as whether they are a primary source or a secondary transmitter in the chain of narration</rdfs:comment>
+        <rdfs:label xml:lang="en">hasNarratorType</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -421,8 +452,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasNote -->
 
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/hasNote">
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P3_has_note"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
         <rdfs:comment xml:lang="en">Links a piece of text to a corresponding note or annotation, providing additional context or explanation.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasNote</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -432,7 +464,9 @@
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/hasPart">
         <rdfs:subPropertyOf rdf:resource="http://schema.org/hasPart"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of"/>
+        <owl:inverseOf rdf:resource="http://www.semantictafsir.com/ontology/isPartOf"/>
         <rdfs:comment xml:lang="en">A general property indicating that an entity is composed of other entities, used to organize content within the ontology.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasPart</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -440,9 +474,11 @@
     <!-- http://www.semantictafsir.com/ontology/hasSubTheme -->
 
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/hasSubTheme">
-        <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/hasTheme"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P127i_has_narrower_term"/>
+        <rdfs:domain rdf:resource="http://www.semantictafsir.com/ontology/Theme"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/SubTheme"/>
         <rdfs:comment xml:lang="en">Connects a theme to its sub-themes, providing a more detailed categorisation within a broader thematic area</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSubTheme</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -450,10 +486,10 @@
     <!-- http://www.semantictafsir.com/ontology/hasTheme -->
 
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/hasTheme">
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P129_is_about"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/Theme"/>
         <rdfs:comment xml:lang="en">Associates a verse, segment, or commentary with a broader thematic concept, allowing for thematic organization within the ontology.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasTheme</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -462,8 +498,31 @@
 
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/isAbout">
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P129_is_about"/>
-        <rdfs:domain rdf:resource="http://www.semantictafsir.com/ontology/Section"/>
+        <rdfs:comment xml:lang="en">Used by any division of the Tafsir (chapter, section or subsection) whose heading names the verses it explains. It has no domain: a domain of Section would make every chapter and subsection that uses it a Section, which is disjoint with both.</rdfs:comment>
         <rdfs:comment xml:lang="en">Describes the subject matter or focus of a commentary or note, linking it to the relevant verse.</rdfs:comment>
+        <rdfs:label xml:lang="en">isAbout</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semantictafsir.com/ontology/isChapterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/isChapterOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/isPartOf"/>
+        <owl:inverseOf rdf:resource="http://www.semantictafsir.com/ontology/containsChapter"/>
+        <rdfs:comment xml:lang="en">Links a Tafsir chapter to the Tafsir collection it belongs to.</rdfs:comment>
+        <rdfs:label xml:lang="en">isChapterOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semantictafsir.com/ontology/isNarratorChainOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/isNarratorChainOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/isPartOfHadith"/>
+        <owl:inverseOf rdf:resource="http://www.semantichadith.com/ontology/hasNarratorChain"/>
+        <rdfs:comment xml:lang="en">Links a narrator chain (isnad) to the hadith it transmits.</rdfs:comment>
+        <rdfs:label xml:lang="en">isNarratorChainOf</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -473,8 +532,9 @@
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/isPartOf">
         <rdfs:subPropertyOf rdf:resource="http://schema.org/isPartOf"/>
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of"/>
-        <rdfs:range rdf:resource="http://www.semantichadith.com/ontology/Hadith"/>
+        <owl:inverseOf rdf:resource="http://www.semantictafsir.com/ontology/hasPart"/>
         <rdfs:comment xml:lang="en">Indicates that an entity is a component of a larger entity, used to establish part-whole relationships.</rdfs:comment>
+        <rdfs:label xml:lang="en">isPartOf</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -485,6 +545,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/isPartOf"/>
         <rdfs:range rdf:resource="http://www.semantichadith.com/ontology/Hadith"/>
         <rdfs:comment xml:lang="en">Specifies that an entity is part of a Hadith, such as a segment of the narrator chain.</rdfs:comment>
+        <rdfs:label xml:lang="en">isPartOfHadith</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -496,6 +557,29 @@
         <rdfs:domain rdf:resource="http://www.semantictafsir.com/ontology/VerseFragment"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/Verse"/>
         <rdfs:comment xml:lang="en">Connects a verse fragment to the full verse it is part of.</rdfs:comment>
+        <rdfs:label xml:lang="en">isPartOfVerse</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semantictafsir.com/ontology/isSectionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/isSectionOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/isPartOf"/>
+        <owl:inverseOf rdf:resource="http://www.semantictafsir.com/ontology/containsSection"/>
+        <rdfs:comment xml:lang="en">Links a section to the chapter it belongs to.</rdfs:comment>
+        <rdfs:label xml:lang="en">isSectionOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semantictafsir.com/ontology/isSubSectionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/isSubSectionOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/isPartOf"/>
+        <owl:inverseOf rdf:resource="http://www.semantictafsir.com/ontology/containsSubSection"/>
+        <rdfs:comment xml:lang="en">Links a subsection to the section or subsection it belongs to.</rdfs:comment>
+        <rdfs:label xml:lang="en">isSubSectionOf</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -503,10 +587,23 @@
     <!-- http://www.semantictafsir.com/ontology/isSubThemeOf -->
 
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/isSubThemeOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P127i_has_narrower_term"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P127_has_broader_term"/>
+        <owl:inverseOf rdf:resource="http://www.semantictafsir.com/ontology/hasSubTheme"/>
         <rdfs:domain rdf:resource="http://www.semantictafsir.com/ontology/SubTheme"/>
         <rdfs:range rdf:resource="http://www.semantictafsir.com/ontology/Theme"/>
         <rdfs:comment xml:lang="en">Establishes a relationship where a sub-theme is part of a larger theme, reflecting the hierarchical structure of thematic categorization</rdfs:comment>
+        <rdfs:label xml:lang="en">isSubThemeOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semantictafsir.com/ontology/isVerseOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/isVerseOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semantictafsir.com/ontology/isPartOf"/>
+        <owl:inverseOf rdf:resource="http://www.semantictafsir.com/ontology/containsVerse"/>
+        <rdfs:comment xml:lang="en">Links a verse to the Surah it belongs to.</rdfs:comment>
+        <rdfs:label xml:lang="en">isVerseOf</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -517,8 +614,9 @@
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by"/>
         <owl:inverseOf rdf:resource="http://www.semantictafsir.com/ontology/mentions"/>
         <rdfs:comment xml:lang="en">Links an entity (e.g., person, place, or concept) to the specific text where it is mentioned.</rdfs:comment>
-        <owl:equivalentProperty>http://quranontology.com/Resource/MentionedIn</owl:equivalentProperty>
-        <owl:equivalentProperty>http://www.semantichadith.com/ontology/mentionedIn</owl:equivalentProperty>
+        <skos:closeMatch rdf:resource="http://quranontology.com/Resource/MentionedIn"/>
+        <skos:closeMatch rdf:resource="http://www.semantichadith.com/ontology/mentionedIn"/>
+        <rdfs:label xml:lang="en">mentionedIn</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -528,9 +626,10 @@
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/mentions">
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
         <rdfs:comment xml:lang="en">Indicates that a text or commentary references a particular entity, such as a person or concept.</rdfs:comment>
-        <owl:equivalentProperty>http://quranontology.com/Resource/ContainsMentionOf</owl:equivalentProperty>
-        <owl:equivalentProperty>http://schema.org/mentions</owl:equivalentProperty>
-        <owl:equivalentProperty>http://www.semantichadith.com/ontology/containsMentionOf</owl:equivalentProperty>
+        <skos:closeMatch rdf:resource="http://quranontology.com/Resource/ContainsMentionOf"/>
+        <skos:closeMatch rdf:resource="http://schema.org/mentions"/>
+        <skos:closeMatch rdf:resource="http://www.semantichadith.com/ontology/containsMentionOf"/>
+        <rdfs:label xml:lang="en">mentions</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -540,6 +639,7 @@
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/references">
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
         <rdfs:comment xml:lang="en">Links a text or commentary to another text it references, showing the relationship between different parts of the literature.</rdfs:comment>
+        <rdfs:label xml:lang="en">references</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -549,6 +649,7 @@
     <owl:ObjectProperty rdf:about="http://www.semantictafsir.com/ontology/refersTo">
         <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P67_refers_to"/>
         <rdfs:comment xml:lang="en">Indicates a relationship where one text refers to another, such as a Tafsir referencing a Quranic verse or Hadith</rdfs:comment>
+        <rdfs:label xml:lang="en">refersTo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -567,7 +668,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasChapterNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasChapterNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>Specifies the chapter number within a Tafsir, used to organize and reference specific chapters.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasChapterNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -575,7 +678,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasCommentaryNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasCommentaryNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment xml:lang="en">Represents the number assigned to a particular commentary within a chapter or section, allowing for easy identification</rdfs:comment>
+        <rdfs:label xml:lang="en">hasCommentaryNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -583,7 +688,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasEdition -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasEdition">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Captures the edition number or details of a specific version of a text or Tafsir, useful for referencing different editions</rdfs:comment>
+        <rdfs:label xml:lang="en">hasEdition</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -591,7 +698,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasHadithNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasHadithNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment xml:lang="en">Indicates the number assigned to a Hadith within a collection, facilitating retrieval and cross-referencing</rdfs:comment>
+        <rdfs:label xml:lang="en">hasHadithNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -599,7 +708,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasID -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasID">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">A unique identifier assigned to an entity within the ontology, ensuring each entity can be distinctly referenced</rdfs:comment>
+        <rdfs:label xml:lang="en">hasID</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -607,7 +718,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasLanguage -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasLanguage">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
         <rdfs:comment xml:lang="en">Denotes the language in which a text, commentary, or note is written, supporting multilingual representations.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasLanguage</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -615,7 +728,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasName -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasName">
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:comment xml:lang="en">Represents the name of an entity, such as a person, location, or theme, providing a human-readable label.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasName</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -623,7 +738,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasPageNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasPageNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment xml:lang="en">Indicates the page number where a text or commentary can be found, useful for referencing specific locations within a physical or digital book.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasPageNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -631,7 +748,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasReferenceNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasReferenceNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Specifies a reference number used for citing or linking to other texts, annotations, or scholarly works</rdfs:comment>
+        <rdfs:label xml:lang="en">hasReferenceNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -639,7 +758,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasSectionNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasSectionNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Represents the section number within a chapter, used for organising and navigating the content.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSectionNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -647,7 +768,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasSubSectionNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasSubSectionNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Indicates the subsection number within a section, allowing for more granular categorisation of content.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSubSectionNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -655,7 +778,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasSubType -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasSubType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Captures the subtype of an entity, providing additional classification details beyond the primary type.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSubType</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -663,7 +788,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasSurahNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasSurahNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment xml:lang="en">Specifies the Surah (chapter) number from the Quran that is being interpreted or referenced in the Tafsir</rdfs:comment>
+        <rdfs:label xml:lang="en">hasSurahNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -671,7 +798,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasText -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasText">
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
         <rdfs:comment xml:lang="en">Contains the actual text content of an entity, such as the full text of a verse, commentary, or annotation.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasText</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -679,7 +808,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasTime -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasTime">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Represents temporal information, such as the date or period associated with an event or narration.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasTime</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -687,7 +818,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasType -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Indicates the type or category of an entity, used to classify and organise different elements within the ontology</rdfs:comment>
+        <rdfs:label xml:lang="en">hasType</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -695,7 +828,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasVerseNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasVerseNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment xml:lang="en">Specifies the verse number from the Quran, used to reference specific verses within the text.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasVerseNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -703,7 +838,9 @@
     <!-- http://www.semantictafsir.com/ontology/hasVolumeNo -->
 
     <owl:DatatypeProperty rdf:about="http://www.semantictafsir.com/ontology/hasVolumeNo">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment xml:lang="en">Captures the volume number within a multi-volume work, aiding in the identification and location of content across volumes</rdfs:comment>
+        <rdfs:label xml:lang="en">hasVolumeNo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -734,6 +871,14 @@
     <!-- http://www.cidoc-crm.org/cidoc-crm/E21_Person -->
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    </owl:Class>
     
 
 
@@ -776,8 +921,10 @@
     <!-- http://www.semantichadith.com/ontology/Hadith -->
 
     <owl:Class rdf:about="http://www.semantichadith.com/ontology/Hadith">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
         <rdfs:comment xml:lang="en">Represents Hadith narrations referenced in the Tafsir to provide context or explanation of Quranic verses.</rdfs:comment>
+        <rdfs:label xml:lang="en">Hadith</rdfs:label>
+        <rdfs:label xml:lang="ar">حديث</rdfs:label>
     </owl:Class>
     
 
@@ -788,6 +935,8 @@
         <rdfs:subClassOf rdf:resource="http://www.semantictafsir.com/ontology/Person"/>
         <terms:description xml:lang="en">Represents a person who is a narrator of a Hadith (راوى).</terms:description>
         <rdfs:comment xml:lang="en">A subclass of Person, specifically representing narrators of Hadith.</rdfs:comment>
+        <rdfs:label xml:lang="en">HadithNarrator</rdfs:label>
+        <rdfs:label xml:lang="ar">راوي الحديث</rdfs:label>
     </owl:Class>
     
 
@@ -795,8 +944,10 @@
     <!-- http://www.semantichadith.com/ontology/HadithText -->
 
     <owl:Class rdf:about="http://www.semantichadith.com/ontology/HadithText">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
         <rdfs:comment xml:lang="en">Refers to the text of a Hadith itself, distinct from its chain of Narrators etc</rdfs:comment>
+        <rdfs:label xml:lang="en">HadithText</rdfs:label>
+        <rdfs:label xml:lang="ar">متن الحديث</rdfs:label>
     </owl:Class>
     
 
@@ -805,6 +956,8 @@
 
     <owl:Class rdf:about="http://www.semantichadith.com/ontology/NarratorChain">
         <rdfs:comment xml:lang="en">Captures the chain of narrators associated with a Hadith, documenting the transmission lineage.</rdfs:comment>
+        <rdfs:label xml:lang="en">NarratorChain</rdfs:label>
+        <rdfs:label xml:lang="ar">إسناد</rdfs:label>
     </owl:Class>
     
 
@@ -813,6 +966,7 @@
 
     <owl:Class rdf:about="http://www.semantichadith.com/ontology/NarratorChainSegment">
         <rdfs:comment xml:lang="en">Represents segments of the narrator chain, allowing for detailed tracking of transmission paths.</rdfs:comment>
+        <rdfs:label xml:lang="en">NarratorChainSegment</rdfs:label>
     </owl:Class>
     
 
@@ -823,6 +977,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semantichadith.com/ontology/HadithNarrator"/>
         <terms:description xml:lang="en">The first person to directly hear or witness the contents of a Hadith</terms:description>
         <rdfs:comment xml:lang="en">The earliest known narrator in a Hadith chain, often a companion of the Prophet.</rdfs:comment>
+        <rdfs:label xml:lang="en">RootNarrator</rdfs:label>
     </owl:Class>
     
 
@@ -832,6 +987,7 @@
     <owl:Class rdf:about="http://www.semantichadith.com/ontology/RootNarratorChainSegment">
         <rdfs:subClassOf rdf:resource="http://www.semantichadith.com/ontology/NarratorChainSegment"/>
         <rdfs:comment xml:lang="en">The initial segment of a narrator chain, starting from the earliest source.</rdfs:comment>
+        <rdfs:label xml:lang="en">RootNarratorChainSegment</rdfs:label>
     </owl:Class>
     
 
@@ -839,8 +995,9 @@
     <!-- http://www.semantictafsir.com/ontology/AdditionalText -->
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/AdditionalText">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
         <rdfs:comment xml:lang="en">Represents any additional text that complements the main content, such as footnotes or marginalia.</rdfs:comment>
+        <rdfs:label xml:lang="en">AdditionalText</rdfs:label>
     </owl:Class>
     
 
@@ -849,6 +1006,7 @@
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/BookLocation">
         <rdfs:comment xml:lang="en">Represents the page and volume of the Tafsir contents in the physical editions of Tafsir Collections</rdfs:comment>
+        <rdfs:label xml:lang="en">BookLocation</rdfs:label>
     </owl:Class>
     
 
@@ -856,8 +1014,9 @@
     <!-- http://www.semantictafsir.com/ontology/Commentary -->
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Commentary">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
         <rdfs:comment xml:lang="en">Represents the interpretative commentary of the scholars provided in the Tafsir, linked to specific verses or themes</rdfs:comment>
+        <rdfs:label xml:lang="en">Commentary</rdfs:label>
     </owl:Class>
     
 
@@ -866,6 +1025,7 @@
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/DatasetLocation">
         <rdfs:comment xml:lang="en">Specifies the location of content within the digital data.</rdfs:comment>
+        <rdfs:label xml:lang="en">DatasetLocation</rdfs:label>
     </owl:Class>
     
 
@@ -874,6 +1034,7 @@
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/LineBeginning">
         <rdfs:comment xml:lang="en">Marks the beginning of a new line in the text, used for precise text alignment.</rdfs:comment>
+        <rdfs:label xml:lang="en">LineBeginning</rdfs:label>
     </owl:Class>
     
 
@@ -883,9 +1044,10 @@
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Location">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
         <rdfs:comment xml:lang="en">General class for representing any geographical or contextual location mentioned in the Tafsir. Location names are mostly straightforward (either classical Arabic names, or names going back to the ancient age of Babylonia). Sometimes, their semantics are ambiguous, e.g. the word Medina (city) is not a Proper Noun, however, when it is used in a short form for Medina Al Munawwarah (&quot;The Enlightened City&quot;), then it becomes a Proper Noun. The word’s meaning is highly context-dependent.</rdfs:comment>
-        <owl:equivalentClass>http://quranontology.com/Resource/Place</owl:equivalentClass>
-        <owl:equivalentClass>http://schema.org/Place</owl:equivalentClass>
-        <owl:equivalentClass>https://dbpedia.org/ontology/Place</owl:equivalentClass>
+        <skos:closeMatch rdf:resource="http://quranontology.com/Resource/Place"/>
+        <skos:closeMatch rdf:resource="http://schema.org/Place"/>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/ontology/Place"/>
+        <rdfs:label xml:lang="en">Location</rdfs:label>
     </owl:Class>
     
 
@@ -896,11 +1058,12 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology#rawi"/>
-                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology#sahabi"/>
-                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology#shaykh"/>
-                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology#unknown_rawi"/>
-                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology#unknown_sahabi"/>
+                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology/qari"/>
+                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology/rawi"/>
+                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology/sahabi"/>
+                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology/shaykh"/>
+                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology/unknown_rawi"/>
+                    <rdf:Description rdf:about="http://www.semantictafsir.com/ontology/unknown_sahabi"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -908,7 +1071,7 @@
         <rdfs:comment xml:lang="en">
     Categorises narrators based on their role or reliability in the chain of transmission. Denotes the role or classification of a narrator in the transmission of Tafsir content, including types such as Rawi (narrator), Sahabi (companion of the Prophet), Shaykh (learned authority), and Unknown_Rawi (unidentified narrator).
   </rdfs:comment>
-        <rdfs:label xml:lang="en">Narrator Type</rdfs:label>
+        <rdfs:label xml:lang="en">NarratorType</rdfs:label>
     </owl:Class>
     
 
@@ -916,8 +1079,9 @@
     <!-- http://www.semantictafsir.com/ontology/Note -->
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Note">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
         <rdfs:comment xml:lang="en">Contains any notes or annotations made by the author or scholars regarding the text.</rdfs:comment>
+        <rdfs:label xml:lang="en">Note</rdfs:label>
     </owl:Class>
     
 
@@ -927,6 +1091,7 @@
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Organization">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
         <rdfs:comment xml:lang="en">Refers to the extended modern definition of this class to the classical context of religious organizations (Jews, Christians, Muslims), their subgroups (Sunni, Shia, Ismailities), theological school of thoughts (Hanafi, Maliki, Shafi’i, Hanbali), tribes and clans (Hashim, Quraysh), and ethnic groups (Arabs, Greeks, Persians).</rdfs:comment>
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
     </owl:Class>
     
 
@@ -935,6 +1100,7 @@
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Other">
         <rdfs:comment xml:lang="en">A general class for any miscellaneous or uncategorised elements in the Tafsir, such as the name of languages (Arabic, Greek, Latin), angels (Gabriel, Michael, Raphael), and (polytheistic) deities (Al-Uzza, Al-Lat, Manat, Baa)</rdfs:comment>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
     </owl:Class>
     
 
@@ -947,9 +1113,9 @@
         <rdfs:comment xml:lang="en">Represents any individual mentioned in the Tafsir, either historical or contemporary. Naming can be a complex process in classical Arab society (comparable to ancient Hebraic naming) (Almuhanna and Prunet, 2019). Full names are made of chains of single names, which can include the name of
 the city where the person was living. Once the full name is mentioned, short forms are usually used throughout the remainder of a text (e.g. Al-Tabari)</rdfs:comment>
         <rdfs:label xml:lang="en">Person</rdfs:label>
-        <owl:equivalentClass xml:lang="en">http://dbpedia.org/ontology/Person</owl:equivalentClass>
-        <owl:equivalentClass xml:lang="en">http://quranontology.com/Resource/Person</owl:equivalentClass>
-        <owl:equivalentClass xml:lang="en">https://www.wikidata.org/entity/Q215627</owl:equivalentClass>
+        <skos:closeMatch rdf:resource="http://dbpedia.org/ontology/Person"/>
+        <skos:closeMatch rdf:resource="http://quranontology.com/Resource/Person"/>
+        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q215627"/>
     </owl:Class>
     
 
@@ -957,8 +1123,10 @@ the city where the person was living. Once the full name is mentioned, short for
     <!-- http://www.semantictafsir.com/ontology/Poetry -->
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Poetry">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
         <rdfs:comment xml:lang="en">Represents poetic verses or stanzas referenced within the Tafsir.</rdfs:comment>
+        <rdfs:label xml:lang="en">Poetry</rdfs:label>
+        <rdfs:label xml:lang="ar">شعر</rdfs:label>
     </owl:Class>
     
 
@@ -968,6 +1136,7 @@ the city where the person was living. Once the full name is mentioned, short for
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Section">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
         <rdfs:comment xml:lang="en">A major division within the Tafsir, often corresponding to significant thematic breaks.</rdfs:comment>
+        <rdfs:label xml:lang="en">Section</rdfs:label>
     </owl:Class>
     
 
@@ -977,6 +1146,7 @@ the city where the person was living. Once the full name is mentioned, short for
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Segment">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
         <rdfs:comment xml:lang="en">Represents a smaller portion of a section, focusing on specific verses or themes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Segment</rdfs:label>
     </owl:Class>
     
 
@@ -986,6 +1156,7 @@ the city where the person was living. Once the full name is mentioned, short for
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/SubSection">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
         <rdfs:comment xml:lang="en">A subdivision within a section, allowing for detailed thematic or topical breakdowns.</rdfs:comment>
+        <rdfs:label xml:lang="en">SubSection</rdfs:label>
     </owl:Class>
     
 
@@ -995,6 +1166,7 @@ the city where the person was living. Once the full name is mentioned, short for
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/SubTheme">
         <rdfs:subClassOf rdf:resource="http://www.semantictafsir.com/ontology/Theme"/>
         <rdfs:comment xml:lang="en">Subdivides the main themes into more specific topics for detailed analysis.</rdfs:comment>
+        <rdfs:label xml:lang="en">SubTheme</rdfs:label>
     </owl:Class>
     
 
@@ -1004,8 +1176,10 @@ the city where the person was living. Once the full name is mentioned, short for
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Surah">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
         <rdfs:comment xml:lang="en">Represents a chapter of the Quran, which is the primary text being interpreted in the Tafsir.</rdfs:comment>
-        <owl:equivalentClass>http://mlode.nlp2rdf.org/quranvocab#Chapter</owl:equivalentClass>
-        <owl:equivalentClass>http://quranontology.com/Resource/Chapter</owl:equivalentClass>
+        <skos:closeMatch rdf:resource="http://mlode.nlp2rdf.org/quranvocab#Chapter"/>
+        <skos:closeMatch rdf:resource="http://quranontology.com/Resource/Chapter"/>
+        <rdfs:label xml:lang="en">Surah</rdfs:label>
+        <rdfs:label xml:lang="ar">سورة</rdfs:label>
     </owl:Class>
     
 
@@ -1015,6 +1189,7 @@ the city where the person was living. Once the full name is mentioned, short for
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/TafsirChapter">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
         <rdfs:comment xml:lang="en">Denotes a chapter within the Tafsir, organising the commentary into sections. Usually corresponds to the Surahs of the Quran.</rdfs:comment>
+        <rdfs:label xml:lang="en">TafsirChapter</rdfs:label>
     </owl:Class>
     
 
@@ -1030,6 +1205,7 @@ the city where the person was living. Once the full name is mentioned, short for
             copies should be modeled separately using LRMoo bibliographic entities where needed.
         </rdfs:comment>
         <rdfs:comment xml:lang="en">Represents the entire compilation of Tafsir works, encompassing all chapters, sections, and interpretations within a particular edition or collection of Tafsir literature. This class organises the Tafsir content as a cohesive set, providing a structured framework for accessing and analysing the exegesis as a whole.</rdfs:comment>
+        <rdfs:label xml:lang="en">TafsirCollection</rdfs:label>
     </owl:Class>
     
 
@@ -1038,6 +1214,7 @@ the city where the person was living. Once the full name is mentioned, short for
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/ThematicVerseFragmentReference">
         <rdfs:comment xml:lang="en">Refers to a specific fragment of a thematic verse that is analysed in detail within the Tafsir, providing a focused interpretation of that segment.</rdfs:comment>
+        <rdfs:label xml:lang="en">ThematicVerseFragmentReference</rdfs:label>
     </owl:Class>
     
 
@@ -1046,6 +1223,7 @@ the city where the person was living. Once the full name is mentioned, short for
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/ThematicVerseReference">
         <rdfs:comment xml:lang="en">Represents a Quranic verse that has been identified as thematically significant within the Tafsir, highlighting its relevance to specific themes or concepts.</rdfs:comment>
+        <rdfs:label xml:lang="en">ThematicVerseReference</rdfs:label>
     </owl:Class>
     
 
@@ -1053,9 +1231,11 @@ the city where the person was living. Once the full name is mentioned, short for
     <!-- http://www.semantictafsir.com/ontology/Theme -->
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Theme">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:comment xml:lang="en">Captures the major themes identified in the Tafsir, organizing the content around key concepts.</rdfs:comment>
-        <owl:equivalentClass>http://quranontology.com/Resource/Topic</owl:equivalentClass>
-        <owl:equivalentClass>http://www.semantichadith.com/ontology/Topic</owl:equivalentClass>
+        <skos:closeMatch rdf:resource="http://quranontology.com/Resource/Topic"/>
+        <skos:closeMatch rdf:resource="http://www.semantichadith.com/ontology/Topic"/>
+        <rdfs:label xml:lang="en">Theme</rdfs:label>
     </owl:Class>
     
 
@@ -1066,6 +1246,7 @@ the city where the person was living. Once the full name is mentioned, short for
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
         <rdfs:comment xml:lang="en">Represents temporal information mentioned in the Tafsir, such as historical periods or specific dates. In the early 7th century, the moon calendar was still in its primary form, hence there was not a proper usage of numerical format like in our modern days. Therefore, dates were mostly written out in
 words, either only by day name, or sometimes including the month name, and rarely, the year. Also well-known temporal entities, such as the Day of Judgment (Youm Al-Din).</rdfs:comment>
+        <rdfs:label xml:lang="en">Time</rdfs:label>
     </owl:Class>
     
 
@@ -1073,14 +1254,15 @@ words, either only by day name, or sometimes including the month name, and rarel
     <!-- http://www.semantictafsir.com/ontology/Verse -->
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/Verse">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E90_Symbolic_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
         <terms:description xml:lang="en">Verse from the Quran.</terms:description>
         <rdfs:comment xml:lang="en">Refers to a specific verse of the Quran that is the subject of interpretation.</rdfs:comment>
         <rdfs:label xml:lang="en">Ayah</rdfs:label>
-        <owl:equivalentClass>http://mlode.nlp2rdf.org/quranvocab#Vers</owl:equivalentClass>
-        <owl:equivalentClass>http://quranontology.com/Resource/Verse</owl:equivalentClass>
-        <owl:equivalentClass>http://www.semantichadith.com/ontology/Verse</owl:equivalentClass>
-        <owl:equivalentClass>https://www.wikidata.org/entity/Q188219</owl:equivalentClass>
+        <skos:closeMatch rdf:resource="http://mlode.nlp2rdf.org/quranvocab#Vers"/>
+        <skos:closeMatch rdf:resource="http://quranontology.com/Resource/Verse"/>
+        <skos:closeMatch rdf:resource="http://www.semantichadith.com/ontology/Verse"/>
+        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q188219"/>
+        <rdfs:label xml:lang="ar">آية</rdfs:label>
     </owl:Class>
     
 
@@ -1088,8 +1270,9 @@ words, either only by day name, or sometimes including the month name, and rarel
     <!-- http://www.semantictafsir.com/ontology/VerseFragment -->
 
     <owl:Class rdf:about="http://www.semantictafsir.com/ontology/VerseFragment">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
         <rdfs:comment xml:lang="en">A part of a Quranic verse that is individually analysed or referenced in the Tafsir.</rdfs:comment>
+        <rdfs:label xml:lang="en">VerseFragment</rdfs:label>
     </owl:Class>
     
 
@@ -1105,41 +1288,55 @@ words, either only by day name, or sometimes including the month name, and rarel
     
 
 
-    <!-- http://www.semantictafsir.com/ontology#rawi -->
+    <!-- http://www.semantictafsir.com/ontology/qari -->
 
-    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology#rawi">
+    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology/qari">
+        <rdf:type rdf:resource="http://www.semantictafsir.com/ontology/NarratorType"/>
+        <rdfs:comment xml:lang="en">A Qur&apos;an reciter (Qari) whose reading (qira&apos;a) is reported in the chain of transmission, e.g. one of the reciters whose variant readings Tabari cites.</rdfs:comment>
+        <rdfs:label xml:lang="en">Qari</rdfs:label>
+        <rdfs:label xml:lang="ar">قارئ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semantictafsir.com/ontology/rawi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology/rawi">
         <rdf:type rdf:resource="http://www.semantictafsir.com/ontology/NarratorType"/>
         <rdfs:comment xml:lang="en">A transmitter of hadith, often from later generations.</rdfs:comment>
         <rdfs:label xml:lang="en">Rawi</rdfs:label>
-        <skos:closeMatch>http://www.wikidata.org/entity/Q17638669</skos:closeMatch>
+        <rdfs:label xml:lang="ar">راوي</rdfs:label>
+        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q17638669"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semantictafsir.com/ontology#sahabi -->
+    <!-- http://www.semantictafsir.com/ontology/sahabi -->
 
-    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology#sahabi">
+    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology/sahabi">
         <rdf:type rdf:resource="http://www.semantictafsir.com/ontology/NarratorType"/>
         <rdfs:comment xml:lang="en">A companion of the Prophet Muhammad.</rdfs:comment>
         <rdfs:label xml:lang="en">Sahabi</rdfs:label>
-        <skos:closeMatch>http://www.wikidata.org/entity/Q188711</skos:closeMatch>
+        <rdfs:label xml:lang="ar">صحابي</rdfs:label>
+        <skos:closeMatch rdf:resource="http://www.wikidata.org/entity/Q188711"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semantictafsir.com/ontology#shaykh -->
+    <!-- http://www.semantictafsir.com/ontology/shaykh -->
 
-    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology#shaykh">
+    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology/shaykh">
         <rdf:type rdf:resource="http://www.semantictafsir.com/ontology/NarratorType"/>
         <rdfs:comment xml:lang="en">A scholar or teacher of hadith.</rdfs:comment>
         <rdfs:label xml:lang="en">Shaykh</rdfs:label>
+        <rdfs:label xml:lang="ar">شيخ</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semantictafsir.com/ontology#unknown_rawi -->
+    <!-- http://www.semantictafsir.com/ontology/unknown_rawi -->
 
-    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology#unknown_rawi">
+    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology/unknown_rawi">
         <rdf:type rdf:resource="http://www.semantictafsir.com/ontology/NarratorType"/>
         <rdfs:comment xml:lang="en">A hadith transmitter whose identity is uncertain.</rdfs:comment>
         <rdfs:label xml:lang="en">Unknown Rawi</rdfs:label>
@@ -1147,9 +1344,9 @@ words, either only by day name, or sometimes including the month name, and rarel
     
 
 
-    <!-- http://www.semantictafsir.com/ontology#unknown_sahabi -->
+    <!-- http://www.semantictafsir.com/ontology/unknown_sahabi -->
 
-    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology#unknown_sahabi">
+    <owl:NamedIndividual rdf:about="http://www.semantictafsir.com/ontology/unknown_sahabi">
         <rdf:type rdf:resource="http://www.semantictafsir.com/ontology/NarratorType"/>
         <rdfs:comment xml:lang="en">A companion of the Prophet whose identity is unknown.</rdfs:comment>
         <rdfs:label xml:lang="en">Unknown Sahabi</rdfs:label>
