@@ -1,13 +1,15 @@
 """The labelling scheme: every rule for a node's ``rdfs:label`` lives here.
 
 Each node gets exactly one label that starts with its type, so a node can be recognised
-in a graph visualisation without opening it (``Verse 1:2``, ``Hadith 134 Chain 1 Link 2``,
+in a graph visualisation without opening it (``Verse 1:2``, ``Chain Link 2``,
 ``Narrator L4883: أبو كريب``). Labels are plain literals without a language tag, because
 many of them combine an English type name with Arabic text; the Arabic names themselves
 are kept as ``st:hasName`` / ``st:hasText`` literals tagged ``@ar``.
 
-Units owned by another unit are labelled after their parent, and their index is taken
-from the end of their id, so a label always agrees with its IRI.
+A unit owned by another unit is labelled with its type and its index only
+(``Thematic Verse Reference 3``, ``Commentary 4``), not with its parent's label: the relationship to the
+parent already says where it belongs. The index is taken from the end of the id, so a
+label always agrees with its IRI.
 """
 
 from __future__ import annotations
@@ -48,25 +50,21 @@ def subsection(number: str) -> str:
     return f"Subsection {number}"
 
 
-def commentary(division_number: str, ordinal: int) -> str:
-    return f"Commentary {division_number}/{ordinal}"
+def commentary(ordinal: int) -> str:
+    return f"Commentary {ordinal}"
 
 
 def hadith(number: int) -> str:
     return f"Hadith {number}"
 
 
-def hadith_continuation(continued_label: str, resource_id: str) -> str:
-    return owned(continued_label, "Continuation", resource_id)
+def unnumbered_hadith(ordinal: int) -> str:
+    return f"Unnumbered Hadith {ordinal}"
 
 
-def unnumbered_hadith(division_number: str, ordinal: int) -> str:
-    return f"Unnumbered Hadith {division_number}/{ordinal}"
-
-
-def owned(parent_label: str, kind: str, resource_id: str) -> str:
-    """A unit owned by another unit, e.g. ``Hadith 134 Chain 1`` for ``hadith/134/chain/1``."""
-    return f"{parent_label} {kind} {resource_id.rsplit('/', 1)[-1]}"
+def owned(kind: str, resource_id: str) -> str:
+    """A unit owned by another unit, e.g. ``Narrator Chain 1`` for ``hadith/134/chain/1``."""
+    return f"{kind} {resource_id.rsplit('/', 1)[-1]}"
 
 
 # -- shared resources ---------------------------------------------------------------

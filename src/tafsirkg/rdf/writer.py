@@ -80,8 +80,7 @@ class GraphWriter:
 
     def _chapter(self, chapter: TafsirChapter) -> None:
         subject = self._iri(chapter.id)
-        label = labels.chapter(chapter.number)
-        self._typed(subject, ST.TafsirChapter, label)
+        self._typed(subject, ST.TafsirChapter, labels.chapter(chapter.number))
         self._add(subject, ST.hasChapterNo, _number(chapter.number))
         if chapter.language:
             self._add(subject, ST.hasLanguage, Literal(chapter.language))
@@ -90,30 +89,26 @@ class GraphWriter:
             self._add(subject, ST.refersTo, self._iri(chapter.surah.id))
         for source in chapter.sources:
             self._add(subject, DCTERMS.source, Literal(source.file))
-        self._division_content(subject, chapter, label, ST.containsSection)
+        self._division_content(subject, chapter, ST.containsSection)
 
     def _division(self, division: Division) -> URIRef:
         subject = self._iri(division.id)
-        label = labels.subsection(division.number)
         if isinstance(division, Section):
-            label = labels.section(division.number)
-            self._typed(subject, ST.Section, label)
+            self._typed(subject, ST.Section, labels.section(division.number))
             self._add(subject, ST.hasSectionNo, Literal(division.number))
         elif isinstance(division, SubSection):
-            self._typed(subject, ST.SubSection, label)
+            self._typed(subject, ST.SubSection, labels.subsection(division.number))
             self._add(subject, ST.hasSubSectionNo, Literal(division.number))
-        self._division_content(subject, division, label, ST.containsSubSection)
+        self._division_content(subject, division, ST.containsSubSection)
         return subject
 
-    def _division_content(
-        self, subject: URIRef, division: Division, label: str, subdivision_predicate: URIRef
-    ) -> None:
+    def _division_content(self, subject: URIRef, division: Division, subdivision_predicate: URIRef) -> None:
         # Qur'an quotations in a heading say which verses the division is about.
-        self._text_unit(subject, division, label, quran_predicate=ST.isAbout)
+        self._text_unit(subject, division, quran_predicate=ST.isAbout)
 
         previous: URIRef | None = None
         for paragraph in division.paragraphs:
-            node = self._paragraph(paragraph, division.number)
+            node = self._paragraph(paragraph)
             predicate = ST.containsCommentary if isinstance(paragraph, Commentary) else ST.hasPart
             self._add(subject, predicate, node)
             if previous is not None:
@@ -130,42 +125,38 @@ class GraphWriter:
 
     # -- paragraphs and text --------------------------------------------------------
 
-    def _paragraph(self, paragraph: Paragraph, division_number: str) -> URIRef:
+    def _paragraph(self, paragraph: Paragraph) -> URIRef:
         subject = self._iri(paragraph.id)
         if isinstance(paragraph, Hadith):
-            label = _hadith_label(paragraph, division_number)
-            self._hadith(subject, paragraph, label)
+            self._hadith(subject, paragraph)
         else:
-            label = labels.commentary(division_number, paragraph.ordinal)
-            self._typed(subject, ST.Commentary, label)
+            self._typed(subject, ST.Commentary, labels.commentary(paragraph.ordinal))
             self._add(subject, ST.hasCommentaryNo, Literal(paragraph.ordinal))
         for note in paragraph.notes:
             node = self._iri(note.id)
-            self._typed(node, ST.Note, labels.owned(label, "Note", note.id))
+            self._typed(node, ST.Note, labels.owned("Note", note.id))
             self._add(node, ST.hasText, Literal(note.text))
             self._add(subject, ST.hasNote, node)
-        self._text_unit(subject, paragraph, label)
+        self._text_unit(subject, paragraph)
         return subject
 
-    def _hadith(self, subject: URIRef, hadith: Hadith, label: str) -> None:
-        self._typed(subject, HADITH.Hadith, label)
+    def _hadith(self, subject: URIRef, hadith: Hadith) -> None:
+        self._typed(subject, HADITH.Hadith, _hadith_label(hadith))
         if hadith.number is not None:
             self._add(subject, ST.hasHadithNo, Literal(hadith.number))
         if hadith.continues is not None:
             self._add(subject, ST.refersTo, self._iri(hadith.continues.id))
         for matn in hadith.texts:
             node = self._iri(matn.id)
-            matn_label = labels.owned(label, "Text", matn.id)
-            self._typed(node, HADITH.HadithText, matn_label)
+            self._typed(node, HADITH.HadithText, labels.owned("Hadith Text", matn.id))
             self._add(subject, HADITH.hasHadithText, node)
-            self._text_unit(node, matn, matn_label)
+            self._text_unit(node, matn)
         for chain in hadith.chains:
-            self._chain(subject, chain, label)
+            self._chain(subject, chain)
 
-    def _chain(self, hadith: URIRef, chain: NarratorChain, hadith_label: str) -> None:
+    def _chain(self, hadith: URIRef, chain: NarratorChain) -> None:
         subject = self._iri(chain.id)
-        chain_label = labels.owned(hadith_label, "Chain", chain.id)
-        self._typed(subject, HADITH.NarratorChain, chain_label)
+        self._typed(subject, HADITH.NarratorChain, labels.owned("Narrator Chain", chain.id))
         self._add(hadith, HADITH.hasNarratorChain, subject)
         self._add(subject, ST.isPartOfHadith, hadith)
 
@@ -173,7 +164,7 @@ class GraphWriter:
         for link in chain.links:
             node = self._iri(link.id)
             narrator = self._iri(link.narrator.id)
-            self._typed(node, HADITH.NarratorChainSegment, labels.owned(chain_label, "Link", link.id))
+            self._typed(node, HADITH.NarratorChainSegment, labels.owned("Chain Link", link.id))
             self._add(subject, HADITH.hasNarratorSegment, node)
             self._add(node, HADITH.refersToNarrator, narrator)
             for token in link.role_tokens:
@@ -189,9 +180,7 @@ class GraphWriter:
         self._add(subject, HADITH.hasRootNarratorSegment, root)
         self._add(hadith, HADITH.hasRootNarrator, self._iri(chain.root.narrator.id))
 
-    def _text_unit(
-        self, subject: URIRef, unit: TextUnit, label: str, quran_predicate: URIRef = ST.refersTo
-    ) -> None:
+    def _text_unit(self, subject: URIRef, unit: TextUnit, quran_predicate: URIRef = ST.refersTo) -> None:
         if unit.text:
             self._add(subject, ST.hasText, _arabic(unit.text))
         if not isinstance(unit, TafsirChapter):  # a chapter lists its files instead
@@ -203,27 +192,24 @@ class GraphWriter:
         for target in unit.quran_references:
             self._add(subject, quran_predicate, self._iri(target.id))
         for reference in unit.thematic_references:
-            self._add(subject, ST.references, self._thematic_reference(reference, label))
+            self._add(subject, ST.references, self._thematic_reference(reference))
         for segment in unit.segments:
             node = self._iri(segment.id)
-            segment_label = labels.owned(label, "Segment", segment.id)
-            self._typed(node, ST.Segment, segment_label)
+            self._typed(node, ST.Segment, labels.owned("Segment", segment.id))
             self._add(subject, ST.containsSegment, node)
-            self._text_unit(node, segment, segment_label)
+            self._text_unit(node, segment)
         for poem in unit.poems:
             node = self._iri(poem.id)
-            poem_label = labels.owned(label, "Poetry", poem.id)
-            self._typed(node, ST.Poetry, poem_label)
+            self._typed(node, ST.Poetry, labels.owned("Poetry", poem.id))
             self._add(subject, ST.hasPart, node)
-            self._text_unit(node, poem, poem_label)
+            self._text_unit(node, poem)
         for addition in unit.additions:
             node = self._iri(addition.id)
-            addition_label = labels.owned(label, "Additional Text", addition.id)
-            self._typed(node, ST.AdditionalText, addition_label)
+            self._typed(node, ST.AdditionalText, labels.owned("Additional Text", addition.id))
             if addition.kind:
                 self._add(node, ST.hasType, Literal(addition.kind))
             self._add(subject, ST.containsAdditionalText, node)
-            self._text_unit(node, addition, addition_label)
+            self._text_unit(node, addition)
         for location in unit.book_locations:
             self._add(subject, ST.hasBookLocation, self._iri(location.id))
         for location in unit.dataset_locations:
@@ -231,13 +217,13 @@ class GraphWriter:
         for line in unit.line_beginnings:
             self._add(subject, ST.hasLineBeginning, self._iri(line.id))
 
-    def _thematic_reference(self, reference: ThematicVerseReference, parent_label: str) -> URIRef:
+    def _thematic_reference(self, reference: ThematicVerseReference) -> URIRef:
         subject = self._iri(reference.id)
         if isinstance(reference.target, Verse):
             rdf_class, kind = ST.ThematicVerseReference, "Thematic Verse Reference"
         else:
             rdf_class, kind = ST.ThematicVerseFragmentReference, "Thematic Verse Fragment Reference"
-        self._typed(subject, rdf_class, labels.owned(parent_label, kind, reference.id))
+        self._typed(subject, rdf_class, labels.owned(kind, reference.id))
         self._add(subject, ST.refersTo, self._iri(reference.target.id))
         self._add(subject, ST.hasText, _arabic(reference.text))
         self._add(subject, DCTERMS.source, Literal(str(reference.source)))
@@ -318,9 +304,9 @@ class GraphWriter:
             self._add(subject, ST.hasName, _arabic(name))
 
 
-def _hadith_label(hadith: Hadith, division_number: str) -> str:
+def _hadith_label(hadith: Hadith) -> str:
     if hadith.number is not None:
         return labels.hadith(hadith.number)
     if hadith.continues is not None:
-        return labels.hadith_continuation(_hadith_label(hadith.continues, division_number), hadith.id)
-    return labels.unnumbered_hadith(division_number, hadith.ordinal)
+        return labels.owned("Hadith Continuation", hadith.id)
+    return labels.unnumbered_hadith(hadith.ordinal)

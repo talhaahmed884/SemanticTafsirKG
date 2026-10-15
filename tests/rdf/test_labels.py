@@ -8,7 +8,7 @@ def test_excerpt_shortens_long_text():
 
 
 def test_owned_label_takes_the_index_from_the_id():
-    assert labels.owned("Hadith 9", "Chain", "hadith/9/chain/2") == "Hadith 9 Chain 2"
+    assert labels.owned("Narrator Chain", "hadith/9/chain/2") == "Narrator Chain 2"
 
 
 def test_verse_fragment_labels():
