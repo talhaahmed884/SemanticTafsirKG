@@ -56,7 +56,7 @@ named entities            157
 themes                    60
 verses                    41
 verse fragments           70
-triples                   16338
+triples                   18737
 issues (info)             410
 issues (warning)          16
 issues (error)            0

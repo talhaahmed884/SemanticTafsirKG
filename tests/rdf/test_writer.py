@@ -1,4 +1,4 @@
-from rdflib import RDF, Literal, URIRef
+from rdflib import RDF, RDFS, Literal, URIRef
 
 from tafsirkg.domain.model import NarratorRole
 from tafsirkg.rdf.iris import IriFactory
@@ -83,3 +83,39 @@ def test_output_is_deterministic(map_bodies):
     first = set(_graph(map_bodies(BODY)))
     second = set(_graph(map_bodies(BODY)))
     assert first == second
+
+
+def test_labels_name_the_node_type(map_bodies):
+    graph = _graph(map_bodies(BODY))
+
+    def label(resource_id):
+        return str(graph.value(IRI(resource_id), RDFS.label))
+
+    assert label("chapter/1") == "Tafsir Chapter 1"
+    assert label("section/1.1") == "Section 1.1"
+    assert label("commentary/1.1/1") == "Commentary 1.1/1"
+    assert label("hadith/9") == "Hadith 9"
+    assert label("hadith/9/note/1") == "Hadith 9 Note 1"
+    assert label("hadith/9/text/1") == "Hadith 9 Text 1"
+    assert label("hadith/9/chain/1") == "Hadith 9 Chain 1"
+    assert label("hadith/9/chain/1/link/2") == "Hadith 9 Chain 1 Link 2"
+    assert label("narrator/L2") == "Narrator L2: ب"
+    assert label("theme/lugha") == "Theme lugha"
+    assert label("quran/surah/1") == "Surah 1"
+    assert label("quran/verse/1/2") == "Verse 1:2"
+    (fragment,) = graph.subjects(RDF.type, ST.VerseFragment)
+    assert str(graph.value(fragment, RDFS.label)) == "Verse Fragment 1:2 (الْحَمْدُ لِلَّهِ)"
+    (location,) = graph.subjects(RDF.type, ST.Location)
+    assert str(graph.value(location, RDFS.label)) == "Location: مكة"
+
+
+def test_continuation_label_follows_the_continued_hadith(map_bodies):
+    body = section_body(
+        '<p n="hadith" xml:id="h9"><persName ana="shaykh" n="L1">أ</persName> : <said>نص</said></p>'
+        '<p n="hadith"><persName ana="shaykh" n="L3">ج</persName> بمثله</p>'
+    )
+    graph = _graph(map_bodies(body))
+    continuation = IRI("hadith/9/continuation/1")
+    assert str(graph.value(continuation, RDFS.label)) == "Hadith 9 Continuation 1"
+    chain = IRI("hadith/9/continuation/1/chain/1")
+    assert str(graph.value(chain, RDFS.label)) == "Hadith 9 Continuation 1 Chain 1"

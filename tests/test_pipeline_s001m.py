@@ -3,7 +3,7 @@
 from pathlib import Path
 
 import pytest
-from rdflib import RDF
+from rdflib import RDF, RDFS
 
 from tafsirkg.domain.model import Commentary, Hadith
 from tafsirkg.issues import Severity
@@ -50,6 +50,12 @@ def test_graph_invariants(result):
         assert graph.value(verse, ST.hasText) is not None
     for hadith in graph.subjects(RDF.type, HADITH.Hadith):
         assert (hadith, RDF.type, ST.Commentary) not in graph
+
+
+def test_every_node_has_one_label(result):
+    graph = result.graph
+    for node in set(graph.subjects(RDF.type, None)):
+        assert len(list(graph.objects(node, RDFS.label))) == 1, node
 
 
 def test_rebuilding_gives_identical_triples(result, corpus):

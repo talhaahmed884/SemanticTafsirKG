@@ -12,6 +12,8 @@ cause problems, are made here and documented next to the code:
   ``st:hasType`` literals on the chain link.
 * Every paragraph, heading and annotated span carries ``dcterms:source`` with the file
   and line it came from.
+* Every typed node gets exactly one ``rdfs:label`` naming its type (``Verse 1:2``); the
+  rules are in :mod:`tafsirkg.rdf.labels`.
 """
 
 from __future__ import annotations
@@ -35,6 +37,7 @@ from tafsirkg.domain.model import (
     ThematicVerseReference,
     Verse,
 )
+from tafsirkg.rdf import labels
 from tafsirkg.rdf.iris import IriFactory
 from tafsirkg.rdf.vocabulary import ENTITY_CLASSES, HADITH, NARRATOR_TYPE_IRIS, PREFIXES, ST
 
@@ -68,12 +71,17 @@ class GraphWriter:
     def _add(self, subject: URIRef, predicate: URIRef, obj: URIRef | Literal) -> None:
         self._graph.add((subject, predicate, obj))
 
+    def _typed(self, subject: URIRef, rdf_class: URIRef, label: str) -> None:
+        """Declares a node: its class and its label (see :mod:`tafsirkg.rdf.labels`)."""
+        self._add(subject, RDF.type, rdf_class)
+        self._add(subject, RDFS.label, Literal(label))
+
     # -- structure ------------------------------------------------------------------
 
     def _chapter(self, chapter: TafsirChapter) -> None:
         subject = self._iri(chapter.id)
-        self._add(subject, RDF.type, ST.TafsirChapter)
-        self._add(subject, RDFS.label, Literal(f"Tafsir chapter {chapter.number}", lang="en"))
+        label = labels.chapter(chapter.number)
+        self._typed(subject, ST.TafsirChapter, label)
         self._add(subject, ST.hasChapterNo, _number(chapter.number))
         if chapter.language:
             self._add(subject, ST.hasLanguage, Literal(chapter.language))
@@ -82,28 +90,30 @@ class GraphWriter:
             self._add(subject, ST.refersTo, self._iri(chapter.surah.id))
         for source in chapter.sources:
             self._add(subject, DCTERMS.source, Literal(source.file))
-        self._division_content(subject, chapter, ST.containsSection)
+        self._division_content(subject, chapter, label, ST.containsSection)
 
     def _division(self, division: Division) -> URIRef:
         subject = self._iri(division.id)
+        label = labels.subsection(division.number)
         if isinstance(division, Section):
-            self._add(subject, RDF.type, ST.Section)
-            self._add(subject, RDFS.label, Literal(f"Section {division.number}", lang="en"))
+            label = labels.section(division.number)
+            self._typed(subject, ST.Section, label)
             self._add(subject, ST.hasSectionNo, Literal(division.number))
         elif isinstance(division, SubSection):
-            self._add(subject, RDF.type, ST.SubSection)
-            self._add(subject, RDFS.label, Literal(f"Subsection {division.number}", lang="en"))
+            self._typed(subject, ST.SubSection, label)
             self._add(subject, ST.hasSubSectionNo, Literal(division.number))
-        self._division_content(subject, division, ST.containsSubSection)
+        self._division_content(subject, division, label, ST.containsSubSection)
         return subject
 
-    def _division_content(self, subject: URIRef, division: Division, subdivision_predicate: URIRef) -> None:
+    def _division_content(
+        self, subject: URIRef, division: Division, label: str, subdivision_predicate: URIRef
+    ) -> None:
         # Qur'an quotations in a heading say which verses the division is about.
-        self._text_unit(subject, division, quran_predicate=ST.isAbout)
+        self._text_unit(subject, division, label, quran_predicate=ST.isAbout)
 
         previous: URIRef | None = None
         for paragraph in division.paragraphs:
-            node = self._paragraph(paragraph)
+            node = self._paragraph(paragraph, division.number)
             predicate = ST.containsCommentary if isinstance(paragraph, Commentary) else ST.hasPart
             self._add(subject, predicate, node)
             if previous is not None:
@@ -120,39 +130,42 @@ class GraphWriter:
 
     # -- paragraphs and text --------------------------------------------------------
 
-    def _paragraph(self, paragraph: Paragraph) -> URIRef:
+    def _paragraph(self, paragraph: Paragraph, division_number: str) -> URIRef:
         subject = self._iri(paragraph.id)
         if isinstance(paragraph, Hadith):
-            self._hadith(subject, paragraph)
+            label = _hadith_label(paragraph, division_number)
+            self._hadith(subject, paragraph, label)
         else:
-            self._add(subject, RDF.type, ST.Commentary)
+            label = labels.commentary(division_number, paragraph.ordinal)
+            self._typed(subject, ST.Commentary, label)
             self._add(subject, ST.hasCommentaryNo, Literal(paragraph.ordinal))
         for note in paragraph.notes:
             node = self._iri(note.id)
-            self._add(node, RDF.type, ST.Note)
+            self._typed(node, ST.Note, labels.owned(label, "Note", note.id))
             self._add(node, ST.hasText, Literal(note.text))
             self._add(subject, ST.hasNote, node)
-        self._text_unit(subject, paragraph)
+        self._text_unit(subject, paragraph, label)
         return subject
 
-    def _hadith(self, subject: URIRef, hadith: Hadith) -> None:
-        self._add(subject, RDF.type, HADITH.Hadith)
+    def _hadith(self, subject: URIRef, hadith: Hadith, label: str) -> None:
+        self._typed(subject, HADITH.Hadith, label)
         if hadith.number is not None:
             self._add(subject, ST.hasHadithNo, Literal(hadith.number))
-            self._add(subject, RDFS.label, Literal(f"Hadith {hadith.number}", lang="en"))
         if hadith.continues is not None:
             self._add(subject, ST.refersTo, self._iri(hadith.continues.id))
         for matn in hadith.texts:
             node = self._iri(matn.id)
-            self._add(node, RDF.type, HADITH.HadithText)
+            matn_label = labels.owned(label, "Text", matn.id)
+            self._typed(node, HADITH.HadithText, matn_label)
             self._add(subject, HADITH.hasHadithText, node)
-            self._text_unit(node, matn)
+            self._text_unit(node, matn, matn_label)
         for chain in hadith.chains:
-            self._chain(subject, chain)
+            self._chain(subject, chain, label)
 
-    def _chain(self, hadith: URIRef, chain: NarratorChain) -> None:
+    def _chain(self, hadith: URIRef, chain: NarratorChain, hadith_label: str) -> None:
         subject = self._iri(chain.id)
-        self._add(subject, RDF.type, HADITH.NarratorChain)
+        chain_label = labels.owned(hadith_label, "Chain", chain.id)
+        self._typed(subject, HADITH.NarratorChain, chain_label)
         self._add(hadith, HADITH.hasNarratorChain, subject)
         self._add(subject, ST.isPartOfHadith, hadith)
 
@@ -160,7 +173,7 @@ class GraphWriter:
         for link in chain.links:
             node = self._iri(link.id)
             narrator = self._iri(link.narrator.id)
-            self._add(node, RDF.type, HADITH.NarratorChainSegment)
+            self._typed(node, HADITH.NarratorChainSegment, labels.owned(chain_label, "Link", link.id))
             self._add(subject, HADITH.hasNarratorSegment, node)
             self._add(node, HADITH.refersToNarrator, narrator)
             for token in link.role_tokens:
@@ -176,7 +189,9 @@ class GraphWriter:
         self._add(subject, HADITH.hasRootNarratorSegment, root)
         self._add(hadith, HADITH.hasRootNarrator, self._iri(chain.root.narrator.id))
 
-    def _text_unit(self, subject: URIRef, unit: TextUnit, quran_predicate: URIRef = ST.refersTo) -> None:
+    def _text_unit(
+        self, subject: URIRef, unit: TextUnit, label: str, quran_predicate: URIRef = ST.refersTo
+    ) -> None:
         if unit.text:
             self._add(subject, ST.hasText, _arabic(unit.text))
         if not isinstance(unit, TafsirChapter):  # a chapter lists its files instead
@@ -188,24 +203,27 @@ class GraphWriter:
         for target in unit.quran_references:
             self._add(subject, quran_predicate, self._iri(target.id))
         for reference in unit.thematic_references:
-            self._add(subject, ST.references, self._thematic_reference(reference))
+            self._add(subject, ST.references, self._thematic_reference(reference, label))
         for segment in unit.segments:
             node = self._iri(segment.id)
-            self._add(node, RDF.type, ST.Segment)
+            segment_label = labels.owned(label, "Segment", segment.id)
+            self._typed(node, ST.Segment, segment_label)
             self._add(subject, ST.containsSegment, node)
-            self._text_unit(node, segment)
+            self._text_unit(node, segment, segment_label)
         for poem in unit.poems:
             node = self._iri(poem.id)
-            self._add(node, RDF.type, ST.Poetry)
+            poem_label = labels.owned(label, "Poetry", poem.id)
+            self._typed(node, ST.Poetry, poem_label)
             self._add(subject, ST.hasPart, node)
-            self._text_unit(node, poem)
+            self._text_unit(node, poem, poem_label)
         for addition in unit.additions:
             node = self._iri(addition.id)
-            self._add(node, RDF.type, ST.AdditionalText)
+            addition_label = labels.owned(label, "Additional Text", addition.id)
+            self._typed(node, ST.AdditionalText, addition_label)
             if addition.kind:
                 self._add(node, ST.hasType, Literal(addition.kind))
             self._add(subject, ST.containsAdditionalText, node)
-            self._text_unit(node, addition)
+            self._text_unit(node, addition, addition_label)
         for location in unit.book_locations:
             self._add(subject, ST.hasBookLocation, self._iri(location.id))
         for location in unit.dataset_locations:
@@ -213,14 +231,13 @@ class GraphWriter:
         for line in unit.line_beginnings:
             self._add(subject, ST.hasLineBeginning, self._iri(line.id))
 
-    def _thematic_reference(self, reference: ThematicVerseReference) -> URIRef:
+    def _thematic_reference(self, reference: ThematicVerseReference, parent_label: str) -> URIRef:
         subject = self._iri(reference.id)
-        is_verse = isinstance(reference.target, Verse)
-        self._add(
-            subject,
-            RDF.type,
-            ST.ThematicVerseReference if is_verse else ST.ThematicVerseFragmentReference,
-        )
+        if isinstance(reference.target, Verse):
+            rdf_class, kind = ST.ThematicVerseReference, "Thematic Verse Reference"
+        else:
+            rdf_class, kind = ST.ThematicVerseFragmentReference, "Thematic Verse Fragment Reference"
+        self._typed(subject, rdf_class, labels.owned(parent_label, kind, reference.id))
         self._add(subject, ST.refersTo, self._iri(reference.target.id))
         self._add(subject, ST.hasText, _arabic(reference.text))
         self._add(subject, DCTERMS.source, Literal(str(reference.source)))
@@ -233,18 +250,17 @@ class GraphWriter:
     def _shared_resources(self, shared: SharedResources) -> None:
         for theme in shared.themes:
             subject = self._iri(theme.id)
-            self._add(subject, RDF.type, ST.Theme)
+            self._typed(subject, ST.Theme, labels.theme(theme))
             self._add(subject, ST.hasName, Literal(theme.code))
-            self._add(subject, RDFS.label, Literal(theme.code))
 
         for entity in shared.named_entities:
             subject = self._iri(entity.id)
-            self._add(subject, RDF.type, ENTITY_CLASSES[entity.kind])
+            self._typed(subject, ENTITY_CLASSES[entity.kind], labels.named_entity(entity))
             self._names(subject, entity.names)
 
         for narrator in shared.narrators:
             subject = self._iri(narrator.id)
-            self._add(subject, RDF.type, HADITH.HadithNarrator)
+            self._typed(subject, HADITH.HadithNarrator, labels.narrator(narrator))
             if narrator.is_root:
                 self._add(subject, RDF.type, HADITH.RootNarrator)
             if narrator.narrator_id:
@@ -255,22 +271,21 @@ class GraphWriter:
 
         for surah in shared.surahs:
             subject = self._iri(surah.id)
-            self._add(subject, RDF.type, ST.Surah)
+            self._typed(subject, ST.Surah, labels.surah(surah))
             self._add(subject, ST.hasSurahNo, Literal(surah.number))
             for verse in surah.verses:
                 self._add(subject, ST.containsVerse, self._iri(verse.id))
 
         for verse in shared.verses:
             subject = self._iri(verse.id)
-            self._add(subject, RDF.type, ST.Verse)
-            self._add(subject, RDFS.label, Literal(f"{verse.surah.number}:{verse.number}"))
+            self._typed(subject, ST.Verse, labels.verse(verse))
             self._add(subject, ST.hasSurahNo, Literal(verse.surah.number))
             self._add(subject, ST.hasVerseNo, Literal(verse.number))
             self._add(subject, ST.hasText, _arabic(verse.text))
 
         for fragment in shared.verse_fragments:
             subject = self._iri(fragment.id)
-            self._add(subject, RDF.type, ST.VerseFragment)
+            self._typed(subject, ST.VerseFragment, labels.verse_fragment(fragment))
             self._add(subject, ST.hasText, _arabic(fragment.text))
             for verse in fragment.verses:
                 self._add(subject, ST.isPartOfVerse, self._iri(verse.id))
@@ -281,25 +296,31 @@ class GraphWriter:
 
         for book in shared.book_locations:
             subject = self._iri(book.id)
-            self._add(subject, RDF.type, ST.BookLocation)
+            self._typed(subject, ST.BookLocation, labels.book_location(book))
             self._add(subject, ST.hasEdition, Literal(book.edition))
             self._add(subject, ST.hasVolumeNo, Literal(book.volume))
             self._add(subject, ST.hasPageNo, Literal(book.page))
 
         for dataset in shared.dataset_locations:
             subject = self._iri(dataset.id)
-            self._add(subject, RDF.type, ST.DatasetLocation)
+            self._typed(subject, ST.DatasetLocation, labels.dataset_location(dataset))
             self._add(subject, ST.hasEdition, Literal(dataset.edition))
             self._add(subject, ST.hasReferenceNo, Literal(dataset.reference))
             self._add(subject, ST.hasPageNo, _number(dataset.page))
 
         for line in shared.line_beginnings:
             subject = self._iri(line.id)
-            self._add(subject, RDF.type, ST.LineBeginning)
+            self._typed(subject, ST.LineBeginning, labels.line_beginning(line))
             self._add(subject, ST.hasReferenceNo, _number(line.number))
 
     def _names(self, subject: URIRef, names: list[str]) -> None:
         for name in names:
             self._add(subject, ST.hasName, _arabic(name))
-        if names:
-            self._add(subject, RDFS.label, _arabic(names[0]))
+
+
+def _hadith_label(hadith: Hadith, division_number: str) -> str:
+    if hadith.number is not None:
+        return labels.hadith(hadith.number)
+    if hadith.continues is not None:
+        return labels.hadith_continuation(_hadith_label(hadith.continues, division_number), hadith.id)
+    return labels.unnumbered_hadith(division_number, hadith.ordinal)
